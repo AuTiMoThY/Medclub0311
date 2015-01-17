@@ -1,0 +1,103 @@
+/*------------------------------------*\
+		pagesBtn
+\*------------------------------------*/
+.pages_btn {
+	height: 70px;
+	margin: 30px auto 0px;
+	text-align: center;
+	display: table;
+	ul {
+		float: right;
+	}
+	li {
+		width: 30px !important;
+		height: 30px !important;
+		background: #fff;
+		display: block;
+		border: 1px solid $normal_color2;
+		margin-right: 5px;
+		text-align: center;
+		line-height: 30px;
+		float: left;
+		@include circle(30px);
+		position: relative;
+		&.active {
+			background: $normal_color2;
+			&>a {
+				color: #fff;
+			}
+		}
+		&:hover {
+			background: $normal_color;
+			border: 1px solid $normal_color;
+			&>a {
+				color: #fff;
+			}
+		}
+		&.number {
+			&:hover {
+				&:after {
+					@include psudoClass;
+					@include triBtm($normal_color, 10px, 9px);
+					position: absolute;
+					bottom: -6px;
+					left: 4px;
+				}
+			}
+		}
+		&.prev {
+			border: none;
+			padding: 6px;
+			background: none;
+			&>a {
+				@include triPrev($normal_color, 10px);
+			}
+			&:hover {
+				background: none;
+			}
+		}
+		&.next {
+			border: none;
+			padding: 6px;
+			background: none;
+			&>a {
+				@include triNext($normal_color, 10px);
+			}
+			&:hover {
+				background: none;
+			}
+		}
+	}
+	.page_select {
+		width: auto;
+		border: 1px solid $normal_color;
+		&:hover {
+			background-color: $normal_color2;
+		}
+		select {
+			height: 25px;
+			width: auto;
+			background-color: #fff;
+			border: 0;
+			cursor: pointer;
+			line-height: 30px;
+			font-weight: normal;
+			&:focus {
+				border-color: $normal_color2;
+			}
+		}
+	}
+	a {
+		display: block;
+		color: $normal_color;
+		font-size: 15px;
+		font-family: $normal_font;
+		font-weight: bolder;
+		line-height: 30px;
+		&:hover {
+			@include scale(1.1);
+		}
+	}
+}
+
+
