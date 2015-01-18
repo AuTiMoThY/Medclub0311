@@ -1,27 +1,27 @@
 @charset "UTF-8";
 
-$cnt_width: 1024px;
-
-$index_youtube_w: 285px;
-$index_youtube_h: 180px;
-
-$news_pic_w: 120px;
-$news_pic_h: 80px;
+$cnt_width: 970px;
 
 $bd_w: 2px;
 
-$header_h: 73px;
+$header_h: 120px;
+$nav_h: 40px;
 
 //------------------------------------*\
 //		color
 //------------------------------------*/
 //project
-$normal_color: #0068b7;
-$normal_color2: #fdd209;
-$normal_color3: #e67800;
-$normal_color4: #af1355;
-$normal_color5: #18a482;
-$normal_color5_1: #54d4d5;
+$normal_color: #fb981c;
+$normal_color2: #1a36c5;
+
+// $normal_color3: #e67800;
+// $normal_color4: #af1355;
+// $normal_color5: #18a482;
+// $normal_color5_1: #54d4d5;
+
+$breakLine1: #feaa42;
+$breakLine2: #d77c0a;
+
 
 $logo_color1: #6EB92B;
 $logo_color2: #5C605D;
@@ -34,11 +34,10 @@ $bd_color2: lighten($bd_color, 20%);//#bcbcbc
 $bd_color3: lighten($bd_color, 25%);//#c9c9c9
 $bd_color4: lighten($bd_color, 30%);//#d5d5d5
 
-$mainColor1_1: #26cda4;
-$mainColor1_2: #2ea98b;
 
-
-
+//gradient 用
+$gradient1_1: #26cda4;
+$gradient1_2: #2ea98b;
 
 $hover_color: #bc0021;
 $footer_color: #585858;
@@ -80,8 +79,7 @@ $fz-SS: 9px;
 
 $base-font-size: 16px;
 $base-line-height: 24px;
-
-// $rhythm-unit: rem;
+$rhythm-unit: 'rem';
 
 //------------------------------------*\
 //		easing

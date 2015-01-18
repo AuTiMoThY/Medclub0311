@@ -7,11 +7,14 @@
 class PageUrlAu {
 	public $webPageBuild    = "javascript: alert('網頁建置中，敬請稍待!');";
 	public $indexPage       = "index.php";
-	public $bookIndexPage   = "index_bookShop.php";
-	public $IPCIndexPage    = "index_myIPC.php";
-	public $eventsIndexPage = "index_events.php";
-	public $bookCntPage     = "bookCnt.php";
-	public $loginPage       = "login.php";
+	public $newPage         = "new.php";
+	public $productPage     = "product.php";
+	public $recalibratePage = "recalibrate.php";
+	public $servicePage     = "service.php";
+	public $linksPage       = "links.php";
+	public $pointPage       = "point.php";
+	public $memberPage      = "member.php";
+
 
 }
 /**
@@ -22,12 +25,14 @@ class navAu extends PageUrlAu {
 	function navListAu($headerOrFooter) {
 
 		$Nav = array(
-						'首頁'        => $this->indexPage,
-						'書城'        => $this->bookIndexPage,
-						'課程'        => $this->eventsIndexPage,
-						'財金觀點'    => $this->webPageBuild,
-						'哈燒快訊'    => $this->webPageBuild,
-						'我的IPC'     => $this->IPCIndexPage);
+                        '最新優惠'      => $this->newPage,
+                        '產品專區'      => $this->productPage,
+                        '引子訂購'      => $this->webPageBuild,
+                        '校正服務'      => $this->recalibratePage,
+                        '會員專區'      => $this->memberPage,
+                        '客服專區'      => $this->servicePage,
+                        '相關連結'      => $this->linksPage,
+                        '積點兌換'      => $this->pointPage);
 		$NavLen = 0;
 		$NavLen ++;
 
@@ -35,9 +40,9 @@ class navAu extends PageUrlAu {
 			foreach ($Nav as $item => $url) {
 
 echo <<<_OUTPUT
-<li class="main_nav-item nav-IPC item$NavLen">
+<li class="main_nav-item nav-Medclub item$NavLen">
 	<a href="$url">
-		<span class="wrap"><span class="main_nav-icon"></span><span>$item</span></span>
+		<span class="wrap"><span class="main_nav-icon"></span><span class="main_nav-txt">$item</span></span>
 	</a>
 </li>
 _OUTPUT;
@@ -48,9 +53,9 @@ _OUTPUT;
 			foreach ($Nav as $item => $url) {
 
 echo <<<_OUTPUT
-<li class="footer_nav-item nav-IPC item$NavLen">
+<li class="footer_nav-item nav-Medclub item$NavLen">
 	<a href="$url">
-		<span class="wrap"><span class="footer_nav-icon"></span><span>$item</span></span>
+		<span class="wrap"><span class="footer_nav-icon"></span><span class="main_nav-txt">$item</span></span>
 	</a>
 </li>
 _OUTPUT;

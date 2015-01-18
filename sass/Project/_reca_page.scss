@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.recalibrate_page {
+	.slogan {
+		// padding-bottom: 15%;
+		.wrapper {
+			padding-bottom: 15%;
+		}
+		span {
+			@include wh(537px, 90px);
+			@include bg('slogan.png');
+			display: block;
+			position: absolute;
+			right: 3%;
+			top: 2%;
+			@media screen and (min-width: 1400px) {
+				top: 25%;
+			}
+		}
+	}
+}
+

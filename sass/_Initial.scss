@@ -1,6 +1,9 @@
 .hide_txt {
 	@include hide_txt;
 }
+.hide_text {
+	@include hide_text;
+}
 
 .wrapper {
 	@include wh($cnt_width, 100%);
@@ -40,7 +43,7 @@ body {
 	transform-origin: 50% 80%;
 }
 
-.temporary {
+.temp {
 	display: block;
 	margin: 0 auto;
 }
@@ -60,4 +63,9 @@ body {
 	@include col;
 }
 
-
+.w100 {
+	width: 100%;
+	*:not(.rew) {
+		width: 100%;
+	}
+}

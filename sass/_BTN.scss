@@ -6,6 +6,10 @@ button.btn {
 	// margin-bottom: 0;
 }
 
+.btns {
+	position: relative;
+}
+
 .btn {
 	@include bg(#727171);
 	// @include transition(all 0.3s ease-in-out);
@@ -47,261 +51,144 @@ button.btn {
 	&:active {
 		@include hover();
 	}
-/*========================================================================*\
-		project 
-\*========================================================================*/
-	.mod-IPC_choice & {
-		width: 49%;
-		@include bg($normal_color);
-		border-radius: 0;
-		a {
-			padding: 0;
-			@include adjust-font-size-to(13px);
-			font-weight: normal;
-			text-align: center;
-		}
-		&:first-of-type {
-			margin-right: 1.8%;
-		}
+
+	button & {
+		@include wh;
 	}
-	&-IPC {
-		@include bg($normal_color);
-		box-shadow: inset 0px 0px 13px rgba(#242c56, 0.3);
+
+
+/*========================================================================*\
+	>>	btn	project 
+\*========================================================================*/
+	&-quick_login {
+		@include bg(transparent);
+		padding: 0.2em 0.6em;
+		border: 1px solid #727171;
 		border-radius: 10px;
-		input {
-			color: $normal_color2;
-			font-family: $normal_font2;
-			font-weight: bolder;
+		display: inline-block;
+		button {
+			@include wh(53px, 14px);
+			@include bg-t(-877px, 0);
+		}
+		&:hover {
+			button {
+				@include bg(-877px, -22px);
+			}
 		}
 	}
-	&-fb_login {
-		height: 50px;
-		@include background-image(linear-gradient(#e1e1e1, #fff 50%, #e1e1e1 51%, #e1e1e1));
-		border-radius: 5px;
-		border: 1px solid #aca7a7;
+	&-more {
+		@include bg(transparent);
+		border-radius: 0;
+		border: 1px solid $normal_color;
+		&:hover {
+			border: 1px solid $normal_color2;
+		}
+		a {
+			color: $normal_color;
+			padding: 0.8em;
+		}
+	}
+
+	@include atRoot{
+/*========================================================================*\
+	>>	btn	new
+\*========================================================================*/
+	%common {
+		position: absolute;
+		top: 0;
+		@include bg(transparent);
+		a {
+			color: $normal_color;
+		}
+		&:hover {
+			@include bg(transparent);
+			box-shadow: none !important;
+			a {
+				color: darken($normal_color, 20%);
+			}
+		}
+	}
+
+	&-goList {
+		@include bg($normal_color);
+		margin: auto;
+	}
+
+	&-prev {
+		@extend %common;
+		left: 3em;
+		&:before {
+			@include psudoClass;
+			@include wh(27px);
+			@include bg-i(-47px, 0);
+			position: absolute;
+			left: -13px;
+		}
+	}
+	&-next {
+		@extend %common;
+		right: 3em;
+		&:after {
+			@include psudoClass;
+			@include wh(27px);
+			@include bg-i(-47px, 0);
+			position: absolute;
+			right: -13px;
+			transform: rotate(180deg);
+		}
+	}
+	};
+
+	&-close {
+		@include wh(16px);
+		@include bg-i(-94px, 0);
+		border-radius: 0;
+	}
+	&-goTop {
+		@include wh(147px, 107px);
+		@include bg(transparent);
+		@include shadow2;
+		border-radius: 10px;
+		display: block;
+		margin: auto;
+		a {
+			padding: 0;
+		}
+	}
+	&-goProdCnt {
+		@include wh(100%, 27px);
+		@include bg($normal_color2);
+		border-radius: 0;
+		padding: 0 1.5em;
+		line-height: 27px;
+		&-hover {
+			padding: 0 1.5em;
+			line-height: 27px;
+		}
+	}
+	&-service {
+		@include bg($normal_color);
+		border-radius: 0;
+		@include col;
 		padding: 0 0.5em;
-		margin-bottom: 1em;
-		position: relative;
-		&:hover {
-			@include hover;
-		}
-		.txt {
-			@include bg-t(-237px, -304px);
-			// @include vc;
-			// margin-top: 0.25em;
-			.memMod & {
-				@include wh(167px, 31px);
-			}
-		}
-		.icon {
-			// margin-top: 0;
-			// margin-top: 0.25em;
-			// @include vc;
-		}
-		button {
-			@include wh;
-			margin: 0;
-			padding: 0;
-		}
-	}
-	@each $btn, $Color1, $Color2 in
-		(login, #006ab9, #0083cf),
-		(join, #f15d00, #f17700),
-		(send, #cc1900, #d82c13) {
-		&-#{$btn} {
-			height: 35px;
-			@include background-image(linear-gradient($Color1, $Color2 50%, $Color1 51%));
-			&:hover {
-				@include background-image(linear-gradient(darken($Color1, 3%), darken($Color2, 3%) 50%, darken($Color1, 3%) 51%));
-			}
-		}
-	}
-	&-closeWindow {
-		@include wh(140px, 30px);
-		@include background-image(linear-gradient(#2287d3, #0062ac));
-		display: block;
-		margin: auto;
-		padding-top: 0;
-		padding-bottom: 0;
-		span {
-			@include wh(80px, 100%);
-			@include bg-t(-508px, -199px);
-			display: block;
-			margin: auto;
-		}
-	}
-	&-couponSubmit {
-		@include background-image(linear-gradient(#ff9200, #ef6800));
-	}
-
-	@include atRoot{
-/*========================================================================*\
-		>> btn	cntMod-latest_course  本月課程
-\*========================================================================*/
-	.cntMod-latest_course-btns &, 
-	.mod-upcomming_event-btns & {
-		width: 32.5%;
-		border-radius: 0;
-		margin-left: 1%;
-		&:first-of-type {
-			margin-left: 0;
-		}
-		&:hover {
-			@include hover;
-		}
-		&.btn-grey {
-			@include bg(#9fa0a0);
-		}
-		&.btn-lightblue {
-			@include bg(#039dc5);
-		}
-		a {
-			display: block;
-			font-size: 13px;
-			text-align: center;
-			.icon {
-				position: absolute;
-			}
-		}
-		@each $btn, $w, $h, $x, $y, $top in
-			(inf,   21px, 19px, -407px, -199px, 0px),
-			(fav,   16px, 14px, -385px, -201px, 2px),
-			(apply, 16px, 18px, -432px, -199px, 0px) {
-			&-#{$btn} {
-				a {
-					text-indent: ($w + 2px);
-					.txt {
-						position: relative;
-					}
-					.icon {
-						content: '';
-						display: inline-block;
-						@include wh($w, $h);
-						@include bg-i($x, $y);
-						top: $top;
-						left: ($w + 2px) * -1;
-					}
-				}
-			}
-		}
-	}
-	};
-
-	@include atRoot{
-/*========================================================================*\
-		>> btn	mod-upcomming_event-btns  預告
-\*========================================================================*/
-	.mod-upcomming_event-btns {
-		.btn {
-			a {
-				padding: 6px 5px;
-			}
-		}
-	}
-	};
-
-	@include atRoot{
-/*========================================================================*\
-		>> btn	cntMod-eventCnt-btns  課程內頁
-\*========================================================================*/
-	.cntMod-eventCnt-btns {
-		width: 130px + 130px + 20px !important;
-		margin: auto;
-		.btn {
-			@include bg-i;
-			@include wh(130px, 35px);
-			border-radius: 0;
-			@include col;
-			@each $btn, $x, $y, $mr in
-				(btn-apply, 0, -600px, 20px),
-				(btn-favor, -142px, -600px, 0) {
-				&.#{$btn} {
-					@include bg($x, $y);
-					margin-right: $mr;
-				}
-			}
-			&:hover {
-				@include hover;
-			}
-			a {
-				@include wh;
-				display: block;
-			}
-		}
-	}
-	.eventCnt & {
-		display: block;
-		border-radius: 0;
-		&.btn-goList {
-			@include wh(130px, 35px);
-			@include bg-i(0, -640px);
-			margin: auto;
-		}
-		&:hover {
-			@include hover;
-		}
-		a {
-			@include wh;
-			display: block;
-		}
-	}
-	};
-
-	@include atRoot{
-/*========================================================================*\
-		>>  myIPC_exchange  兌換商城
-\*========================================================================*/
-	&-exchange {
-		height: 40px;
-		@include bg('btn_bg1.png', 0, 0, repeat);
-		overflow: hidden;
-		button {
-			@include wh;
-			border-color: transparent;
-			padding: 13px 0 0;
-			margin: 0;
-			text-align: center;
-		}
-		&:hover {
-			// @include hover;
-		}
-	}
-	}
-
-
-}//.btn
-
-
-/*========================================================================*\
-		>> btn	memMod-myIPC_member-btns  帳號資訊
-\*========================================================================*/
-$myIPC_memberMR: 60px;
-.memMod-myIPC_member-btns {
-	width: (150px * 2) + $myIPC_memberMR + 5px !important;
-	margin: auto;
-	.btn {
-		width: 150px;
-		height: 40px;
-		&:hover {
-			@include hover;
-		}
-		a {
-			@include wh;
-			padding: 0;
-			display: block;
-			font-size: 20px;
+		input {
 			font-weight: normal;
-			line-height: 40px;
-			text-align: center;
-		}
-		&-submit {
-			@include background-image(linear-gradient(#ff9200, #ef6700));
-			margin-right: $myIPC_memberMR;
 		}
 	}
+	&-loginInp {
+		@include bg(transparent);
+		border-radius: 0;
+		border: 1px solid $normal_color;
+		button {
+			padding: 0.5em 0.8em;
+			color: $normal_color;
+		}
+		&:hover {
+			border: 1px solid $normal_color2;
+			button {
+				color: #fff;
+			}
+		}
+	}
+
 }
-
-
-
-
-

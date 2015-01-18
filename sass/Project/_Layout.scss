@@ -1,76 +1,169 @@
 @charset "UTF-8";
 
+
+$leftAsideW: 247px;
 /*========================================================================*\
-		>>	layout main
+		>>	layout pageContainer
 \*========================================================================*/
-article#main {
-	@include rhythm(0.8);
+div#pageWrap {
+	// min-height: 1000px;
+	@include rhythm(0, 1, 1, 2);
+	position: relative;
+	&:before {
+		@include psudoClass;
+		@include wh(100%, 0);
+		@include bg('bg1.png', 50%);
+		padding-bottom: (456 / 1920) * 100%;
+		background-size: cover;
+		position: absolute;
+		top: 0;
+		z-index: 0;
+		.new_page & {
+			@include bg('bg_new.png', 50%);
+			background-size: cover;
+			padding-bottom: (440 / 1920) * 100%;
+		}
+		.prod_page & {
+			@include bg('bg_prod.png', 50%);
+			background-size: cover;
+			padding-bottom: (454 / 1920) * 100%;
+		}
+		.recalibrate_page & {
+			@include bg('bg_reca.png', 50%);
+			background-size: cover;
+			padding-bottom: (383 / 1920) * 100%;
+		}
+		.service_page & {
+			@include bg('bg_service.png', 50%);
+			background-size: cover;
+			padding-bottom: (399 / 1920) * 100%;
+		}
+		.links_page & {
+			@include bg('bg_links.png', 50%);
+			background-size: cover;
+			padding-bottom: (386 / 1920) * 100%;
+		}
+		.point_page & {
+			@include bg('bg_point.png', 50%);
+			background-size: cover;
+			padding-bottom: (399 / 1920) * 100%;
+		}
+		.login_page & {
+			@include bg('bg_login.png', 50%);
+			background-size: cover;
+			padding-bottom: (440 / 1920) * 100%;
+		}
+		.member_page & {
+			@include bg('bg_login.png', 50%);
+			background-size: cover;
+			padding-bottom: (440 / 1920) * 100%;
+		}
+	}
 }
 
 /*========================================================================*\
-		>>	layout footer
+		>>	layout main
 \*========================================================================*/
-.affiliate {
-	width: 88px;
-}
-.epaper {
-	width: 60%;
-	margin-left: 1%;
-	&-block, form {
-		width: 100%;
+#main {
+	@include rhythm(1.8);
+	aside {
+		width: 32.5%;
+		&~.container {
+			width: 100% - 32.5%;
+			padding-left: 50px;
+		}
+		&.leftAside {
+			width: $leftAsideW;
+			position: absolute;
+			top: 0;
+			&~.container {
+				width: $cnt_width - $leftAsideW;
+				margin-left: $leftAsideW;
+				padding-left: 1em;
+			}
+		}
+		&.service-aside {
+			width: 30.5%;
+			&~.container {
+				width: 100% - 30.5%;
+				padding-left: 10px;
+			}
+		}
 	}
 }
-.sitemap {
-	width: 28%;
-	margin-left: 1%;
+.slogan {
+	&~#main {
+		@include rhythm-margins(0.5, 1.8);
+	}
 }
+
+
+/*========================================================================*\
+		>>	layout pageTitle
+\*========================================================================*/
+.pageTitle {
+	@include margin-trailer(1.5);
+	.txt {
+		display: block;
+		margin: auto;
+	}
+	@each $var, $w, $y, $x in
+		(new,     481px, -263px, 0),
+		(prod,    394px, -314px, 0),
+		(reca,    535px, -365px, 0),
+		(service, 507px, -416px, 0),
+		(links,   242px, -365px, -574px),
+		(login,   468px, -263px, -527px),
+		(member,  483px, -314px, -460px) {
+		&-#{$var} {
+			.txt {
+				@include wh($w, 46px);
+				@include bg-t($x, $y);
+			}
+		}
+	}
+	&-prod {
+		.wrapper {
+			padding-left: $leftAsideW;
+		}
+	}
+	&-login {
+		@include rhythm(2);
+		@media screen and (min-width: 1400px) {
+			@include rhythm(5);
+		}
+	}
+	&-member {
+		@include rhythm(2);
+		@media screen and (min-width: 1400px) {
+			@include rhythm(5);
+		}
+	}
+}
+
+
+
+
+// .affiliate {
+// 	width: 88px;
+// }
+// .epaper {
+// 	width: 60%;
+// 	margin-left: 1%;
+// 	&-block, form {
+// 		width: 100%;
+// 	}
+// }
+// .sitemap {
+// 	width: 28%;
+// 	margin-left: 1%;
+// }
 
 /*========================================================================*\
 		>>	layout mod
 \*========================================================================*/
 .mod {
-	&-most_popular {
-		width: 80%;
-		&-block {
-			@extend %blockW100p;
-		}
-	}
-	&-IPC_choice {
-		width: 19.5%;
-		&-block {
-			@extend %blockW100p;
-		}
-	}
-	&-spec_promotion {
-		width: 76.5%;
-		// width: 800px + 16px;
-		&-block {
-			@extend %blockW100p;
-		}
-	}
-	&-news_edm {
-		width: 23%;
-		// width: $cnt_width - 816px - 5px;
-		&-block {
-			@extend %blockW100p;
-		}
-	}
-	&-news_lessons {
-		// width: 50%;
-		// float: left;
-		&-block {
-			@extend %blockW100p;
-		}
-	}
-	&-economics_views {
-		// float: left;
-		&-block {
-			@extend %blockW100p;
-		}
-	}
-	%blockW100p {
-		width: 100%;
-	}
+
 }
 
 /*========================================================================*\

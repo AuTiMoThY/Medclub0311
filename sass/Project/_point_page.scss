@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.point_page {
+	.slogan {
+		// padding-bottom: 15%;
+		.wrapper {
+			padding-bottom: 15%;
+		}
+		span {
+			@include wh(341px, 145px);
+			@include bg('pointIntro.png');
+			display: block;
+			position: absolute;
+			right: 15%;
+			top: 2%;
+			@media screen and (min-width: 1400px) {
+				top: 10%;
+			}
+		}
+	}
+}
