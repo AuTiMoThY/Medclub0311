@@ -50,7 +50,39 @@
 
 <article id="main" class="new_page-main">
 <div class="wrapper cf">
-	<img src="images/temp/tem13.png" alt="" class="temp">
+	<div class="w100">
+		<div class="links-wrap">
+			<ul>
+				<li class="rew col"><a href="" target="_blank">
+					<figure>
+						<div class="pic"><img src="images/temp/tem_link1.jpg" alt=""></div>
+						<figcaption>
+							<div class="links-name">4titude® Ltd</div>
+							<div class="links-url">http://www.4ti.co.uk/</div>
+						</figcaption>
+					</figure>
+				</a></li>
+				<li class="rew col"><a href="" target="_blank">
+					<figure>
+						<div class="pic"><img src="images/temp/tem_link2.jpg" alt=""></div>
+						<figcaption>
+							<div class="links-name">4titude® Ltd</div>
+							<div class="links-url">http://www.4ti.co.uk/</div>
+						</figcaption>
+					</figure>
+				</a></li>
+				<li class="rew col"><a href="" target="_blank">
+					<figure>
+						<div class="pic"><img src="images/temp/tem_link3.jpg" alt=""></div>
+						<figcaption>
+							<div class="links-name">4titude® Ltd</div>
+							<div class="links-url">http://www.4ti.co.uk/</div>
+						</figcaption>
+					</figure>
+				</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
 </article><!-- /#main  END  !! -->
 
@@ -71,61 +103,10 @@
 // -------------------------------
 	include_once 'inc/ScriptFOOT.php';
  ?>
-<script src="js/classie.js"></script>
-<script>
-	(function() {
-		// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-		if (!String.prototype.trim) {
-			(function() {
-				// Make sure we trim BOM and NBSP
-				var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-				String.prototype.trim = function() {
-					return this.replace(rtrim, '');
-				};
-			})();
-		}
 
-		[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
-			// in case the input is already filled..
-			if( inputEl.value.trim() !== '' ) {
-				classie.add( inputEl.parentNode, 'input--filled' );
-			}
-
-			// events:
-			inputEl.addEventListener( 'focus', onInputFocus );
-			inputEl.addEventListener( 'blur', onInputBlur );
-		} );
-
-		function onInputFocus( ev ) {
-			classie.add( ev.target.parentNode, 'input--filled' );
-		}
-
-		function onInputBlur( ev ) {
-			if( ev.target.value.trim() === '' ) {
-				classie.remove( ev.target.parentNode, 'input--filled' );
-			}
-		}
-	})();
-</script>
 
 <script>
-$(window).load(function(){
-	$('.flexslider').flexslider({
-		animation: "slide",
-		easing: "swing",
-				animationLoop: true,
-				minItems:1,
-				maxItems:5,
-				controlsContainer: $('#hcarouselcontrols .well'),
-				controlNav: false,
-				directionNav: true,
-				prevText: "",
-				nextText: ""
-		// start: function(slider){
-		// 	$('body').removeClass('loading');
-		// }
-	});
-});
+
 </script>
 <?php
 // -------------------------------

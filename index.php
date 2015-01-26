@@ -96,19 +96,72 @@
 				echo $content;
 			?>
 			</div>
-			<span class="btn btn-more"><a href="<?php webPageUrlAu('webPageBuild') ?>">READ MORE &gt;&gt;</a></span>
+			<span class="btn btn-more"><a href="newCnt.php">READ MORE &gt;&gt;</a></span>
 		</section>
 	</aside>
 	<section class="container col left">
 		<h1 class="hide_txt">熱門產品 POPULAR PRODUCTS</h1>
-		<img src="images/temp/tem1.jpg" alt="" class="temp">
+		<div class="popular_prod">
+			<div class="popular_prod-wrap">
+				<figure class="col">
+					<div class="popular_prod-pic">
+						<div class="pic"><img src="images/prod5.png" alt=""></div>
+					</div>
+					<figcaption>
+						<h2 class="popular_prod-title">
+							新產品名字新產品名字新產品名字新產品名字新產品名字新產品名字
+						</h2>
+						<div class="popular_prod-cnt">
+						<?php  //此處示意顯示 最新消息內容 65 個字，超過以...取代
+							$cnt0 = "最新消息的內容，這邊可以彈出最新的資訊，資訊以文字內容為主，可以輪撥三則或五則，上下鍵可以快選最新訊息的瀏覽三則或五則，可以輪撥三則。最新消息的內容，這邊可以彈出最新的資訊，資訊以文字內容為主，可以輪撥三則或五則，上下鍵可以快選最新訊息的瀏覽三則或五則，可以輪撥三則。";
+							$content0 = strip_tags($cnt0);
+							$content = mb_substr($content0,0,65,'UTF-8');
+							if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
+							echo $content;
+						?>
+						</div>
+						<span class="btn btn-more"><a href="productCnt.php">LEARN MORE &gt;&gt;</a></span>
+					</figcaption>
+				</figure>
+<div class="popular_prod-mq col cf">
+     <div class="marquee-control">
+          <ul id="marqueeCtrl" class="marquee-control-btn">
+               <li><div id="marquee_prev_btn" class="prev_btn marquee_btn"><i class="fa fa-caret-up fa-fw fa-lg"></i></div></li>
+               <li><div id="marquee_next_btn" class="next_btn marquee_btn"><i class="fa fa-caret-down fa-fw fa-lg"></i></div></li>
+          </ul>
+     </div>
+     <div id="popularProdMarquee" class="marquee">
+          <ul class="popular_prod-list">
+               <li class="popular_prod-item active">
+                    <div class="popular_prod-item-pic">
+                    	<div class="pic"><img src="images/prod5.png" alt=""></div>
+                    </div>
+               </li>
+
+               <li class="popular_prod-item">
+                    <div class="popular_prod-item-pic">
+                    	<div class="pic"><img src="images/prod5.png" alt=""></div>
+                    </div>
+               </li>
+
+               <li class="popular_prod-item">
+                    <div class="popular_prod-item-pic">
+                    	<div class="pic"><img src="images/prod3.jpg" alt=""></div>
+                    </div>
+               </li>
+
+          </ul>
+     </div>
+</div>
+			</div>
+		</div>
 	</section>
 </div>
 </article><!-- /#main  END  !! -->
 
 <section class="row-3">
 	<div class="wrapper">
-		<a href="<?php webPageUrlAu('webPageBuild') ?>" class="online_ordering"><img src="images/online_ordering.jpg" alt=""></a>
+		<a href="http://sg.idtdna.com/site" class="online_ordering" target="_blank"><img src="images/online_ordering.jpg" alt=""></a>
 	</div>
 </section>
 

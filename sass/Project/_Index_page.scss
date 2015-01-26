@@ -58,3 +58,129 @@
 		}
 	}
 }
+
+
+.popular_prod {
+	&-wrap {
+		@include rhythm-margins(1.8);
+		figure {
+			width: 400px;
+			padding:0 2em 0 1em;
+		}
+		h2 {
+			width: 100%;
+			margin-top: 0;
+			margin-bottom: 0.3em;
+			color: $normal_color;
+			font-weight: bolder;
+			@include adjust-font-size-to(27px, 1.4);
+			@include ellipsis;
+		}
+	}
+	&-pic {
+		@include wh(240px, 290px);
+		margin: auto;
+		margin-bottom: 2em;
+	}
+	&-cnt {
+		color: #727171;
+		@include adjust-font-size-to(13px);
+		margin-bottom: 2em;
+	}
+	&-mq {
+		width: 200px;
+		height: 530px;
+		position: relative;
+		.marquee-control {
+			@include wh;
+			position: absolute;
+			z-index: 10;
+			&-btn{
+				width: 100%;
+				// height: 530px;
+				// position: relative;
+				li {
+					width: 100%;
+					height: 30px;
+					border: 1px solid #fba840;
+					position: absolute;
+					cursor: pointer;
+					&:first-of-type {
+						top: -30px;
+					}
+					&:nth-of-type(2) {
+						bottom: -30px;
+					}
+					&>.marquee_btn {
+						text-align: center;
+						padding-top: 5px;
+					}
+					&:hover {
+						box-shadow: 1px 1px 3px #999;
+					}
+					&:active {
+						@include hover;
+					}
+				}
+			}
+		}
+		.marquee {
+			width: 217px;
+			height: 100%;
+			position: relative;
+			z-index: 20;
+			overflow: hidden;
+			left: -16px;
+		}
+	}
+	&-list {
+		height: 100%;
+		position: absolute;
+		display: block;
+		right: 1px;
+	}
+	&-item {
+		@include wh(200px, 176px);
+		float: none;
+		padding: 2px 0;
+		// overflow: hidden;
+		display: block;
+		cursor: pointer;
+		&-pic {
+			@include wh;
+			border: 1px solid #e2e2e2;
+		}
+		.pic {
+			@include wh;
+			position: relative;
+			img {
+				@include vc;
+				width: 100%;
+				@include scale(0.8);
+			}
+		}
+		&.active {
+			position: relative;
+			&:before {
+				@include psudoClass;
+				position: absolute;
+				@include triPrev($normal_color, 10px);
+				top: 43%;
+				left: -16px;
+			}
+			.popular_prod-item-pic {
+				border: 1px solid $normal_color;
+			}
+		}
+		&:hover {
+			.popular_prod-item-pic{
+				border: 1px solid $normal_color;
+			}
+		}
+		&:active {
+			.popular_prod-item-pic{
+				@include hover;
+			}
+		}
+	}
+}

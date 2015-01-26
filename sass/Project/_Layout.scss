@@ -66,6 +66,7 @@ div#pageWrap {
 \*========================================================================*/
 #main {
 	@include rhythm(1.8);
+	min-height: 500px;
 	aside {
 		width: 32.5%;
 		&~.container {
@@ -89,6 +90,9 @@ div#pageWrap {
 				padding-left: 10px;
 			}
 		}
+	}
+	&.new_page-main {
+		margin-top: 5em;
 	}
 }
 .slogan {

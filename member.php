@@ -49,11 +49,82 @@
 
 
 <article id="main" class="member_page-main">
-<div class="wrapper cf">
-<section class="member-block">
-	<img src="images/temp/tem15.jpg" alt="" class="temp">
-</section>
-</div>
+	<div class="wrapper cf">
+		<section class="member-block cf">
+			<h2 class="hide_txt">會員資料</h2>
+			<div class="member-form form1 left">
+				<form action="" id="changePwForm">
+					<ul>
+						<li>
+							<label for="" class="title ib">帳號</label>
+							<span class="txt ib">googlegoogle@gmail.com</span>
+						</li>
+						<li>
+							<label for="" class="title ib">舊密碼</label>
+							<input type="password" name="" id="" class="ib validate[required]">
+						</li>
+						<li>
+							<label for="" class="title ib">新密碼</label>
+							<input type="password" name="" id="" class="ib validate[required]" placeholder ="六個以上英數，分大小寫">
+						</li>
+						<li>
+							<label for="" class="empty ib"></label>
+							<input type="text" name="" id="" class="ib validate[required]" placeholder ="再輸入一次密碼">
+						</li>
+						<li class="bnts">
+							<label for="" class="empty ib"></label>
+							<span class="btn btn-change_pw ib"><button type="submit">修改密碼 / SAVE CHANGE</button></span>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<div class="member-form form2 left">
+				<form action="" id="changeDataForm">
+					<ul>
+						<li>
+							<label for="" class="title ib">客戶名稱</label>
+							<input type="text" name="" id="" class="ib">
+						</li>
+						<li>
+							<label for="" class="title ib">連絡電話</label>
+							<input type="text" name="" id="" class="ib">
+						</li>
+						<li>
+							<label for="" class="title ib">連絡傳真</label>
+							<input type="text" name="" id="" class="ib">
+						</li>
+						<li>
+							<label for="" class="title ib">單位名稱</label>
+							<input type="text" name="" id="" class="ib">
+						</li>
+						<li>
+							<label for="" class="title ib">電子信箱</label>
+							<input type="text" name="" id="" class="ib">
+						</li>
+						<li>
+							<label for="" class="title ib">連絡地址</label>
+							<textarea type="text" name="" id="" class="ib"></textarea>
+
+						</li>
+						<li>
+							<label for="" class="title ib">狀態</label>
+							<input type="text" name="" id="" class="ib">
+						</li>
+						<li class="assess">
+							<label for="" class="empty ib"></label>
+							<input type="checkbox" name="" id="epaper" class="ib">
+							<label for="epaper" class="txt ib">訂閱MEDCLUB電子報収到最新優惠訊息</label>
+						</li>
+						<li class="btns">
+							<label for="" class="empty ib"></label>
+							<span class="btn btn-change_confirm ib"><button type="submit">確認修改 / CONFIRM</button></span>
+							<span class="btn btn-change_undo ib"><button type="reset">重填 / UNDO</button></span>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</section>
+	</div>
 </article><!-- /#main  END  !! -->
 
 
@@ -73,41 +144,15 @@
 // -------------------------------
 	include_once 'inc/ScriptFOOT.php';
  ?>
-<script src="js/classie.js"></script>
+<script src="asset/valid/jquery.validationEngine.js"></script>
+<script src="asset/valid/jquery.validationEngine-zh_TW.js"></script>
 <script>
-	(function() {
-		// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-		if (!String.prototype.trim) {
-			(function() {
-				// Make sure we trim BOM and NBSP
-				var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-				String.prototype.trim = function() {
-					return this.replace(rtrim, '');
-				};
-			})();
-		}
+$(function () {
+	$("#changePwForm").validationEngine('attach', {promptPosition : "topRight", scroll: true});
+	$("#changeDataForm").validationEngine('attach', {promptPosition : "topRight", scroll: true});
+})
 
-		[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
-			// in case the input is already filled..
-			if( inputEl.value.trim() !== '' ) {
-				classie.add( inputEl.parentNode, 'input--filled' );
-			}
 
-			// events:
-			inputEl.addEventListener( 'focus', onInputFocus );
-			inputEl.addEventListener( 'blur', onInputBlur );
-		} );
-
-		function onInputFocus( ev ) {
-			classie.add( ev.target.parentNode, 'input--filled' );
-		}
-
-		function onInputBlur( ev ) {
-			if( ev.target.value.trim() === '' ) {
-				classie.remove( ev.target.parentNode, 'input--filled' );
-			}
-		}
-	})();
 </script>
 
 <?php

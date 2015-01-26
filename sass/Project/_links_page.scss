@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.links {
+	&-wrap {
+		li {
+			width: 315px;
+			float: none;
+			margin: 0.5em 0.15em;
+		}
+		figure {
+			@include shadow2;
+		}
+		.pic {
+			@include wh(315px, 165px);
+		}
+		figcaption {
+			@include bg(#000);
+		}
+	}
+	&-name {
+		padding: 0.4em 1em;
+		border-bottom: 1px solid #fff;
+		color: #f5cb4c;
+		@include adjust-font-size-to(17px);
+		font-weight: bold;
+	}
+	&-url {
+		padding: 0.4em 1em;
+		color: #fff;
+		@include adjust-font-size-to(13px);
+		text-align: right;
+	}
+}

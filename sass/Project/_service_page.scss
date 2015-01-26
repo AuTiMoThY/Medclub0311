@@ -27,6 +27,11 @@
 			color: $Grey_color1;
 			@include adjust-font-size-to(13px);
 		}
+		.map {
+			@include wh(210px + 10px, 260px + 10px);
+			border: 5px solid #333333;
+			margin: auto;
+		}
 	}
 	&-block {
 		@include bg(#fff);

@@ -22,6 +22,7 @@
 <link rel="stylesheet" href="css/foundation.css" />
 <!-- <link rel="stylesheet" href="asset/fancybox/jquery.fancybox.css" /> -->
 <link rel="stylesheet" href="asset/FlexSlider/flexslider.css" />
+<link rel="stylesheet" href="asset/valid/validationEngine.jquery.css" />
 <!-- <link rel="stylesheet" href="css/effect2.css" /> -->
 <link rel="stylesheet" href="css/style.css" />
 

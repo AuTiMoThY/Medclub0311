@@ -7,6 +7,7 @@
 <script src="js/libs/jquery.preload.min.js"></script>
 <script src="js/libs/jquery.easing.1.3.js"></script>
 <script src="js/libs/jquery.mousewheel.js"></script>
+<script src="js/libs/jquery.sticky.js"></script>
 
 <!-- <script src="js/libs/material.js"></script> -->
 <!-- <script src="js/libs/ripples.js"></script> -->

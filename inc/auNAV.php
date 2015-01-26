@@ -27,7 +27,7 @@ class navAu extends PageUrlAu {
 		$Nav = array(
                         '最新優惠'      => $this->newPage,
                         '產品專區'      => $this->productPage,
-                        '引子訂購'      => $this->webPageBuild,
+                        '引子訂購'      => "http://sg.idtdna.com/site",
                         '校正服務'      => $this->recalibratePage,
                         '會員專區'      => $this->memberPage,
                         '客服專區'      => $this->servicePage,

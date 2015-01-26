@@ -57,33 +57,35 @@
 		</hgroup>
 		<p>If you need immediate assistance, please call our toll-free number, you may also contact specific department directly by using extension below:</p>
 		<h3 class="hide_txt">OUR LOCATION:</h3>
-		<img src="images/temp/tem12.jpg" alt="" class="temp">
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.44631318589!2d121.3618678!3d25.052857700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a7362659fe1d%3A0x1e0fc3e001e9b6c9!2zMzMz5qGD5ZyS57ij6b6c5bGx6YSJ5paH5LiD5LqU6KGXOeiZnw!5e0!3m2!1szh-TW!2stw!4v1422269237640" width="210" height="260" frameborder="0" style="border:0"></iframe>
+		</div>
 	</aside>
 	<section class="container service-container left">
 <div class="service-block">
 	<h1 class="hide_txt">contact Medclub</h1>
 	<p>Use this contact form to get your questions answered. Simply fill out all the required fields below and a Customer Service Representative will respond to your email within 1-2 business days. Whether you have a question about Medclub product or pipetman recalibration services, our representatives will provide the answers you need.</p>
-	<form action="">
+	<form action="" id="serviceForm">
 		<span class="input input--hoshi">
-			<input class="input__field input__field--hoshi" type="text" id="input-4" />
+			<input class="input__field input__field--hoshi validate[required]" type="text" id="input-4" />
 			<label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
 				<span class="input__label-content input__label-content--hoshi">Contact Name:</span>
 			</label>
 		</span>
 		<span class="input input--hoshi">
-			<input class="input__field input__field--hoshi" type="text" id="input-5" />
+			<input class="input__field input__field--hoshi validate[required]" type="text" id="input-5" />
 			<label class="input__label input__label--hoshi input__label--hoshi-color-2" for="input-5">
 				<span class="input__label-content input__label-content--hoshi">Company Name:</span>
 			</label>
 		</span>
 		<span class="input input--hoshi">
-			<input class="input__field input__field--hoshi" type="text" id="input-6" />
+			<input class="input__field input__field--hoshi validate[required,custom[email]]" type="text" id="input-6" />
 			<label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-6">
 				<span class="input__label-content input__label-content--hoshi">Email Address:</span>
 			</label>
 		</span>
 		<label for="" class="textarea-label">Subject:</label>
-		<textarea name="" id=""></textarea>
+		<textarea name="" id="" class="validate[required]"></textarea>
 		<div class="btns">
 			<span class="btn btn-service btn-reset"><input type="reset" name="" id="" value="CLEAR FIELD"></span>
 			<span class="btn btn-service btn-submit"><input type="reset" name="" id="" value="SEND EMAIL"></span>
@@ -111,6 +113,8 @@
 // -------------------------------
 	include_once 'inc/ScriptFOOT.php';
  ?>
+<script src="asset/valid/jquery.validationEngine.js"></script>
+<script src="asset/valid/jquery.validationEngine-zh_TW.js"></script>
 <script src="js/classie.js"></script>
 <script>
 	(function() {
@@ -149,23 +153,11 @@
 </script>
 
 <script>
-$(window).load(function(){
-	$('.flexslider').flexslider({
-		animation: "slide",
-		easing: "swing",
-				animationLoop: true,
-				minItems:1,
-				maxItems:5,
-				controlsContainer: $('#hcarouselcontrols .well'),
-				controlNav: false,
-				directionNav: true,
-				prevText: "",
-				nextText: ""
-		// start: function(slider){
-		// 	$('body').removeClass('loading');
-		// }
-	});
-});
+$(function () {
+	$("#serviceForm").validationEngine('attach', {promptPosition : "CenterRight: -100, 50", scroll: true});
+})
+
+
 </script>
 <?php
 // -------------------------------

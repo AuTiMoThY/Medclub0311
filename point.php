@@ -56,7 +56,140 @@
 
 <article id="main" class="point_page-main">
 <div class="wrapper cf">
-	<img src="images/temp/tem14.png" alt="" class="temp">
+	<div class="form-pointSearch">
+		<form action="">
+			<ul>
+				<li>
+					<input type="text" name="" id="" class="inp-point ib">
+					<span class="btn btn-point ib">
+						<button type="submit" name="" id="" class="">點數查詢</button>
+					</span>
+				</li>
+				<li>
+					<span class="txt">請輸入您的客戶編號。</span>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!-- 查詢到結果時顯示以下div ↓↓↓ -->
+	<div class="form-pointSearch" style="display:none;">
+		<form action="">
+			<ul>
+				<li>
+					<span class="txt txt-ans">累積點數尚餘 <strong>2567</strong> 點</span>
+				</li>
+				<li>
+					<span class="txt">有效期限至 2014/12/31 止。</span>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<!-- 查詢到結果時顯示 ↑↑↑ -->
+
+	<div class="point-container">
+		<ul>
+			<li>
+				<div class="point-block">
+					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
+					<section class="point-hover">
+						<div class="prod-name">
+							<span class="tw">低溫/高溫乾浴器 </span>
+							<span class="pid">CB-1502</span>
+						</div>
+						<div class="price">
+							售價：$ 28,000
+						</div>
+						<div class="point-user">
+							<strong>25000</strong> 點
+						</div>
+						<span class="btn btn-exchange">
+							<button>EXCHANGE &gt;</button>
+						</span>
+					</section>
+				</div>
+			</li>
+			<li>
+				<div class="point-block">
+					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
+					<section class="point-hover">
+						<div class="prod-name">
+							<span class="tw">低溫/高溫乾浴器 </span>
+							<span class="pid">CB-1502</span>
+						</div>
+						<div class="price">
+							售價：$ 28,000
+						</div>
+						<div class="point-user">
+							<strong>25000</strong> 點
+						</div>
+						<span class="btn btn-exchange">
+							<button>EXCHANGE &gt;</button>
+						</span>
+					</section>
+				</div>
+			</li>
+			<li>
+				<div class="point-block">
+					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
+					<section class="point-hover">
+						<div class="prod-name">
+							<span class="tw">低溫/高溫乾浴器 </span>
+							<span class="pid">CB-1502</span>
+						</div>
+						<div class="price">
+							售價：$ 28,000
+						</div>
+						<div class="point-user">
+							<strong>25000</strong> 點
+						</div>
+						<span class="btn btn-exchange">
+							<button>EXCHANGE &gt;</button>
+						</span>
+					</section>
+				</div>
+			</li>
+			<li>
+				<div class="point-block">
+					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
+					<section class="point-hover">
+						<div class="prod-name">
+							<span class="tw">低溫/高溫乾浴器 </span>
+							<span class="pid">CB-1502</span>
+						</div>
+						<div class="price">
+							售價：$ 28,000
+						</div>
+						<div class="point-user">
+							<strong>25000</strong> 點
+						</div>
+						<span class="btn btn-exchange">
+							<button>EXCHANGE &gt;</button>
+						</span>
+					</section>
+				</div>
+			</li>
+			<li>
+				<div class="point-block">
+					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
+					<section class="point-hover">
+						<div class="prod-name">
+							<span class="tw">低溫/高溫乾浴器 </span>
+							<span class="pid">CB-1502</span>
+						</div>
+						<div class="price">
+							售價：$ 28,000
+						</div>
+						<div class="point-user">
+							<strong>25000</strong> 點
+						</div>
+						<span class="btn btn-exchange">
+							<button>EXCHANGE &gt;</button>
+						</span>
+					</section>
+				</div>
+			</li>
+		</ul>
+	</div>
 </div>
 </article><!-- /#main  END  !! -->
 

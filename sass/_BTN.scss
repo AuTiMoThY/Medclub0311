@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+
+
+
 button.btn {
 	// padding-top: 0;
 	// padding-bottom: 0;
@@ -154,6 +157,9 @@ button.btn {
 		a {
 			padding: 0;
 		}
+		&:hover {
+			@include bg(transparent);
+		}
 	}
 	&-goProdCnt {
 		@include wh(100%, 27px);
@@ -166,20 +172,50 @@ button.btn {
 			line-height: 27px;
 		}
 	}
-	&-service {
-		@include bg($normal_color);
+	&-prod-golist {
+		@include wh(100%, 27px);
+		@include bg($normal_color2);
 		border-radius: 0;
-		@include col;
-		padding: 0 0.5em;
-		input {
-			font-weight: normal;
+		padding: 0 1.5em;
+		line-height: 27px;
+		position: relative;
+		&-hover {
+			@include wh;
+			top: 0;
+			left: 0;
+			position: absolute;
+			padding: 0 1.5em;
+			line-height: 27px;
+			@include opacity(0);
+			a {
+				padding: 0;
+			}
+			i {
+				color: #000;
+			}
+		}
+		&:hover {
+			.btn-prod-golist-hover {
+				@include bg($normal_color);
+				@include opacity(1);
+				a {
+					color: #000;
+				}
+			}
 		}
 	}
-	&-loginInp {
+
+
+	@include atRoot{
+/*========================================================================*\
+	>>	btn	common
+\*========================================================================*/
+	%btnCommon {
 		@include bg(transparent);
 		border-radius: 0;
 		border: 1px solid $normal_color;
 		button {
+			width: 100%;
 			padding: 0.5em 0.8em;
 			color: $normal_color;
 		}
@@ -190,5 +226,52 @@ button.btn {
 			}
 		}
 	}
+	&-service {
+		@include bg($normal_color);
+		border-radius: 0;
+		@include col;
+		padding: 0 0.5em;
+		input {
+			font-weight: normal;
+		}
+	}
+	&-loginInp {
+		@extend %btnCommon;
+	}
+	&-change_pw {
+		@extend %btnCommon;
+	}
+	&-change_confirm {
+		@extend %btnCommon;
+	}
+	&-change_undo {
+		@extend %btnCommon;
+	}
+	};
+
+	@include atRoot{
+/*========================================================================*\
+	>>	btn	點數查詢
+\*========================================================================*/
+	&-point {
+		@include wh(85px, 30px);
+		@include background-image(linear-gradient(#686868, #353535));
+		border-radius: 0;
+		display: inline-block;
+		button {
+			@include wh;
+			text-align: center;
+		}
+	}
+	&-exchange {
+		@include bg(#f5cb4c);
+		border-radius: 0;
+		border: 1px solid #fff;
+		button {
+			padding: 0.3em 0.4em;
+			color: #000;
+		}
+	}
+	};
 
 }

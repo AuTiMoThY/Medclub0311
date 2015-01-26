@@ -19,3 +19,100 @@
 		}
 	}
 }
+
+.form-pointSearch {
+	width: 480px;
+	margin: auto;
+	form {
+		width: 100%;
+		.inp-point {
+			width: 75%;
+			box-shadow: none;
+			display: inline-block;
+		}
+	}
+	ul {
+		width: 100%;
+	}
+	li {
+		width: 100%;
+		padding: 1em 2em;
+		float: none;
+		&:first-of-type {
+			border-bottom: 1px solid $normal_color;
+		}
+	}
+	.txt {
+		width: 100%;
+		text-align: center;
+		display: block;
+		&-ans {
+			@include adjust-font-size-to(31px);
+			strong {
+				color: $normal_color;
+			}
+		}
+	}
+}
+.point {
+	&-container {
+		li {
+			width: 25%;
+			height: 270px;
+			padding: 1px 3px;
+			margin: 0.5em 0;
+		}
+	}
+	&-block {
+		@include wh;
+		@include shadow2;
+		position: relative;
+		.pic {
+			@include wh;
+		}
+		&:hover {
+			.point-hover {
+				@include opacity(1);
+			}
+		}
+	}
+	&-hover {
+		@include wh;
+		@include bg(rgba(#000, 0.8));
+		padding: 1.5em;
+		position: absolute;
+		top: 0;
+		left: 0;
+		@include opacity(0);
+		transition: all 0.3s $easing1;
+		.prod-name {
+			width: 100%;
+			border-bottom: 1px solid #fff;
+			padding: 0;
+			margin-bottom: 0.5em;
+			color: #f5cb4c;
+			font-weight: bold;
+			line-height: 1.5;
+			span {
+				width: 100%;
+				display: block;
+			}
+		}
+		.price {
+			color: #fff;
+			@include adjust-font-size-to(13px);
+		}
+		.point-user {
+			margin-top: 3em;
+			color: #f5cb4c;
+			@include adjust-font-size-to(21px);
+			text-align: right;
+			strong {
+				color: #FFF;
+			}
+		}
+		.btn {
+			float: right;
+		}
+	}
+}
