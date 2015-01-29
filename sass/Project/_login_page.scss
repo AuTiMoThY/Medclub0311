@@ -46,6 +46,14 @@
 			@include wh(371px, 64px);
 			@include bg-t(0, -464px);
 		}
+		&.forgot {
+			// margin-right: 0 !important;
+			margin: auto !important;
+			display: block;
+			h1 {
+				@include bg(0, -600px);
+			}
+		}
 	}
 	&-register {
 		h1 {

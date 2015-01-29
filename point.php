@@ -56,7 +56,7 @@
 
 <article id="main" class="point_page-main">
 <div class="wrapper cf">
-	<div class="form-pointSearch">
+	<div class="form-pointSearch" style="display:none;">
 		<form action="">
 			<ul>
 				<li>
@@ -72,7 +72,7 @@
 		</form>
 	</div>
 	<!-- 查詢到結果時顯示以下div ↓↓↓ -->
-	<div class="form-pointSearch" style="display:none;">
+	<div class="form-pointSearch">
 		<form action="">
 			<ul>
 				<li>

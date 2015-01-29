@@ -14,8 +14,8 @@
 	}
 }
 @mixin bg($name, $bgpx:0, $bgpy:0, $repeat:no-repeat) {
-	$name: unquote($name);
-	$repeat: unquote($repeat);
+	// $name: unquote($name);
+	// $repeat: unquote($repeat);
 	@if type-of($name) == number {
 		//  background-position
 		$bgpxx: $name;

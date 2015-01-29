@@ -7,7 +7,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>會員登入 | 每得科技</title>
+<title>忘記密碼 | 每得科技</title>
 
 <?php
 // -------------------------------
@@ -50,48 +50,15 @@
 
 <article id="main" class="login_page-main">
 <div class="wrapper cf">
-	<section class="col login_page-login">
-		<h1 class="hide_txt">現有帳號</h1>
-		<form action="">
+	<section class="col login_page-login forgot">
+		<h1 class="hide_txt">忘記密碼</h1>
+		<form action="goMember.php" id="forgotForm">
 			<ul>
 				<li>
 					<label for="">帳號</label><input type="text" name="" id="">
 				</li>
-				<li>
-					<label for="">密碼</label><input type="password" name="" id="">
-				</li>
-				<li>
-					<label for="" class="empty"></label><span>忘記密碼嗎?>><a href="m_forgot.php">重設密碼</a></span>
-				</li>
 				<li class="btns">
-					<span class="btn btn-loginInp"><button type="submit">登入 / LOGIN</button></span>
-				</li>
-			</ul>
-		</form>
-	</section>
-	<section class="col login_page-register">
-		<h1 class="hide_txt">創立新帳號</h1>
-		<form action="goMember.php">
-			<ul>
-				<li>
-					<label for="">名字</label><input type="text" name="" id="">
-				</li>
-				<li>
-					<label for="">帳號</label><input type="text" name="" id="" placeholder ="請輸入你的EMAIL">
-				</li>
-				<li>
-					<label for="">密碼</label><input type="password" name="" id="" placeholder ="六個字以上分大小寫">
-				</li>
-				<li>
-					<label for="" class="empty"></label><input type="password" name="" id="" placeholder ="再輸入一次密碼">
-				</li>
-				<li>
-					<!-- <label for="" class="empty"></label> -->
-					<input type="checkbox" name="" id="epaper">
-					<label for="epaper" class="epaper">訂閱MEDCLUB電子報収到最新優惠訊息</label>
-				</li>
-				<li class="btns">
-					<span class="btn btn-loginInp"><button type="submit" onclick="javascript:location.href='member.php'">確認送出 / CONFIRM</button></span>
+					<span class="btn btn-loginInp"><button type="submit">送出 / SEND</button></span>
 				</li>
 			</ul>
 		</form>

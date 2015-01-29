@@ -59,7 +59,8 @@
 							<label for="" class="title ib">帳號</label>
 							<span class="txt ib">googlegoogle@gmail.com</span>
 						</li>
-						<li>
+						<!-- 由"忘記密碼"進入時 隱藏 -->
+						<li style="display:none;">
 							<label for="" class="title ib">舊密碼</label>
 							<input type="password" name="" id="" class="ib validate[required]">
 						</li>
@@ -78,7 +79,8 @@
 					</ul>
 				</form>
 			</div>
-			<div class="member-form form2 left">
+			<!-- 由"忘記密碼"進入時 隱藏 -->
+			<div class="member-form form2 left"  style="display:none;">
 				<form action="" id="changeDataForm">
 					<ul>
 						<li>

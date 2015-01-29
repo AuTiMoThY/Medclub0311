@@ -53,7 +53,7 @@
 	<div class="w100">
 		<div class="links-wrap">
 			<ul>
-				<li class="rew col"><a href="" target="_blank">
+				<li class="rew col"><a href="http://www.4ti.co.uk/" target="_blank">
 					<figure>
 						<div class="pic"><img src="images/temp/tem_link1.jpg" alt=""></div>
 						<figcaption>
@@ -62,7 +62,7 @@
 						</figcaption>
 					</figure>
 				</a></li>
-				<li class="rew col"><a href="" target="_blank">
+				<li class="rew col"><a href="http://www.4ti.co.uk/" target="_blank">
 					<figure>
 						<div class="pic"><img src="images/temp/tem_link2.jpg" alt=""></div>
 						<figcaption>
@@ -71,7 +71,7 @@
 						</figcaption>
 					</figure>
 				</a></li>
-				<li class="rew col"><a href="" target="_blank">
+				<li class="rew col"><a href="http://www.4ti.co.uk/" target="_blank">
 					<figure>
 						<div class="pic"><img src="images/temp/tem_link3.jpg" alt=""></div>
 						<figcaption>

@@ -105,7 +105,7 @@
 			<div class="popular_prod-wrap">
 				<figure class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="images/prod5.png" alt=""></div>
+						<div class="pic"><img src="images/prod5.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
@@ -134,13 +134,13 @@
           <ul class="popular_prod-list">
                <li class="popular_prod-item active">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod5.png" alt=""></div>
+                    	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
                     </div>
                </li>
 
                <li class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod5.png" alt=""></div>
+                    	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
                     </div>
                </li>
 
