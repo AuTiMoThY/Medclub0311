@@ -132,6 +132,7 @@
      </div>
      <div id="popularProdMarquee" class="marquee">
           <ul class="popular_prod-list">
+          		<!-- 顯示此產品內容時，加入 class： active -->
                <li class="popular_prod-item active">
                     <div class="popular_prod-item-pic">
                     	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
@@ -149,6 +150,19 @@
                     	<div class="pic"><img src="images/prod3.jpg" alt=""></div>
                     </div>
                </li>
+
+               <li class="popular_prod-item">
+                    <div class="popular_prod-item-pic">
+                    	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
+                    </div>
+               </li>
+
+               <li class="popular_prod-item">
+                    <div class="popular_prod-item-pic">
+                    	<div class="pic"><img src="images/prod3.jpg" alt=""></div>
+                    </div>
+               </li>
+
 
           </ul>
      </div>

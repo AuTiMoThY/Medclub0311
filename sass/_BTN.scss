@@ -78,6 +78,16 @@ button.btn {
 				@include bg(-877px, -22px);
 			}
 		}
+		&.signOut {
+			button {
+				@include bg-t(-930px, 0);
+			}
+			&:hover {
+				button {
+					@include bg(-930px, -22px);
+				}
+			}
+		}
 	}
 	&-more {
 		@include bg(transparent);
@@ -256,11 +266,16 @@ button.btn {
 	&-point {
 		@include wh(85px, 30px);
 		@include background-image(linear-gradient(#686868, #353535));
+		@include adjust-font-size-to(16px);
 		border-radius: 0;
 		display: inline-block;
 		button {
 			@include wh;
 			text-align: center;
+		}
+		&.q {
+			position: relative;
+			top: -2px;
 		}
 	}
 	&-exchange {

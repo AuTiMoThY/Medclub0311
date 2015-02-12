@@ -57,7 +57,7 @@
 					<ul>
 						<li>
 							<label for="" class="title ib">帳號</label>
-							<span class="txt ib">googlegoogle@gmail.com</span>
+							<span class="txt ib">googlegoogle</span>
 						</li>
 						<!-- 由"忘記密碼"進入時 隱藏 -->
 						<li style="display:none;">
@@ -80,7 +80,8 @@
 				</form>
 			</div>
 			<!-- 由"忘記密碼"進入時 隱藏 -->
-			<div class="member-form form2 left"  style="display:none;">
+			<div class="member-form form2 left">
+			<!-- <div class="member-form form2 left"  style="display:none;"> -->
 				<form action="" id="changeDataForm">
 					<ul>
 						<li>
@@ -110,12 +111,16 @@
 						</li>
 						<li>
 							<label for="" class="title ib">狀態</label>
-							<input type="text" name="" id="" class="ib">
+							<span class="ib">正常使用</span>
 						</li>
 						<li class="assess">
 							<label for="" class="empty ib"></label>
 							<input type="checkbox" name="" id="epaper" class="ib">
 							<label for="epaper" class="txt ib">訂閱MEDCLUB電子報収到最新優惠訊息</label>
+						</li>
+						<li>
+							<label for="" class="empty ib"></label>
+							<span class="txt-r">※以上欄位皆為必填項目(訂閱電子報除外)！</span>
 						</li>
 						<li class="btns">
 							<label for="" class="empty ib"></label>

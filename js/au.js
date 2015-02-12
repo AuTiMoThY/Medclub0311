@@ -3,8 +3,94 @@
 			by DFocus AuTiMoThY
 \*--------------------------------------*/
 
+
+function viewPortWidthHeight() {
+  var wh = {};
+  if(window.innerWidth) {
+      wh.width = window.innerWidth;
+      wh.height = window.innerHeight;
+  }
+  else if(document.documentElement.clientWidth) {
+      wh.width = document.documentElement.clientWidth;
+      wh.height = document.documentElement.clientHeight;
+  }
+  else if(document.body.clientWidth) {
+      wh.width = document.body.clientWidth;
+      wh.height = document.body.clientHeight;
+  }
+  return wh;
+}
+
+function loginBlockQWidthHeight(){
+	var wh = {};
+	var exchangeBlock = document.getElementById('exchangeBlock');
+
+	if (exchangeBlock) {
+		
+		wh.width = exchangeBlock.offsetWidth;
+		wh.height = exchangeBlock.offsetHeight;
+	}
+
+	return wh;
+}
+function resizeBlock (){
+	// console.log("yoyo")
+  var exchangeBlock = document.getElementById('exchangeBlock');
+  // var $exchangeBlock = $("#exchangeBlock");
+  var blockWH = loginBlockQWidthHeight();
+  var blockW = blockWH.width;
+  var blockH = blockWH.height;
+
+  var viewPortWH = viewPortWidthHeight();
+  var viewPortW = viewPortWH.width;
+  var viewPortH = viewPortWH.height;
+
+  var blockPosY = viewPortH - blockH;
+  var blockPosX = viewPortW - blockW;
+// console.log('blockH:'+blockH+',viewPortH:'+viewPortH+',blockPos:'+blockPos);
+	if (exchangeBlock) {
+		exchangeBlock.style.top = blockPosY / 2 + 'px';
+		exchangeBlock.style.left = blockPosX / 2 + 'px';
+	}
+}
+
+$(window).on('resize scroll', function () {
+  // resizeBlock();
+});
+
+
 $(function () {
 	var $win = $(window);
+
+	// resizeBlock();
+
+	function fadeOutAu(){
+		$(".blackQQ").fadeOut(600);
+		$("#exchangeBlock").fadeOut(600);
+	}
+
+	function fadeInAu(){
+		$(".blackQQ").fadeIn(600);
+		$("#exchangeBlock").fadeIn(600);
+	}
+
+	function blackQQDefault() {
+		$("#blackQQ").hide();
+		$("#exchangeBlock").hide();
+	}
+
+	if ($(".blackQQ").length)
+		blackQQDefault();
+		$("#exchangeBlockClose").click(function() {
+			fadeOutAu();
+		});
+		$(".blackQQ").click(function() {
+			fadeOutAu();
+		});
+		$(".exchangeBlockOpen").click(function() {
+			fadeInAu();
+		});
+
 
 	$(".main_nav-item.item3").children('a').attr('target', '_blank');
 
@@ -141,4 +227,6 @@ $(function () {
 		// 	};
 		// }).scroll();
 	};
+
+
 });

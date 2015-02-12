@@ -77,7 +77,7 @@
 					<label for="">名字</label><input type="text" name="" id="">
 				</li>
 				<li>
-					<label for="">帳號</label><input type="text" name="" id="" placeholder ="請輸入你的EMAIL">
+					<label for="">帳號</label><input type="text" name="" id="" placeholder ="請輸入你的帳號">
 				</li>
 				<li>
 					<label for="">密碼</label><input type="password" name="" id="" placeholder ="六個字以上分大小寫">
@@ -91,7 +91,9 @@
 					<label for="epaper" class="epaper">訂閱MEDCLUB電子報収到最新優惠訊息</label>
 				</li>
 				<li class="btns">
-					<span class="btn btn-loginInp"><button type="submit" onclick="javascript:location.href='member.php'">確認送出 / CONFIRM</button></span>
+					<span class="btn btn-loginInp">
+						<button type="submit" onclick="javascript:location.href='member.php'">確認送出 / CONFIRM</button>
+					</span>
 				</li>
 			</ul>
 		</form>

@@ -126,6 +126,7 @@
 			margin: auto;
 		}
 		figcaption {
+			width: 100%;
 			@include adjust-font-size-to(15px, 0.8);
 		}
 		.btn-goProdCnt {
@@ -167,8 +168,17 @@
 		}
 	}
 	&-name {
+		width: 100%;
 		padding: 1em 1.5em;
 		color: $Grey_color1;
+		&-en {
+			width: 100%;
+			@include ellipsis;
+		}
+		&-tw {
+			width: 100%;
+			@include ellipsis;
+		}
 	}
 	&-cntTop {
 		@include bg(#fff);
