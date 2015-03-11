@@ -11,16 +11,17 @@ require_once 'inc/auNAV.php';
 		</header>
 		<div class="quick_login">
 			<!-- 登入前 顯示 ↓↓↓ -->
-			<a href="login.php" class="quick_login-wrap">
+			<a href="javascript:void 0;" class="quick_login-wrap" onclick="javascript:alert('系統設定維護中，敬請見諒');">
+			<!-- <a href="login.php" class="quick_login-wrap"> -->
 				<span class="icon ib"></span>
 				<span class="btn btn-quick_login ib"><button class="hide_text">會員登入</button></span>
 			</a>
 
 			<!-- 登入後 顯示 ↓↓↓ -->
-			<a href="login.php" class="quick_login-wrap">
+<!-- 			<a href="login.php" class="quick_login-wrap">
 				<span class="icon ib"></span>
 				<span class="btn btn-quick_login signOut ib"><button class="hide_text">會員登入</button></span>
-			</a>
+			</a> -->
 		</div>
 	</div>
 	</section>

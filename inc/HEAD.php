@@ -21,6 +21,7 @@
 <link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" href="css/foundation.css" />
 <!-- <link rel="stylesheet" href="asset/fancybox/jquery.fancybox.css" /> -->
+<link rel="stylesheet" href="asset/fancybox/jquery.fancybox.css" />
 <link rel="stylesheet" href="asset/FlexSlider/flexslider.css" />
 <link rel="stylesheet" href="asset/valid/validationEngine.jquery.css" />
 <!-- <link rel="stylesheet" href="css/effect2.css" /> -->
@@ -28,3 +29,5 @@
 
 <script src="js/libs/modernizr-2.7.1.dev.js"></script>
 <script src="js/ModernizrAu.js"></script>
+
+

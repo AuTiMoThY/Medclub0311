@@ -8,7 +8,7 @@ class PageUrlAu {
 	public $webPageBuild    = "javascript: alert('網頁建置中，敬請稍待!');";
 	public $indexPage       = "index.php";
 	public $newPage         = "new.php";
-	public $productPage     = "product.php";
+	public $productPage     = "product1.php";
 	public $recalibratePage = "recalibrate.php";
 	public $servicePage     = "service.php";
 	public $linksPage       = "links.php";

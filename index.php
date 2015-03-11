@@ -47,11 +47,11 @@
 	<div id="hcarousel" class="h_carousel clearfix">
 		<div class="flexslider carousel">
 			<ul class="slides">
-				<li style="background-image: url('images/banner1.jpg');" class="">
+				<li style="background-image: url('images/banner2.jpg');" class="">
 					<a href="javascript:void 0;" class="slidelink"></a></li>
-				<li style="background-image: url('images/banner1.jpg');" class="">
+				<!-- <li style="background-image: url('images/banner1.jpg');" class="">
 					<a href="javascript:void 0;" class="slidelink"></a>
-				</li>
+				</li> -->
 			</ul>
 			<div id="hcarouselcontrols" class="h_carousel_controls">
 				<div class="well">
@@ -78,18 +78,18 @@
 			<hgroup>
 				<h2 class="news-title">
 			<?php  //此處示意顯示 最新消息標題 16 個字，超過以...取代
-				$cnt0 = "最新消息的標題/這邊可以寫標題文最新消息的標題/這邊可以寫標題文";
+				$cnt0 = "第30 屆生物醫學聯合學術年會";
 				$content0 = strip_tags($cnt0);
 				$content = mb_substr($content0,0,16,'UTF-8');
 				if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 				echo $content;
 			?>
 				</h2>
-				<div class="news-time">12 月 27日</div>
+				<div class="news-time">3 月 12日</div>
 			</hgroup>
 			<div class="news-cnt">
 			<?php  //此處示意顯示 最新消息內容 75 個字，超過以...取代
-				$cnt0 = "最新消息的內容，這邊可以彈出最新的資訊，資訊以文字內容為主，可以輪撥三則或五則，上下鍵可以快選最新訊息的瀏覽三則或五則，最新消息的內容，這邊可以彈出最新消息的內容，這邊可以彈出最新的資訊，資訊以文字內容為主，可以輪撥三則或五則，上下鍵可以快選最新訊息的瀏覽三則或五則，最新消息的內容，這邊可以彈出";
+				$cnt0 = "現場備有贈獎活動,觀迎蒞臨指教";
 				$content0 = strip_tags($cnt0);
 				$content = mb_substr($content0,0,75,'UTF-8');
 				if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }

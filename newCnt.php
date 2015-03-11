@@ -52,7 +52,7 @@
 	<div id="hcarousel" class="h_carousel clearfix">
 		<div class="flexslider carousel">
 			<ul class="slides">
-				<li style="background-image: url('images/banner_new1.jpg');" class=""></li>
+				<li style="background-image: url('images/banner2.jpg');" class=""></li>
 			</ul>
 		</div><!-- /.flexslider carousel  END  !! -->
 	</div>
@@ -61,11 +61,23 @@
 
 <article id="main" class="newCnt_page-main">
 <div class="wrapper cf">
-	<section class="container new-container">
-		<h1>最新優惠標題文字</h1>
+	<section class="container containerEditer new-container">
+		<h1>第30 屆生物醫學聯合學術年會</h1>
 		<div class="new-cnt">
 			<!-- 圖文編輯器 -->
-			<img src="images/temp/tem7.jpg" alt="" class="temp">
+			<!-- <img src="images/temp/tem7.jpg" alt="" class="temp"> -->
+
+
+<ul style="text-align: center; line-height: 1.2;">
+	<li>時間: 民國104年3月21日(六)至22日(日) 8:00-17:00</li>
+	<li>攤位: 國防醫學院3F  B22 B23 <span style="color: #f00">(如圖示紅色框位置)</span></li>
+</ul>
+<img src="upload/news/temNew_map.jpg" alt="">
+<p style="text-align: center; line-height: 1.2;">
+<strong style="font-size: 1em;">現場備有贈獎活動<br>
+	觀迎蒞臨指教</strong>
+</p>
+
 		</div>
 	</section>
 	<div class="btns new-btns">

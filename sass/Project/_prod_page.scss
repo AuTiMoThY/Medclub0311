@@ -62,7 +62,7 @@
 			z-index: -1;
 		}
 		li {
-			width: 30%;
+			min-width: 40%;
 			// float: none;
 		}
 		.btn-close {
@@ -74,6 +74,7 @@
 			color: #fff;
 			@include adjust-font-size-to(15px, 1.5);
 			position: relative;
+			white-space: nowrap;
 			&:hover {
 				color: $normal_color;
 				&:before {
@@ -122,8 +123,13 @@
 		margin-left: 0.34em;
 		margin-bottom: 1em;
 		.pic {
+			position: relative;
 			@include wh(227px, 245px);
+			@include bg(#fff);
 			margin: auto;
+			img {
+				@include vc;
+			}
 		}
 		figcaption {
 			width: 100%;
@@ -169,15 +175,24 @@
 	}
 	&-name {
 		width: 100%;
+		height: 70px;
 		padding: 1em 1.5em;
 		color: $Grey_color1;
+		&.ellipsis {
+			.prod-name {
+				&-en {
+					@include ellipsis;
+				}
+				&-tw {
+					@include ellipsis;
+				}
+			}
+		}
 		&-en {
 			width: 100%;
-			@include ellipsis;
 		}
 		&-tw {
 			width: 100%;
-			@include ellipsis;
 		}
 	}
 	&-cntTop {

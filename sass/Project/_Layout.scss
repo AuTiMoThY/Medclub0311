@@ -6,6 +6,7 @@ $leftAsideW: 247px;
 		>>	layout pageContainer
 \*========================================================================*/
 div#pageWrap {
+	width: 100%;
 	// min-height: 1000px;
 	@include rhythm(0, 1, 1, 2);
 	position: relative;

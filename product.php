@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="prod_page">
+<body class="prod_page" ng-app>
 <?php
 // -------------------------------
 // Header
@@ -48,127 +48,15 @@
 </h1>
 
 
-<article id="main" class="prod_page-main">
+<article id="main" class="prod_page-main" >
 <div class="wrapper cf">
 	<aside id="prodAside" class="leftAside prod-aside">
-		<div class="asideWrapper">
-			<ul>
-				<li id="mainMenu1" class="prod-classi-item item1">
-					<a href="javascript:void 0;" class="hide_txt">新產品</a>
-					<ul id="subMenu1" class="prod-subMenu">
-						<span id="closeBtn1" class="btn btn-close"></span>
-						<li><a href="product.php">分注器</a></li>
-						<li><a href="product.php">離心機</a></li>
-						<li><a href="product.php">乾浴器</a></li>
-						<li><a href="product.php">蠕動幫浦</a></li>
-						<li><a href="product.php">均質機</a></li>
-						<li><a href="product.php">循環水槽</a></li>
-						<li><a href="product.php">電泳設備</a></li>
-						<li><a href="product.php">P-Sensor 2000</a></li>
-						<li><a href="product.php">烘箱</a></li>
-						<li><a href="product.php">影像系統</a></li>
-						<li><a href="product.php">PCR反應儀</a></li>
-						<li><a href="product.php">培養箱</a></li>
-						<li><a href="product.php">紫外光設備</a></li>
-						<li><a href="product.php">振盪混合設備</a></li>
-						<li><a href="product.php">細胞培養轉動器</a></li>
-						<li><a href="product.php">電磁加熱攪拌器</a></li>
-						<li><a href="product.php">ELISA盤清洗機</a></li>
-						<li><a href="product.php">冷凍櫃</a></li>
-						<li><a href="product.php">發酵槽</a></li>
-						<li><a href="product.php">滅菌釜</a></li>
-						<li><a href="product.php">封盤設備</a></li>
-						<li><a href="product.php">微量盤分光光度計</a></li>
-						<li><a href="product.php">酸鹼測定儀</a></li>
-						<li><a href="product.php">超音波洗淨機</a></li>
-						<li><a href="product.php">純水系統</a></li>
-						<li><a href="product.php">天平</a></li>
-			
-						<li><a href="product.php">ELISA盤清洗機</a></li>
-						<li><a href="product.php">冷凍櫃</a></li>
-						<li><a href="product.php">發酵槽</a></li>
-						<li><a href="product.php">滅菌釜</a></li>
-						<li><a href="product.php">封盤設備</a></li>
-						<li><a href="product.php">微量盤分光光度計</a></li>
-						<li><a href="product.php">酸鹼測定儀</a></li>
-						<li><a href="product.php">超音波洗淨機</a></li>
-						<li><a href="product.php">純水系統</a></li>
-						<li><a href="product.php">天平</a></li>
-					</ul>
-				</li>
-				<li id="mainMenu2" class="prod-classi-item item2">
-					<a href="javascript:void 0;" class="hide_txt">儀器</a>
-					<ul id="subMenu2" class="prod-subMenu">
-						<span id="closeBtn2" class="btn btn-close"></span>
-						<li><a href="product.php">分注器</a></li>
-						<li><a href="product.php">離心機</a></li>
-						<li><a href="product.php">乾浴器</a></li>
-						<li><a href="product.php">蠕動幫浦</a></li>
-						<li><a href="product.php">均質機</a></li>
-						<li><a href="product.php">循環水槽</a></li>
-						<li><a href="product.php">電泳設備</a></li>
-						<li><a href="product.php">P-Sensor 2000</a></li>
-						<li><a href="product.php">烘箱</a></li>
-					</ul>
-				</li>
-				<li id="mainMenu3" class="prod-classi-item item3">
-					<a href="javascript:void 0;" class="hide_txt">試劑</a>
-					<ul id="subMenu3" class="prod-subMenu">
-						<span id="closeBtn3" class="btn btn-close"></span>
-						<li><a href="product.php">分注器</a></li>
-						<li><a href="product.php">離心機</a></li>
-						<li><a href="product.php">乾浴器</a></li>
-						<li><a href="product.php">蠕動幫浦</a></li>
-						<li><a href="product.php">均質機</a></li>
-						<li><a href="product.php">循環水槽</a></li>
-						<li><a href="product.php">電泳設備</a></li>
-						<li><a href="product.php">P-Sensor 2000</a></li>
-						<li><a href="product.php">烘箱</a></li>
-					</ul>
-				</li>
-				<li id="mainMenu4" class="prod-classi-item item4">
-					<a href="javascript:void 0;" class="hide_txt">塑膠耗材</a>
-					<ul id="subMenu4" class="prod-subMenu">
-						<span id="closeBtn4" class="btn btn-close"></span>
-						<li><a href="product.php">分注器</a></li>
-						<li><a href="product.php">離心機</a></li>
-						<li><a href="product.php">乾浴器</a></li>
-						<li><a href="product.php">蠕動幫浦</a></li>
-						<li><a href="product.php">均質機</a></li>
-						<li><a href="product.php">循環水槽</a></li>
-						<li><a href="product.php">電泳設備</a></li>
-						<li><a href="product.php">P-Sensor 2000</a></li>
-						<li><a href="product.php">烘箱</a></li>
-					</ul>
-				</li>
-				<li id="mainMenu5" class="prod-classi-item item5">
-					<a href="javascript:void 0;" class="hide_txt">引子合成</a>
-					<ul id="subMenu5" class="prod-subMenu">
-						<span id="closeBtn5" class="btn btn-close"></span>
-						<li><a href="product.php">分注器</a></li>
-						<li><a href="product.php">離心機</a></li>
-						<li><a href="product.php">乾浴器</a></li>
-						<li><a href="product.php">蠕動幫浦</a></li>
-						<li><a href="product.php">均質機</a></li>
-						<li><a href="product.php">循環水槽</a></li>
-						<li><a href="product.php">電泳設備</a></li>
-						<li><a href="product.php">P-Sensor 2000</a></li>
-						<li><a href="product.php">烘箱</a></li>
-					</ul>
-				</li>
-			</ul>
-			<div class="searchBlock">
-				<form action="">
-					<div class="txt hide_txt">SEARCH PRODUCT</div>
-					<input type="search" name="" id="" class="inp-search">
-					<span class="btn"><button type="submit" name="" id="" class="">GO</button></span>
-				</form>
-			
-			</div>
-			<div class="gotop">
-				<span id="goTop" class="btn btn-goTop"><a href="#top"><img src="images/goTop.png" alt=""></a></span>
-			</div>
-		</div>
+<?php
+// -------------------------------
+// prodAside
+// -------------------------------
+  include_once 'inc/prodAside.php';
+ ?>
 	</aside>
 	<section class="container">
 		<ul class="cf">
@@ -176,7 +64,7 @@
 				<figure><a href="productCnt.php">
 					<div class="pic"><img src="images/prod3.jpg" alt=""></div>
 					<figcaption>
-						<div class="prod-name">
+						<div class="prod-name ellipsis">
 							<div class="prod-name-en">Rephile Dired-Pure UP</div>
 							<div class="prod-name-tw">超純水暨純水系統</div>
 						</div>
@@ -193,7 +81,7 @@
 				<figure><a href="productCnt.php">
 					<div class="pic"><img src="images/prod2.jpg" alt=""></div>
 					<figcaption>
-						<div class="prod-name">
+						<div class="prod-name ellipsis">
 							<div class="prod-name-en">Rephile Dired-Pure UP</div>
 							<div class="prod-name-tw">超純水暨純水系統</div>
 						</div>
@@ -210,7 +98,7 @@
 				<figure><a href="productCnt.php">
 					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
 					<figcaption>
-						<div class="prod-name">
+						<div class="prod-name ellipsis">
 							<div class="prod-name-en">Rephile Dired-Pure UP</div>
 							<div class="prod-name-tw">超純水暨純水系統</div>
 						</div>
@@ -227,7 +115,7 @@
 				<figure><a href="productCnt.php">
 					<div class="pic"><img src="images/prod3.jpg" alt=""></div>
 					<figcaption>
-						<div class="prod-name">
+						<div class="prod-name ellipsis">
 							<div class="prod-name-en">Rephile Dired-Pure UP</div>
 							<div class="prod-name-tw">超純水暨純水系統</div>
 						</div>
@@ -244,7 +132,7 @@
 				<figure><a href="productCnt.php">
 					<div class="pic"><img src="images/prod1.jpg" alt=""></div>
 					<figcaption>
-						<div class="prod-name">
+						<div class="prod-name ellipsis">
 							<div class="prod-name-en">Rephile Dired-Pure UP</div>
 							<div class="prod-name-tw">超純水暨純水系統</div>
 						</div>

@@ -126,7 +126,10 @@ form select {
 		>	banner
 \*========================================================================*/
 .banner {
+	width: 100%;
+	height: 420px;
 	margin-top: 1px;
+	overflow: hidden;
 }
 @import "_CAROUSEL";
 
@@ -213,6 +216,8 @@ form select {
 		top: 0;
 	}
 }
+
+
 
 // @import "module/_tabs";
 
