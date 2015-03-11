@@ -62,7 +62,15 @@ $(window).on('resize scroll', function () {
 $(function () {
 	var $win = $(window);
 
-	// resizeBlock();
+	// resizeBlock();3
+	$(".nav-Medclub.item5 a").click(function(event) {
+		alert('系統設定維護中，敬請見諒');
+		return false;
+	});
+	$(".nav-Medclub.item8 a").click(function(event) {
+		alert('系統設定維護中，敬請見諒');
+		return false;
+	});
 
 	function fadeOutAu(){
 		$(".blackQQ").fadeOut(600);

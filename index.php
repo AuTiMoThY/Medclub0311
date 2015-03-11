@@ -105,7 +105,7 @@
 			<div class="popular_prod-wrap">
 				<figure class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="images/prod5.jpg" alt=""></div>
+						<div class="pic"><img src="upload/product/category1/CB-1501s.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
@@ -135,31 +135,31 @@
           		<!-- 顯示此產品內容時，加入 class： active -->
                <li class="popular_prod-item active">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/CB-1501s.jpg" alt=""></div>
                     </div>
                </li>
 
                <li class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/C1000_img_0s.jpg" alt=""></div>
                     </div>
                </li>
 
                <li class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod3.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/1008110001s.jpg" alt=""></div>
                     </div>
                </li>
 
                <li class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod5.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/1004230002s.jpg" alt=""></div>
                     </div>
                </li>
 
                <li class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="images/prod3.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/1004230001s.jpg" alt=""></div>
                     </div>
                </li>
 
