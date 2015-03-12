@@ -67,8 +67,8 @@
 	</aside>
 	<section class="container lazyload">
 		<ul class="cf">
-			<li class="prod-item" ng-repeat="prodCategory in prodCategory<?php echo $cate; ?>">
-				<figure><a href="{{prodCategory.link}}" target="{{prodCategory.target}}">
+			<li class="prod-item ngHidden" ng-repeat="prodCategory in prodCategory<?php echo $cate; ?>">
+				<figure class=""><a href="{{prodCategory.link}}" target="{{prodCategory.target}}">
 					<div class="pic"><img data-original="upload/product/{{prodCategory.img}}.jpg" alt=""></div>
 					<figcaption>
 						<span style="display:none;">{{$index}}</span>

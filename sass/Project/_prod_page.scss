@@ -176,6 +176,12 @@
 				color: #000;
 			}
 		}
+		&.ngHidden {
+			visibility: hidden;
+			&.ng-scope {
+				visibility: visible;
+			}
+		}
 	}
 	&-name {
 		width: 100%;

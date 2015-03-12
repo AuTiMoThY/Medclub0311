@@ -1916,6 +1916,12 @@ footer.copyright p {
 .prod-item:hover .prod-name {
   color: #000;
 }
+.prod-item.ngHidden {
+  visibility: hidden;
+}
+.prod-item.ngHidden.ng-scope {
+  visibility: visible;
+}
 .prod-name {
   width: 100%;
   height: 70px;
