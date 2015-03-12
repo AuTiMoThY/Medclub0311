@@ -105,6 +105,7 @@ $(function () {
 /*----------------------------------------------------------------------------*\
 	 跑馬燈
 \*----------------------------------------------------------------------------*/
+/*
 	 // 先取得 section#indexBrand ul
 	 // 接著把 ul 中的 li 項目再重覆加入 ul 中(等於有兩組內容)
 	 // 再來取得 section#indexBrand 的高來決定每次跑馬燈移動的距離
@@ -112,7 +113,7 @@ $(function () {
 	 var $marqueeUl = $('#popularProdMarquee ul'),
 		 $marqueeli = $marqueeUl.children().length;
 		  // console.log("$marqueeli:"+$marqueeli);
-	 if ($marqueeUl.length && $marqueeli>3) {
+	 if ($marqueeUl.length && $marqueeli>99999) {
 
 		  var  $marqueeUl = $('#popularProdMarquee ul'),
 			   $marqueeli = $marqueeUl.children(),
@@ -184,25 +185,6 @@ $(function () {
 			   if (_now <= 0) {
 					_now = 0;
 			   };
-			   /*
-			   $marqueeUl.animate({
-					left: _now * _width
-			   }, scrollSpeed, function(){
-					// 如果已經移動到第二組時...則馬上把 left 設回到第一組的最後一筆
-					// 藉此產生不間斷的輪播
-					if(ulTop == (($marqueeli.length - showNumber)) * _width){ 
-						 console.log("$marqueeli.lengthQ:"+$marqueeli.length);
-						 console.log(_now);
-						 $marqueeUl.animate({'left': 0}, scrollSpeed);
-						 // $marqueeUl.css('left', $marqueeli.length * _width - _width);
-						 // _now = 0;
-					}
-					if(_now == 0){
-						 $marqueeUl.css('left', '0');
-					}
-					_lock = !_lock;
-			   });
-			   */
 			   // 再啟動計時器
 			   timer = setTimeout(showad, speed);
 		  }
@@ -214,7 +196,7 @@ $(function () {
 			   this.blur();
 		  });
 	 };
-
+*/
 
 	var $prodAside = $("#prodAside .asideWrapper");
 	if ($prodAside.length) {

@@ -15,6 +15,7 @@
 <!-- <script src="js/libs/classie.js"></script> -->
 <!-- <script src="js/libs/pathLoader.js"></script> -->
 <script src="asset/FlexSlider/jquery.flexslider-min.js"></script>
+<script src="asset/scrollbox/jquery.scrollbox.js"></script>
 <script src="asset/fancybox/jquery.fancybox.js"></script>
 <script src="js/au.js"></script>
 
