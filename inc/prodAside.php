@@ -12,7 +12,7 @@
 					<a href="javascript:void 0;" class="hide_txt">儀器</a>
 					<ul id="subMenu2" class="prod-subMenu">
 						<span id="closeBtn2" class="btn btn-close"></span>
-						<li ng-repeat="pc2 in prodCategory2"><a href="product1.php?cate=2&subCate={{$index+1}}">{{pc2}}</a></li>
+						<li ng-repeat="pc2 in prodCategory2"><a href="product1.php?cate=2_{{$index}}">{{pc2}}</a></li>
 <!-- 						<li><a href="product.php">分注器</a></li>
 						<li><a href="product.php">離心機</a></li>
 						<li><a href="product.php">乾浴器</a></li>
@@ -28,7 +28,7 @@
 					<a href="javascript:void 0;" class="hide_txt">試劑</a>
 					<ul id="subMenu3" class="prod-subMenu">
 						<span id="closeBtn3" class="btn btn-close"></span>
-						<li ng-repeat="pc3 in prodCategory3"><a href="product1.php?cate=3&subCate={{$index + 1}}">{{pc3}}</a></li>
+						<li ng-repeat="pc3 in prodCategory3"><a href="product1.php?cate=3_{{$index}}">{{pc3}}</a></li>
 <!-- 						<li><a href="product.php">分注器</a></li>
 						<li><a href="product.php">離心機</a></li>
 						<li><a href="product.php">乾浴器</a></li>
@@ -44,7 +44,7 @@
 					<a href="javascript:void 0;" class="hide_txt">塑膠耗材</a>
 					<ul id="subMenu4" class="prod-subMenu">
 						<span id="closeBtn4" class="btn btn-close"></span>
-						<li ng-repeat="pc4 in prodCategory4"><a href="product1.php?cate=4&subCate={{$index + 1}}">{{pc4}}</a></li>
+						<li ng-repeat="pc4 in prodCategory4"><a href="product1.php?cate=4_{{$index}}">{{pc4}}</a></li>
 <!-- 						<li><a href="product.php">分注器</a></li>
 						<li><a href="product.php">離心機</a></li>
 						<li><a href="product.php">乾浴器</a></li>
@@ -60,7 +60,7 @@
 					<a href="javascript:void 0;" class="hide_txt">引子合成</a>
 					<ul id="subMenu5" class="prod-subMenu">
 						<span id="closeBtn5" class="btn btn-close"></span>
-						<li ng-repeat="pc5 in prodCategory5"><a href="product1.php?cate=5&subCate={{$index + 1}}">{{pc5}}</a></li>
+						<li ng-repeat="pc5 in prodCategory5"><a href="product1.php?cate=5_{{$index}}">{{pc5}}</a></li>
 						<li><a href="product.php">分注器</a></li>
 						<li><a href="product.php">離心機</a></li>
 						<li><a href="product.php">乾浴器</a></li>

@@ -452,5 +452,141 @@ function prodCateCtrl($scope) {
 
 	];
 
+/*----------------------------------------------------------------------------*\
+/*----------------------------------------------------------------------------*\
+/*----------------------------------------------------------------------------*\
+	儀器 > 分注器
+\*----------------------------------------------------------------------------*/
+	$scope.prodCategory2_0 = [
+{
+	nameTw: "HTL可調速充電吸管輔助器 HTL-0390",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "HTL可調速液晶電量顯示充電吸管輔助器 HTL-0352",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "Denville單爪微量分注器　XL 3000i系列",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "B-pette 吸球式吸管輔助器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "美國LABNET電動微量分注器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "HTL可調速充電吸管輔助器 HTL-0302",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "插電式吸管輔助器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "充電吸管輔助器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "可調速充電攜帶式吸管輔助器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "8/12爪微量分注器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "Eppendorf Research單爪微量分注器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "Gilson 8爪微量分注器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "Gilson單爪微量分注器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+},
+{
+	nameTw: "8/12爪微量分注器",
+	category: "儀器 > 分注器",
+	img: "category2_1/",
+	link: "productCnt.php?cate=2_1&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ""
+}
+
+
+	];
+
 
 }

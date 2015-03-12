@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.asideWrapper {
+	z-index: 99;
+}
+
 .prod {
 	&-classi-item {
 		@include wh(100%, 51px);

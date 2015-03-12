@@ -68,15 +68,15 @@
 ?>
 		<div class="prod-cntTop">
 			<div class="prod-cntTop-pic ib">
-				<div class="pic"><img src="upload/product/{{prodCategory1[<?php echo $item; ?>].img}}.jpg" alt=""></div>
+				<div class="pic"><img src="upload/product/{{prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].img}}.jpg" alt=""></div>
 			</div>
 			<div class="prod-cntTop-cnt ib">
 				<div class="pord-name">
 					<span class="en"></span>
-					<span class="tw">{{prodCategory1[<?php echo $item; ?>].nameTw}}</span>
+					<span class="tw">{{prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].nameTw}}</span>
 				</div>
 				<div class="btn btn-prod-golist">
-					{{prodCategory1[<?php echo $item; ?>].category}}
+					{{prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].category}}
 					<div class="btn-prod-golist-hover">
 						<i class="fa fa-caret-left ib"></i>
 						<i class="fa fa-caret-left ib"></i>
@@ -89,8 +89,8 @@
 		<div id="productCnt" class="prod-cntMain lazyload">
 			<!-- 圖文編輯器 -->
 
-			<img data-original="upload/product/{{ prodCategory1[<?php echo $item; ?>].cnt1[0]}}.jpg" alt="" class="temp">
-			<img data-original="upload/product/{{ prodCategory1[<?php echo $item; ?>].cnt1[1]}}.jpg" alt="" class="temp">
+			<img data-original="upload/product/{{ prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].cnt1[0]}}.jpg" alt="" class="temp">
+			<img data-original="upload/product/{{ prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].cnt1[1]}}.jpg" alt="" class="temp">
 			
 			<!-- <img src="images/temp/tem10.jpg" alt="" class="temp"> -->
 		</div>

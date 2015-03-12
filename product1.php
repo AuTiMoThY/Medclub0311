@@ -1,3 +1,9 @@
+<?php
+	$cate = isset($_GET['cate']) ? $_GET['cate'] : 1;
+	$item = isset($_GET['item']) ? $_GET['item'] : null;
+
+?>
+
 <!doctype html>
 <!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="zh"> <![endif]-->
 <!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="zh"> <![endif]-->
@@ -61,16 +67,17 @@
 	</aside>
 	<section class="container lazyload">
 		<ul class="cf">
-			<li class="prod-item" ng-repeat="prodCategory1 in prodCategory1">
-				<figure><a href="{{prodCategory1.link}}" target="{{prodCategory1.target}}">
-					<div class="pic"><img data-original="upload/product/{{prodCategory1.img}}.jpg" alt=""></div>
+			<li class="prod-item" ng-repeat="prodCategory in prodCategory<?php echo $cate; ?>">
+				<figure><a href="{{prodCategory.link}}" target="{{prodCategory.target}}">
+					<div class="pic"><img data-original="upload/product/{{prodCategory.img}}.jpg" alt=""></div>
 					<figcaption>
+						<span style="display:none;">{{$index}}</span>
 						<div class="prod-name">
 							<div class="prod-name-en"></div>
-							<div class="prod-name-tw">{{$index}}{{prodCategory1.nameTw}}</div>
+							<div class="prod-name-tw">{{prodCategory.nameTw}}</div>
 						</div>
 						<div class="btn btn-goProdCnt">
-							{{prodCategory1.category}}
+							{{prodCategory.category}}
 							<div class="btn-goProdCnt-hover">
 								LEARN MORE
 							</div>
