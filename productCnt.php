@@ -49,7 +49,7 @@
 </h1>
 
 
-<article id="main" class="prod_page-main">
+<article id="main" class="prod_page-main" ng-controller="prodCateCtrl">
 <div class="wrapper cf">
 	<aside id="prodAside" class="leftAside prod-aside">
 <?php
@@ -59,11 +59,12 @@
   include_once 'inc/prodAside.php';
  ?>
 	</aside>
-	<section class="container" ng-controller="prodCateCtrl">
+	<section class="container">
 <?php
 	$cate = isset($_GET['cate']) ? $_GET['cate'] : null;
 	$item = isset($_GET['item']) ? $_GET['item'] : null;
 
+	// print_r($cate);
 	// print_r($item);
 ?>
 		<div class="prod-cntTop">
@@ -80,7 +81,7 @@
 					<div class="btn-prod-golist-hover">
 						<i class="fa fa-caret-left ib"></i>
 						<i class="fa fa-caret-left ib"></i>
-						<span class="txt ib"><a href="product<?php echo $cate; ?>.php">回到列表</a></span>
+						<span class="txt ib"><a href="product1.php?cate=<?php echo $cate; ?>">回到列表</a></span>
 					</div>
 				</div>
 			</div>
@@ -90,13 +91,14 @@
 			<!-- 圖文編輯器 -->
 
 			<img data-original="upload/product/{{ prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].cnt1[0]}}.jpg" alt="" class="temp">
+			<br>
 			<img data-original="upload/product/{{ prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].cnt1[1]}}.jpg" alt="" class="temp">
 			
 			<!-- <img src="images/temp/tem10.jpg" alt="" class="temp"> -->
 		</div>
 		<div class="btns new-btns">
 			<span class="btn btn-prev"><a href="">上一件商品</a></span>
-			<span class="btn btn-goList"><a href="product<?php echo $cate; ?>.php">回到列表</a></span>
+			<span class="btn btn-goList"><a href="product1.php?cate=<?php echo $cate; ?>">回到列表</a></span>
 			<span class="btn btn-next"><a href="">下一件商品</a></span>
 		</div>
 	</section>

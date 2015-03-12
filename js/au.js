@@ -67,6 +67,14 @@ $(function () {
 		alert('系統設定維護中，敬請見諒');
 		return false;
 	});
+	$(".nav-Medclub.item6 a").click(function(event) {
+		alert('系統設定維護中，敬請見諒');
+		return false;
+	});
+	$(".nav-Medclub.item7 a").click(function(event) {
+		alert('系統設定維護中，敬請見諒');
+		return false;
+	});
 	$(".nav-Medclub.item8 a").click(function(event) {
 		alert('系統設定維護中，敬請見諒');
 		return false;
