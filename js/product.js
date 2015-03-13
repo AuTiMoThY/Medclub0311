@@ -2523,10 +2523,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Superladder - Low 20bp Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220237s",
 	link: "productCnt.php?cate=3_2&item=18",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220237c",""]
 },
 {
 	nameTw: "Electro-Fast ?Marker",
