@@ -1,0 +1,185 @@
+#top {
+	// @include wh(100%, 10px);
+	// @include bg(#000);
+}
+
+/*========================================================================*\
+		>>	global_hd  quick_bar  logo
+\*========================================================================*/
+header {
+	&.global_hd {
+		// @include wh(100%, $header_h + $nav_h);
+		@include bg(#fff);
+		nav {
+			// margin-left: 35%;
+			// margin-right: 1%;
+		}
+	}// header.global_hd  END
+	&#logo {
+		@include wh(logo, png);
+		@include vc;
+		right: 0;
+		left: 0;
+		a {
+			@include wh;
+			display: block;
+		}
+	}// header#logo  END
+}
+.header {
+	&-hd {
+		@include wh(100%, $header_h);
+	}
+	&-nav {
+		@include wh(100%, $nav_h);
+		@include bg($normal_color);
+		.wrapper {
+			height: 100%;
+		}
+	}
+}
+/*========================================================================*\
+		>>	main_nav
+\*========================================================================*/
+%FullWH-nav {
+	@include wh;
+}
+.main_nav {
+	@extend %FullWH-nav;
+	// position: relative;
+	ul {
+		@extend %FullWH-nav;
+	}
+	&-item {
+		width: (100% / 8);
+		height: 100%;
+		// @include VerticalAlign;
+		transition: all 0.3s $easeInOutCubic2;
+		a, span {
+			display: block;
+			text-align: center;
+		}
+		a {
+			@extend %FullWH-nav;
+			border-right: 1px solid $breakLine1;
+			border-left: 1px solid $breakLine2;
+		}
+		&:first-of-type {
+			a {
+				border-left: none;
+			}
+		}
+		&:nth-of-type(8) {
+			a {
+				border-right: none;
+			}
+		}
+		&:hover {
+			@include bg(lighten($normal_color, 5%));
+		}
+		.wrap {
+			@include wh(68px, 100%);
+			// height: 100%;
+			margin: 0 auto;
+		}
+		@each $navItem, $x, $y in (item1, 0, -51px),
+									   (item2, -79px, -51px),
+									   (item3, -155px, -51px),
+									   (item4, -243px, -51px),
+									   (item5, -358px, -51px),
+									   (item6, -485px, -51px) {
+			&.#{$navItem}:hover .main_nav-icon {
+				// @include bg('navIcon.png', $x, $y);
+			}
+		}
+	}// .main_nav-item  END
+	&-icon {
+		// height: 31px;
+		// margin-bottom: 0.5em;
+		// @include transition(all 0.3s $easeInOutCubic);
+		@each $navItem, $w, $x, $y in (item1, 34px, 0, 0),
+									  (item2, 37px, -79px, 0),
+									  (item3, 43px, -155px, 0),
+									  (item4, 69px, -243px, 0),
+									  (item5, 78px, -358px, 0),
+									  (item6, 53px, -485px, 0) {
+			.#{$navItem} & {
+				width: #{$w};
+				// @include bg('navIcon.png', $x, $y);
+			}
+		}
+	}// .main_nav-icon  END
+	&-txt {
+		@include wh(68px, 17px);
+		@include bg-t;
+		@include hide_text;
+		@include vc;
+		transition: all 0.3s $easeInOutCubic2;
+		@each $navTxt, $x in 
+		(item1, -114px * 0 - 1px * 0), 
+		(item2, -114px * 1 - 1px * 0), 
+		(item3, -114px * 2 - 1px * 1),
+		(item4, -114px * 3 - 1px * 2),
+		(item5, -114px * 4 - 1px * 3),
+		(item6, -114px * 5 - 1px * 4),
+		(item7, -114px * 6 - 1px * 5),
+		(item8, -114px * 7 - 1px * 6){
+			li.#{$navTxt} & {
+				@include bg($x, 0);
+			}
+			li.#{$navTxt}:hover & {
+				@include bg($x, -22px);
+			}
+			li.#{$navTxt}.active & {
+				@include bg($x, -22px);
+			}
+		}
+	}// .main_nav-txt  END
+}
+/*========================================================================*\
+		>>	quick_login
+\*========================================================================*/
+.quick_login {
+	position: absolute;
+	top: 5%;
+	right: 0;
+	&-wrap {
+		width: 115px;
+		// @include bg(lighten(#000, 23%));
+		// color: #fff;
+		// @include adjust-font-size-to(13px);
+		// padding: 0.3em 0.8em;
+		// margin-bottom: 3px;
+		// border-radius: 14px;
+		display: block;
+		text-align: center;
+		&:hover {
+			// box-shadow: 1px 1px 3px #333;
+			// @include hover;
+		}
+		.icon {
+			@include wh(28px, 22px);
+			@include bg-i();
+		}
+		.btn {
+
+		}
+	}
+
+	// .fb_btn {
+	// 	color: #fff;
+	// 	@include adjust-font-size-to(13px);
+	// 	display: block;
+	// 	.icon {
+	// 		@include wh(60px, 12px);
+	// 		// @include bg('fbLogo.png');
+	// 		background-size: cover;
+	// 		display: inline-block;
+	// 	}
+	// 	&:hover {
+	// 		@include hover;
+	// 	}
+	// }
+
+}
+

@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+
+
+
+button.btn {
+	// padding-top: 0;
+	// padding-bottom: 0;
+	// margin-bottom: 0;
+}
+
+.btns {
+	position: relative;
+}
+
+.btn {
+	@include bg(#727171);
+	// @include transition(all 0.3s ease-in-out);
+	position: relative;
+	// padding: 8px 30px;
+	border: 0;
+	// margin: 10px 1px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgba(255, 255, 255, .84);
+	// -webkit-transition: box-shadow .28s cubic-bezier(0.4, 0, .2, 1);
+	// transition: box-shadow .28s cubic-bezier(0.4, 0, .2, 1);
+	@include transition(all 0.3s cubic-bezier(0.4, 0, .2, 1));
+	outline: 0!important;
+	display: table;
+	a, input {
+		padding: 6px 13px;
+		color: #fff;
+		font-size: $fz-L;
+		font-weight: bolder;
+		letter-spacing: 1px;
+	}
+	a {
+		display: table-cell;
+	}
+	input, button {
+		border: none;
+		background: none;
+	}
+	&:hover {
+		@include bg(#007BBF);
+		@include box-shadow(1px 1px 3px #999);
+		a, input {
+			color: #fff;
+		}
+	}
+	&:active {
+		@include hover();
+	}
+
+	button & {
+		@include wh;
+	}
+
+
+/*========================================================================*\
+	>>	btn	project 
+\*========================================================================*/
+	&-quick_login {
+		@include bg(transparent);
+		padding: 0.2em 0.6em;
+		border: 1px solid #727171;
+		border-radius: 10px;
+		display: inline-block;
+		button {
+			@include wh(53px, 14px);
+			@include bg-t(-877px, 0);
+		}
+		&:hover {
+			button {
+				@include bg(-877px, -22px);
+			}
+		}
+		&.signOut {
+			button {
+				@include bg-t(-930px, 0);
+			}
+			&:hover {
+				button {
+					@include bg(-930px, -22px);
+				}
+			}
+		}
+	}
+	&-more {
+		@include bg(transparent);
+		border-radius: 0;
+		border: 1px solid $normal_color;
+		&:hover {
+			border: 1px solid $normal_color2;
+		}
+		a {
+			color: $normal_color;
+			padding: 0.8em;
+		}
+	}
+
+	@include atRoot{
+/*========================================================================*\
+	>>	btn	new
+\*========================================================================*/
+	%common {
+		position: absolute;
+		top: 0;
+		@include bg(transparent);
+		a {
+			color: $normal_color;
+		}
+		&:hover {
+			@include bg(transparent);
+			box-shadow: none !important;
+			a {
+				color: darken($normal_color, 20%);
+			}
+		}
+	}
+
+	&-goList {
+		@include bg($normal_color);
+		margin: auto;
+	}
+
+	&-prev {
+		@extend %common;
+		left: 3em;
+		&:before {
+			@include psudoClass;
+			@include wh(27px);
+			@include bg-i(-47px, 0);
+			position: absolute;
+			left: -13px;
+		}
+	}
+	&-next {
+		@extend %common;
+		right: 3em;
+		&:after {
+			@include psudoClass;
+			@include wh(27px);
+			@include bg-i(-47px, 0);
+			position: absolute;
+			right: -13px;
+			transform: rotate(180deg);
+		}
+	}
+	};
+
+	&-close {
+		@include wh(16px);
+		@include bg-i(-94px, 0);
+		border-radius: 0;
+	}
+	&-goTop {
+		@include wh(147px, 107px);
+		@include bg(transparent);
+		@include shadow2;
+		border-radius: 10px;
+		display: block;
+		margin: auto;
+		a {
+			padding: 0;
+		}
+		&:hover {
+			@include bg(transparent);
+		}
+	}
+	&-goProdCnt {
+		@include wh(100%, 27px);
+		@include bg($normal_color2);
+		border-radius: 0;
+		padding: 0 1.5em;
+		line-height: 27px;
+		&-hover {
+			padding: 0 1.5em;
+			line-height: 27px;
+		}
+	}
+	&-prod-golist {
+		@include wh(100%, 27px);
+		@include bg($normal_color2);
+		border-radius: 0;
+		padding: 0 1.5em;
+		line-height: 27px;
+		position: relative;
+		&-hover {
+			@include wh;
+			top: 0;
+			left: 0;
+			position: absolute;
+			padding: 0 1.5em;
+			line-height: 27px;
+			@include opacity(0);
+			a {
+				padding: 0;
+			}
+			i {
+				color: #000;
+			}
+		}
+		&:hover {
+			.btn-prod-golist-hover {
+				@include bg($normal_color);
+				@include opacity(1);
+				a {
+					color: #000;
+				}
+			}
+		}
+	}
+
+
+	@include atRoot{
+/*========================================================================*\
+	>>	btn	common
+\*========================================================================*/
+	%btnCommon {
+		@include bg(transparent);
+		border-radius: 0;
+		border: 1px solid $normal_color;
+		button {
+			width: 100%;
+			padding: 0.5em 0.8em;
+			color: $normal_color;
+		}
+		&:hover {
+			border: 1px solid $normal_color2;
+			button {
+				color: #fff;
+			}
+		}
+	}
+	&-service {
+		@include bg($normal_color);
+		border-radius: 0;
+		@include col;
+		padding: 0 0.5em;
+		input {
+			font-weight: normal;
+		}
+	}
+	&-loginInp {
+		@extend %btnCommon;
+	}
+	&-change_pw {
+		@extend %btnCommon;
+	}
+	&-change_confirm {
+		@extend %btnCommon;
+	}
+	&-change_undo {
+		@extend %btnCommon;
+	}
+	};
+
+	@include atRoot{
+/*========================================================================*\
+	>>	btn	點數查詢
+\*========================================================================*/
+	&-point {
+		@include wh(85px, 30px);
+		@include background-image(linear-gradient(#686868, #353535));
+		@include adjust-font-size-to(16px);
+		border-radius: 0;
+		display: inline-block;
+		button {
+			@include wh;
+			text-align: center;
+		}
+		&.q {
+			position: relative;
+			top: -2px;
+		}
+	}
+	&-exchange {
+		@include bg(#f5cb4c);
+		border-radius: 0;
+		border: 1px solid #fff;
+		button {
+			padding: 0.3em 0.4em;
+			color: #000;
+		}
+	}
+	};
+
+}

@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+.asideWrapper {
+	z-index: 99;
+}
+
+.prod {
+	&-classi-item {
+		@include wh(100%, 51px);
+		@include bg('leftAside.png');
+		border-left: 6px solid $normal_color;
+		float: none;
+		margin-bottom: 0.3em;
+		box-shadow: 0px 3px 8px rgba(#000, 0.3);
+		transition: all 0.3s $easeInOutCubic2;
+		position: relative;
+		@each $var, $y in
+			(item1, -55px * 0),
+			(item2, -55px * 1),
+			(item3, -55px * 2),
+			(item4, -55px * 3),
+			(item5, -55px * 4) {
+			&.#{$var} {
+				@include bg(0, $y);
+			}
+		}
+		&:hover {
+			border-left: 6px solid $normal_color2;
+			box-shadow: 0px 3px 8px rgba(#000, 0.8);
+		}
+		a {
+			@include wh;
+			display: block;
+		}
+	}
+	&-subMenu {
+		display: none;
+		// min-width: 558px;
+		min-height: 365px;
+		width: 558px;
+		// @include wh(558px, 365px);
+		@include bg(#0b1533);
+		// @include bg(fixed);
+		box-shadow: 0px 3px 8px rgba(#000, 0.3);
+		padding: 0.8em 1.5em;
+		position: absolute;
+		top: 0;
+		left: 260px;
+		z-index: 10;
+		// @include column-count(3);
+		&:before {
+			@include psudoClass;
+			@include triPrev(#204ed1, 15px);
+			position: absolute;
+			top: 12px;
+			left: -27px;
+		}
+		&:after {
+			@include psudoClass;
+			@include wh;
+			@include bg('leftAsideSubMenu.png', 0, 0, no-repeat);
+			background-size: cover;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+		li {
+			min-width: 40%;
+			// float: none;
+		}
+		.btn-close {
+			position: absolute;
+			top: 16px;
+			right: 16px;
+		}
+		a {
+			color: #fff;
+			@include adjust-font-size-to(15px, 1.5);
+			position: relative;
+			white-space: nowrap;
+			&:hover {
+				color: $normal_color;
+				&:before {
+					@include psudoClass;
+					@include triNext($normal_color, 5px);
+					position: absolute;
+					left: -13px;
+					top: 12px;
+				}
+			}
+		}
+	}
+	&-aside {
+		.searchBlock {
+			@include rhythm-margins(0.5, 0.8);
+			padding: 0.7em 1em;
+			@include shadow2;
+			@include bg($normal_color);
+			form {
+				@include wh;
+				position: relative;
+			}
+			.txt {
+				@include wh(154px, 14px);
+				@include bg-t(-574px, -80px);
+				margin: 0 auto 0.5em;
+			}
+			.inp-search {
+				border-radius: 25px;
+				@include background-image(linear-gradient(#232323, #515151));
+				border: none;
+				box-shadow: inset 0px -1px 0 1px rgba(#fff, 0.8);
+				color: #fff;
+			}
+			.btn {
+				@include bg(transparent);
+				position: absolute;
+				right: 9px;
+				bottom: 9px;
+			}
+		}
+	}
+	&-item {
+		width: 228px;
+		@include shadow2;
+		margin-left: 0.34em;
+		margin-bottom: 1em;
+		.pic {
+			position: relative;
+			@include wh(227px, 245px);
+			@include bg(#fff);
+			margin: auto;
+			img {
+				@include vc;
+			}
+		}
+		figcaption {
+			width: 100%;
+			@include adjust-font-size-to(15px, 0.8);
+		}
+		.btn-goProdCnt {
+			position: relative;
+			text-align: left;
+			&-hover {
+				@include wh;
+				@include opacity(0);
+				transition: all 0.3s $easeInOutCubic2;
+				color: #000;
+				position: absolute;
+				top: 0;
+				left: 0;
+				&:before {
+					content: '';
+					display: inline-block;
+					@include triNext(#000, 5px);
+					position: absolute;
+					left: 140px;
+					top: 0.6em;
+				}
+				&:after {
+					content: '';
+					display: inline-block;
+					@include triNext(#000, 5px);
+					margin-left: 0.3em;
+				}
+			}
+		}
+		&:hover {
+			@include shadow2(0.8);
+			.btn-goProdCnt-hover {
+				@include opacity(1);
+				@include bg($normal_color);
+			}
+			.prod-name{
+				color: #000;
+			}
+		}
+	}
+	&-name {
+		width: 100%;
+		height: 70px;
+		padding: 1em 1.5em;
+		color: $Grey_color1;
+		&.ellipsis {
+			.prod-name {
+				&-en {
+					@include ellipsis;
+				}
+				&-tw {
+					@include ellipsis;
+				}
+			}
+		}
+		&-en {
+			width: 100%;
+		}
+		&-tw {
+			width: 100%;
+		}
+	}
+	&-cntTop {
+		@include bg(#fff);
+		@include shadow2;
+		padding: 3em 5em;
+		.pord-name {
+			@include adjust-font-size-to(21px, 1.5);
+			margin-bottom: 0.8em;
+			span {
+				width: 100%;
+				display: block;
+			}
+		}
+		&-pic {
+			@include wh(240px, 260px);
+			border: 1px solid #000;
+		}
+		&-cnt {
+			width: 300px;
+			padding-left: 1em;
+		}
+	}
+	&-cntMain {
+		@include rhythm-margins(0.8);
+		@include shadow2;
+		padding: 1em;
+	}
+}

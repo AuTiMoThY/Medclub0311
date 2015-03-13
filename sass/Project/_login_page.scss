@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.login_page {
+	&-main {
+		section {
+			width: 49%;
+			@include bg(#fff);
+			@include shadow2;
+			padding: 3em 3.25em;
+			&:first-of-type {
+				margin-right: 1.5%;
+			}
+		}
+		h1 {
+
+		}
+		ul {
+			width: 85%;
+			margin: auto;
+			padding-top: 1em;
+		}
+		li {
+			width: 100%;
+			float: none;
+			margin-bottom: 0.8em;
+		}
+		label, input {
+			@include ib;
+		}
+		label {
+			min-width: 13%;
+			&.epaper {
+				@include adjust-font-size-to(11px);
+			}
+		}
+		input[type="text"],
+		input[type="password"] {
+			width: 86%;
+		}
+		.btn {
+			margin: auto;
+		}
+	}
+	&-login {
+		h1 {
+			@include wh(371px, 64px);
+			@include bg-t(0, -464px);
+		}
+		&.forgot {
+			// margin-right: 0 !important;
+			margin: auto !important;
+			display: block;
+			h1 {
+				@include bg(0, -600px);
+			}
+		}
+	}
+	&-register {
+		h1 {
+			@include wh(371px, 64px);
+			@include bg-t(-376px, -464px);
+		}
+	}
+}

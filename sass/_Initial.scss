@@ -1,0 +1,78 @@
+.hide_txt {
+	@include hide_txt;
+}
+.hide_text {
+	@include hide_text;
+}
+
+.wrapper {
+	@include wh($cnt_width, 100%);
+	margin: 0 auto;
+	position: relative;
+}
+.well {
+	width: $cnt_width;
+	margin: auto;
+	position: relative;
+}
+
+html, body {
+	min-height: 100%;
+	min-width: $cnt_width;
+}
+
+body {
+	// @include bg('bg.jpg');
+	// @include background-size(cover);
+	// @include bg(scroll);
+	font-family: $normal_font;
+}
+
+
+.pic {
+	width: 100%;
+	overflow: hidden;
+	img {
+		@include picImg;
+	}
+}
+
+.swing {
+	-webkit-transform-origin: 50% 80%;
+	-ms-transform-origin: 50% 80%;
+	transform-origin: 50% 80%;
+}
+
+.temp {
+	display: block;
+	margin: 0 auto;
+}
+.ib {
+	@include ib;
+}
+.col-2 {
+	@include col-2;
+}
+.col-3 {
+	@include col-3;
+}
+.col-4 {
+	@include col-4;
+}
+.col {
+	@include col;
+}
+
+.w100 {
+	width: 100%;
+	*:not(.rew) {
+		width: 100%;
+	}
+}
+
+
+.containerEditer {
+	li {
+		float: none;
+	}
+}
