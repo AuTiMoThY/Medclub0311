@@ -2285,35 +2285,219 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	儀器 > 超音波洗淨機
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory2_21 = [];
+	$scope.prodCategory2_21 = [
+{
+	nameTw: "經濟型超音波清洗機",
+	category: "儀器 > 超音波洗淨機",
+	img: "category2_21/",
+	link: "productCnt.php?cate=2_21&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_21/",""]
+},
+{
+	nameTw: "Branson超音波清洗機",
+	category: "儀器 > 超音波洗淨機",
+	img: "category2_21/",
+	link: "productCnt.php?cate=2_21&item=1",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_21/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	儀器 > 純水系統
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory2_22 = [];
+	$scope.prodCategory2_22 = [
+{
+	nameTw: "Rephile Direct-Pure EDI 純水系統",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+},
+{
+	nameTw: "Rephile Dired-Pure UP 超純水暨純水系統",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=1",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+},
+{
+	nameTw: "PURIST® UV超純水",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=2",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+},
+{
+	nameTw: "PURIST Plus超純水系統及 PURIST超純水系統",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=3",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+},
+{
+	nameTw: "Direct-Pure Plus 超純水及二級RO純水組合型",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=4",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+},
+{
+	nameTw: "Direct-Pure Plus 超純水及RO純水組合型",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=5",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+},
+{
+	nameTw: "Alpha-Pure純水系統",
+	category: "儀器 > 純水系統",
+	img: "category2_22/",
+	link: "productCnt.php?cate=2_22&item=6",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_22/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	儀器 > 天平
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory2_23 = [];
+	$scope.prodCategory2_23 = [
+{
+	nameTw: "AB-S系列微量分析天平",
+	category: "儀器 > 天平",
+	img: "category2_23/",
+	link: "productCnt.php?cate=2_23&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_23/",""]
+},
+{
+	nameTw: "PB-S系列分析天平",
+	category: "儀器 > 天平",
+	img: "category2_23/",
+	link: "productCnt.php?cate=2_23&item=1",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_23/",""]
+},
+{
+	nameTw: "AX / MX / UMX 系列微量分析天平",
+	category: "儀器 > 天平",
+	img: "category2_23/",
+	link: "productCnt.php?cate=2_23&item=2",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_23/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	儀器 > 微量盤分光光度計
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory2_24 = [];
+	$scope.prodCategory2_24 = [
+{
+	nameTw: "Nano-200 核酸專用微量分光光度計",
+	category: "儀器 > 微量盤分光光度計",
+	img: "category2_24/",
+	link: "productCnt.php?cate=2_24&item=0",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_24/",""]
+},
+{
+	nameTw: "OPTICA 微量盤可見光分光光度計",
+	category: "儀器 > 微量盤分光光度計",
+	img: "category2_24/",
+	link: "productCnt.php?cate=2_24&item=1",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_24/",""]
+},
+{
+	nameTw: "SAFIRE全波長微量盤分光光度計",
+	category: "儀器 > 微量盤分光光度計",
+	img: "category2_24/",
+	link: "productCnt.php?cate=2_24&item=2",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_24/",""]
+},
+{
+	nameTw: "可見光／紫外光／螢光／微量盤分光光度計",
+	category: "儀器 > 微量盤分光光度計",
+	img: "category2_24/",
+	link: "productCnt.php?cate=2_24&item=3",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_24/",""]
+},
+{
+	nameTw: "GENios可見光／冷光微量盤分光光度計",
+	category: "儀器 > 微量盤分光光度計",
+	img: "category2_24/",
+	link: "productCnt.php?cate=2_24&item=4",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_24/",""]
+},
+{
+	nameTw: "SUNRISE可見光微量盤分光光度計",
+	category: "儀器 > 微量盤分光光度計",
+	img: "category2_24/",
+	link: "productCnt.php?cate=2_24&item=5",
+	target: "",
+	isFancybox: "",
+	cnt1: ["category2_24/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	儀器 > ELISA盤清洗機
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory2_25 = [];
+	$scope.prodCategory2_25 = [
+{
+	nameTw: "1575型清洗器 (Bio-Rad)",
+
+},
+{
+	nameTw: "Autura 1000 自動微量盤清洗機",
+
+},
+{
+	nameTw: "200系列手動微量盤",
+
+},
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
