@@ -178,12 +178,6 @@
 				color: #000;
 			}
 		}
-		&.ngHidden {
-			visibility: hidden;
-			&.ng-scope {
-				visibility: visible;
-			}
-		}
 	}
 	&-name {
 		width: 100%;
@@ -223,6 +217,7 @@
 			@include wh(240px, 260px);
 			border: 1px solid #000;
 			position: relative;
+			overflow: hidden;
 			img {
 				@include vc;
 				right: 0;
@@ -238,5 +233,17 @@
 		@include rhythm-margins(0.8);
 		@include shadow2;
 		padding: 1em;
+	}
+}
+
+
+
+.ngHidden {
+	visibility: hidden;
+	&.ng-scope {
+		visibility: visible;
+	}
+	&.ng-binding {
+		visibility: visible;
 	}
 }

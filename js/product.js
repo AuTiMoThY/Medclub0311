@@ -171,7 +171,7 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Alpha-Pure純水系統",
 	category: "新產品",
-	img: "category1/1006010011",
+	img: "category2_22/1006010011s",
 	link: "upload/product/category1/1006010011.pdf",
 	target: "_blank", isFancybox: "",
 	cnt1: ""
@@ -187,7 +187,7 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Direct-Pure Plus 超純水及二級RO純水組合型",
 	category: "新產品",
-	img: "category1/1006010009s",
+	img: "category2_22/1006010009s",
 	link: "upload/product/category1/1006010009.pdf",
 	target: "_blank", isFancybox: "",
 	cnt1: ""
@@ -1885,26 +1885,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "大容量細胞培養轉動器",
 	category: "儀器 > 細胞培養轉動器",
-	img: "category2_16/",
+	img: "category2_16/0408220185s",
 	link: "productCnt.php?cate=2_16&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_16/",""]
+	cnt1: ["category2_16/0408220185c",""]
 },
 {
 	nameTw: "雙槽式小型細胞培養轉動器",
 	category: "儀器 > 細胞培養轉動器",
-	img: "category2_16/",
+	img: "category2_16/0408220183s",
 	link: "productCnt.php?cate=2_16&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_16/",""]
+	cnt1: ["category2_16/0408220183c",""]
 },
 {
 	nameTw: "四槽式小型細胞培養轉動器",
 	category: "儀器 > 細胞培養轉動器",
-	img: "category2_16/",
+	img: "category2_16/0408220181s",
 	link: "productCnt.php?cate=2_16&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_16/",""]
+	cnt1: ["category2_16/0408220181c",""]
 }
 
 	];
@@ -1919,26 +1919,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Torrey Pines電磁加熱攪拌器",
 	category: "儀器 > 電磁加熱攪拌器",
-	img: "category2_17/",
+	img: "category2_17/0408220188s",
 	link: "productCnt.php?cate=2_17&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_17/",""]
+	cnt1: ["category2_17/0408220188c",""]
 },
 {
 	nameTw: "LABTECH電磁加熱攪拌器",
 	category: "儀器 > 電磁加熱攪拌器",
-	img: "category2_17/",
+	img: "category2_17/0408220187s",
 	link: "productCnt.php?cate=2_17&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_17/",""]
+	cnt1: ["category2_17/0408220187c",""]
 },
 {
 	nameTw: "Corning電磁加熱攪拌器",
 	category: "儀器 > 電磁加熱攪拌器",
-	img: "category2_17/",
+	img: "category2_17/0408220186s",
 	link: "productCnt.php?cate=2_17&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_17/",""]
+	cnt1: ["category2_17/0408220186c",""]
 }
 
 	];
@@ -1952,18 +1952,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "美式發酵槽",
 	category: "儀器 > 發酵槽",
-	img: "category2_18/",
+	img: "category2_18/0408220190s",
 	link: "productCnt.php?cate=2_18&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_18/",""]
+	cnt1: ["category2_18/0408220190c",""]
 },
 {
 	nameTw: "歐式發酵槽",
 	category: "儀器 > 發酵槽",
-	img: "category2_18/",
+	img: "category2_18/0408220189s",
 	link: "productCnt.php?cate=2_18&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_18/",""]
+	cnt1: ["category2_18/0408220189c",""]
 }
 
 	];
@@ -1977,58 +1977,58 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "72公升高溫高壓滅菌釜，含烘乾功能",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220197s",
 	link: "productCnt.php?cate=2_19&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220197c",""]
 },
 {
 	nameTw: "49公升高溫高壓滅菌釜，含烘乾功能",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220196s",
 	link: "productCnt.php?cate=2_19&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220196c",""]
 },
 {
 	nameTw: "24公升高溫高壓滅菌釜，含儲水，烘乾功能",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220195s",
 	link: "productCnt.php?cate=2_19&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220195c",""]
 },
 {
 	nameTw: "15公升高溫高壓滅菌釜，含儲水，烘乾功能",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220194s",
 	link: "productCnt.php?cate=2_19&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220194c",""]
 },
 {
 	nameTw: "24公升高溫高壓滅菌釜，含烘乾功能",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220193s",
 	link: "productCnt.php?cate=2_19&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220193c",""]
 },
 {
 	nameTw: "24公升高溫高壓滅菌釜",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220192s",
 	link: "productCnt.php?cate=2_19&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220192c",""]
 },
 {
 	nameTw: "15公升高溫高壓滅菌釜",
 	category: "儀器 > 滅菌釜",
-	img: "category2_19/",
+	img: "category2_19/0408220191s",
 	link: "productCnt.php?cate=2_19&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category2_19/",""]
+	cnt1: ["category2_19/0408220191c",""]
 }
 
 	];
@@ -2042,42 +2042,42 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "4titude 4s2 Thermal Sealer 電動半自動封盤機",
 	category: "儀器 > 封盤設備",
-	img: "category2_20/",
+	img: "category2_20/1101180017s",
 	link: "productCnt.php?cate=2_20&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_20/",""]
+	cnt1: ["category2_20/1101180017c",""]
 },
 {
 	nameTw: "ABgene手動實驗室熱封盤機",
 	category: "儀器 > 封盤設備",
-	img: "category2_20/",
+	img: "category2_20/0408220203s",
 	link: "productCnt.php?cate=2_20&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_20/",""]
+	cnt1: ["category2_20/0408220203c",""]
 },
 {
 	nameTw: "半自動實驗室熱封盤機",
 	category: "儀器 > 封盤設備",
-	img: "category2_20/",
+	img: "category2_20/0408220202s",
 	link: "productCnt.php?cate=2_20&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_20/",""]
+	cnt1: ["category2_20/0408220202c",""]
 },
 {
 	nameTw: "ABgene 自動化實驗室熱封盤機",
 	category: "儀器 > 封盤設備",
-	img: "category2_20/",
+	img: "category2_20/0408220200s",
 	link: "productCnt.php?cate=2_20&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category2_20/",""]
+	cnt1: ["category2_20/0408220200c",""]
 },
 {
 	nameTw: "ABgene 自動化實驗室封盤機 SEAL-IT100 TM",
 	category: "儀器 > 封盤設備",
-	img: "category2_20/",
+	img: "category2_20/0408220198s",
 	link: "productCnt.php?cate=2_20&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category2_20/",""]
+	cnt1: ["category2_20/0408220198c",""]
 }
 
 	];
@@ -2091,18 +2091,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "經濟型超音波清洗機",
 	category: "儀器 > 超音波洗淨機",
-	img: "category2_21/",
+	img: "category2_21/0408220208s",
 	link: "productCnt.php?cate=2_21&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_21/",""]
+	cnt1: ["category2_21/0408220208c",""]
 },
 {
 	nameTw: "Branson超音波清洗機",
 	category: "儀器 > 超音波洗淨機",
-	img: "category2_21/",
+	img: "category2_21/0408220207s",
 	link: "productCnt.php?cate=2_21&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_21/",""]
+	cnt1: ["category2_21/0408220207c",""]
 }
 
 	];
@@ -2116,58 +2116,58 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Rephile Direct-Pure EDI 純水系統",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category2_22/1304240004s",
 	link: "productCnt.php?cate=2_22&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1304240004c",""]
 },
 {
 	nameTw: "Rephile Dired-Pure UP 超純水暨純水系統",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category2_22/1304240003s",
 	link: "productCnt.php?cate=2_22&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1304240003c",""]
 },
 {
 	nameTw: "PURIST® UV超純水",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category2_22/1112090003s",
 	link: "productCnt.php?cate=2_22&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1112090003c",""]
 },
 {
 	nameTw: "PURIST Plus超純水系統及 PURIST超純水系統",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category1/1006010008s",
 	link: "productCnt.php?cate=2_22&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1006010008c",""]
 },
 {
 	nameTw: "Direct-Pure Plus 超純水及二級RO純水組合型",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category2_22/1006010009s",
 	link: "productCnt.php?cate=2_22&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1006010009c",""]
 },
 {
 	nameTw: "Direct-Pure Plus 超純水及RO純水組合型",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category2_22/1006170001s",
 	link: "productCnt.php?cate=2_22&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1006170001c",""]
 },
 {
 	nameTw: "Alpha-Pure純水系統",
 	category: "儀器 > 純水系統",
-	img: "category2_22/",
+	img: "category2_22/1006010011s",
 	link: "productCnt.php?cate=2_22&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category2_22/",""]
+	cnt1: ["category2_22/1006010011c",""]
 }
 
 	];
@@ -2181,26 +2181,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "AB-S系列微量分析天平",
 	category: "儀器 > 天平",
-	img: "category2_23/",
+	img: "category2_23/0408220219s",
 	link: "productCnt.php?cate=2_23&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_23/",""]
+	cnt1: ["category2_23/0408220219c",""]
 },
 {
 	nameTw: "PB-S系列分析天平",
 	category: "儀器 > 天平",
-	img: "category2_23/",
+	img: "category2_23/0408220218s",
 	link: "productCnt.php?cate=2_23&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_23/",""]
+	cnt1: ["category2_23/0408220218c",""]
 },
 {
 	nameTw: "AX / MX / UMX 系列微量分析天平",
 	category: "儀器 > 天平",
-	img: "category2_23/",
+	img: "category2_23/0408220216s",
 	link: "productCnt.php?cate=2_23&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_23/",""]
+	cnt1: ["category2_23/0408220216c",""]
 }
 
 	];
@@ -2214,50 +2214,50 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Nano-200 核酸專用微量分光光度計",
 	category: "儀器 > 微量盤分光光度計",
-	img: "category2_24/",
+	img: "category2_24/1210080001s",
 	link: "productCnt.php?cate=2_24&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_24/",""]
+	cnt1: ["category2_24/1210080001c",""]
 },
 {
 	nameTw: "OPTICA 微量盤可見光分光光度計",
 	category: "儀器 > 微量盤分光光度計",
-	img: "category2_24/",
+	img: "category2_24/0506230005s",
 	link: "productCnt.php?cate=2_24&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_24/",""]
+	cnt1: ["category2_24/0506230005c",""]
 },
 {
 	nameTw: "SAFIRE全波長微量盤分光光度計",
 	category: "儀器 > 微量盤分光光度計",
-	img: "category2_24/",
+	img: "category2_24/0408220223s",
 	link: "productCnt.php?cate=2_24&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_24/",""]
+	cnt1: ["category2_24/0408220223c",""]
 },
 {
 	nameTw: "可見光／紫外光／螢光／微量盤分光光度計",
 	category: "儀器 > 微量盤分光光度計",
-	img: "category2_24/",
+	img: "category2_24/0408220222s",
 	link: "productCnt.php?cate=2_24&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category2_24/",""]
+	cnt1: ["category2_24/0408220222c",""]
 },
 {
 	nameTw: "GENios可見光／冷光微量盤分光光度計",
 	category: "儀器 > 微量盤分光光度計",
-	img: "category2_24/",
+	img: "category2_24/0408220221s",
 	link: "productCnt.php?cate=2_24&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category2_24/",""]
+	cnt1: ["category2_24/0408220221c",""]
 },
 {
 	nameTw: "SUNRISE可見光微量盤分光光度計",
 	category: "儀器 > 微量盤分光光度計",
-	img: "category2_24/",
+	img: "category2_24/0408220220s",
 	link: "productCnt.php?cate=2_24&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category2_24/",""]
+	cnt1: ["category2_24/0408220220c",""]
 }
 
 	];
@@ -2271,26 +2271,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "1575型清洗器 (Bio-Rad)",
 	category: "儀器 > ELISA盤清洗機",
-	img: "category2_25/",
+	img: "category2_25/1112090006s",
 	link: "productCnt.php?cate=2_25&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category2_25/",""]
+	cnt1: ["category2_25/1112090006c",""]
 },
 {
 	nameTw: "Autura 1000 自動微量盤清洗機",
 	category: "儀器 > ELISA盤清洗機",
-	img: "category2_25/",
+	img: "category2_25/0506230004s",
 	link: "productCnt.php?cate=2_25&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category2_25/",""]
+	cnt1: ["category2_25/0506230004c",""]
 },
 {
 	nameTw: "200系列手動微量盤",
 	category: "儀器 > ELISA盤清洗機",
-	img: "category2_25/",
+	img: "category2_25/0506230002s",
 	link: "productCnt.php?cate=2_25&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category2_25/",""]
+	cnt1: ["category2_25/0506230002c",""]
 }
 
 	];
@@ -2304,50 +2304,50 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "MULTIAGAROSE CB-G0100",
 	category: "試劑 > Agarose",
-	img: "category3_0/",
+	img: "category3_0/1005310001s",
 	link: "productCnt.php?cate=3_0&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_0/",""]
+	cnt1: ["category3_0/1005310001c","category3_0/1005310001c1"]
 },
 {
 	nameTw: "MACRO ABGAROSE",
 	category: "試劑 > Agarose",
-	img: "category3_0/",
+	img: "category3_0/0408220227s",
 	link: "productCnt.php?cate=3_0&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_0/",""]
+	cnt1: ["category3_0/0408220227c",""]
 },
 {
 	nameTw: "MIDI ABGAROSE",
 	category: "試劑 > Agarose",
-	img: "category3_0/",
+	img: "category3_0/0408220226s",
 	link: "productCnt.php?cate=3_0&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category3_0/",""]
+	cnt1: ["category3_0/0408220226c",""]
 },
 {
 	nameTw: "MICRO ABGAROSE",
 	category: "試劑 > Agarose",
-	img: "category3_0/",
+	img: "category3_0/0408220225s",
 	link: "productCnt.php?cate=3_0&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category3_0/",""]
+	cnt1: ["category3_0/0408220225c",""]
 },
 {
 	nameTw: "AGAROSE 電泳瓊膠",
 	category: "試劑 > Agarose",
-	img: "category3_0/",
+	img: "category3_0/0408220224",
 	link: "productCnt.php?cate=3_0&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category3_0/",""]
+	cnt1: ["category3_0/0408220224c",""]
 },
 {
 	nameTw: "MULTI ABGAROSE",
 	category: "試劑 > Agarose",
-	img: "category3_0/",
+	img: "category3_0/0405170002s",
 	link: "productCnt.php?cate=3_0&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category3_0/",""]
+	cnt1: ["category3_0/0405170002c",""]
 },
 
 	];
@@ -2361,10 +2361,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "TPC溴化乙菲錠（EtBr）去污劑（廢溶液專用）",
 	category: "試劑 > Agarose",
-	img: "category3_1/",
+	img: "category3_1/0408220228s",
 	link: "productCnt.php?cate=3_1&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_1/",""]
+	cnt1: ["category3_1/0408220228c",""]
 }
 
 	];
@@ -2379,146 +2379,146 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "ΦX174 RF DNA Hae Ⅲ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220255s",
 	link: "productCnt.php?cate=3_2&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220255c",""]
 },
 {
 	nameTw: "pBR322 MspⅠ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220254s",
 	link: "productCnt.php?cate=3_2&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220254c",""]
 },
 {
 	nameTw: "pUC19 Sau3AⅠ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220253s",
 	link: "productCnt.php?cate=3_2&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220253c",""]
 },
 {
 	nameTw: "pHC624 Taq Ⅰ/ pMJ3 NciⅠ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220252s",
 	link: "productCnt.php?cate=3_2&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220252c",""]
 },
 {
 	nameTw: "ΦX174 RF DNA HinF I",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220251s",
 	link: "productCnt.php?cate=3_2&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220251c",""]
 },
 {
 	nameTw: "ΦX174 RF DNA Hinc Ⅱ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220250s",
 	link: "productCnt.php?cate=3_2&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220250c",""]
 },
 {
 	nameTw: "低分子量marker",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220249s",
 	link: "productCnt.php?cate=3_2&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220249c",""]
 },
 {
 	nameTw: "Lambda BstE Ⅱ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220248s",
 	link: "productCnt.php?cate=3_2&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220248c",""]
 },
 {
 	nameTw: "Lambda EcoR Ⅰ / Hind Ⅲ",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220247s",
 	link: "productCnt.php?cate=3_2&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220247c",""]
 },
 {
 	nameTw: "高分子量marker",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220246s",
 	link: "productCnt.php?cate=3_2&item=9",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220246c",""]
 },
 {
 	nameTw: "Superladder - Mid 2 Kit",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220245s",
 	link: "productCnt.php?cate=3_2&item=10",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220245c",""]
 },
 {
 	nameTw: "Superladder - Mid 1 Kit",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220244s",
 	link: "productCnt.php?cate=3_2&item=11",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220244c",""]
 },
 {
 	nameTw: "Superladder - Mid 1 kb Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220243s",
 	link: "productCnt.php?cate=3_2&item=12",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220243c",""]
 },
 {
 	nameTw: "Superladder - Mid 500bp Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220242s",
 	link: "productCnt.php?cate=3_2&item=13",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220242c",""]
 },
 {
 	nameTw: "Superladder - Mid 200bp Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220241s",
 	link: "productCnt.php?cate=3_2&item=14",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220241c",""]
 },
 {
 	nameTw: "Superladder - Mid 100bp Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220240s",
 	link: "productCnt.php?cate=3_2&item=15",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220240c",""]
 },
 {
 	nameTw: "Superladder - Low Kit",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220239s",
 	link: "productCnt.php?cate=3_2&item=16",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220239c",""]
 },
 {
 	nameTw: "Superladder - Low 100bp Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220238s",
 	link: "productCnt.php?cate=3_2&item=17",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220238c",""]
 },
 {
 	nameTw: "Superladder - Low 20bp Ladder",

@@ -74,9 +74,9 @@
 			<div class="prod-cntTop-cnt ib">
 				<div class="pord-name">
 					<span class="en"></span>
-					<span class="tw">{{prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].nameTw}}</span>
+					<span class="tw ngHidden">{{prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].nameTw}}</span>
 				</div>
-				<div class="btn btn-prod-golist">
+				<div class="btn btn-prod-golist ngHidden">
 					{{prodCategory<?php echo $cate; ?>[<?php echo $item; ?>].category}}
 					<div class="btn-prod-golist-hover">
 						<i class="fa fa-caret-left ib"></i>

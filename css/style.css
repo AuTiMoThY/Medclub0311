@@ -1918,12 +1918,6 @@ footer.copyright p {
 .prod-item:hover .prod-name {
   color: #000;
 }
-.prod-item.ngHidden {
-  visibility: hidden;
-}
-.prod-item.ngHidden.ng-scope {
-  visibility: visible;
-}
 .prod-name {
   width: 100%;
   height: 70px;
@@ -1971,6 +1965,7 @@ footer.copyright p {
   height: 260px;
   border: 1px solid #000;
   position: relative;
+  overflow: hidden;
 }
 .prod-cntTop-pic img {
   position: absolute;
@@ -1991,6 +1986,16 @@ footer.copyright p {
   margin-bottom: 1.2rem;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
   padding: 1em;
+}
+
+.ngHidden {
+  visibility: hidden;
+}
+.ngHidden.ng-scope {
+  visibility: visible;
+}
+.ngHidden.ng-binding {
+  visibility: visible;
 }
 
 /*------------------------------------------------------------------------*\
