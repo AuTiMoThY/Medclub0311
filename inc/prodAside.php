@@ -61,7 +61,7 @@
 					<ul id="subMenu5" class="prod-subMenu">
 						<span id="closeBtn5" class="btn btn-close"></span>
 						<li ng-repeat="pc5 in prodCategory5"><a href="product1.php?cate=5_{{$index}}">{{pc5}}</a></li>
-						<li><a href="product.php">分注器</a></li>
+<!-- 						<li><a href="product.php">分注器</a></li>
 						<li><a href="product.php">離心機</a></li>
 						<li><a href="product.php">乾浴器</a></li>
 						<li><a href="product.php">蠕動幫浦</a></li>
@@ -69,7 +69,7 @@
 						<li><a href="product.php">循環水槽</a></li>
 						<li><a href="product.php">電泳設備</a></li>
 						<li><a href="product.php">P-Sensor 2000</a></li>
-						<li><a href="product.php">烘箱</a></li>
+						<li><a href="product.php">烘箱</a></li> -->
 					</ul>
 				</li>
 			</ul>

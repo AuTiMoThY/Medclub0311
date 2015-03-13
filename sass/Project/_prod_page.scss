@@ -133,6 +133,8 @@
 			margin: auto;
 			img {
 				@include vc;
+				right: 0;
+				left: 0;
 			}
 		}
 		figcaption {
@@ -176,6 +178,12 @@
 				color: #000;
 			}
 		}
+		&.ngHidden {
+			visibility: hidden;
+			&.ng-scope {
+				visibility: visible;
+			}
+		}
 	}
 	&-name {
 		width: 100%;
@@ -214,6 +222,12 @@
 		&-pic {
 			@include wh(240px, 260px);
 			border: 1px solid #000;
+			position: relative;
+			img {
+				@include vc;
+				right: 0;
+				left: 0;
+			}
 		}
 		&-cnt {
 			width: 300px;

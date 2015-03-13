@@ -5,8 +5,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1501090001",
 	link: "upload/product/category1/1501090001.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -14,8 +13,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1405140002",
 	link: "upload/product/category1/1405140002.jpg",
-	target: "_blank",
-	isFancybox: "fancybox",
+	target: "_blank", isFancybox: "fancybox",
 	cnt1: ""
 },
 {
@@ -23,8 +21,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1405140001",
 	link: "upload/product/category1/1405140001.jpg",
-	target: "_blank",
-	isFancybox: "fancybox",
+	target: "_blank", isFancybox: "fancybox",
 	cnt1: ""
 },
 {
@@ -32,8 +29,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1404240001",
 	link: "upload/product/category1/1404240001.jpg",
-	target: "_blank",
-	isFancybox: "fancybox",
+	target: "_blank", isFancybox: "fancybox",
 	cnt1: ""
 },
 {
@@ -41,8 +37,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1404020002",
 	link: "upload/product/category1/1404020002.jpg",
-	target: "_blank",
-	isFancybox: "fancybox",
+	target: "_blank", isFancybox: "fancybox",
 	cnt1: ""
 },
 {
@@ -50,8 +45,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1404020001",
 	link: "upload/product/category1/1404020001.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -59,8 +53,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1311140003",
 	link: "upload/product/category1/1311140003.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -68,8 +61,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1311140002",
 	link: "upload/product/category1/1311140002.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -77,8 +69,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1311140001",
 	link: "upload/product/category1/1311140001.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -86,8 +77,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1212200002",
 	link: "upload/product/category1/1212200002.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -95,8 +85,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1212200001",
 	link: "upload/product/category1/1212200001.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -104,8 +93,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1210080002",
 	link: "upload/product/category1/1210080002.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -113,8 +101,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1208200001",
 	link: "upload/product/category1/1208200001.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -122,8 +109,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1201300002",
 	link: "upload/product/category1/1201300002.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -131,8 +117,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1201300001",
 	link: "upload/product/category1/1201300001.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -140,8 +125,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1109230002",
 	link: "upload/product/category1/1109230002.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -149,8 +133,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1109230001",
 	link: "upload/product/category1/1109230001.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 // {
@@ -158,8 +141,7 @@ function prodCateCtrl($scope) {
 // 	category: "新產品",
 // 	img: "category1/",
 // 	link: "upload/product/category1/productCnt.php",
-// 	target: "",
-// 	isFancybox: "",
+// 	target: "", isFancybox: "",
 // cnt1: ""
 // },
 {
@@ -167,8 +149,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1101180002",
 	link: "upload/product/category1/1101180002.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -176,8 +157,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1101180001",
 	link: "upload/product/category1/1101180001.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -185,8 +165,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1008110001s",
 	link: "upload/product/category1/1008110001.jpg",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -194,8 +173,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1006010011",
 	link: "upload/product/category1/1006010011.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -203,8 +181,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1006010010s",
 	link: "upload/product/category1/1006010010.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -212,8 +189,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1006010009s",
 	link: "upload/product/category1/1006010009.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -221,8 +197,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1006010008s",
 	link: "upload/product/category1/1006010008.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -230,8 +205,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1006010007s",
 	link: "upload/product/category1/1006010007.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -239,8 +213,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1005310002s",
 	link: "upload/product/category1/1005310002.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -248,8 +221,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1005310001s",
 	link: "upload/product/category1/1005310001.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -257,8 +229,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1004230002s",
 	link: "upload/product/category1/1004230002.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -266,8 +237,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/1004230001s",
 	link: "upload/product/category1/1004230001.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 {
@@ -275,8 +245,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/C1000_img_0s",
 	link: "productCnt.php?cate=1&item=29",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/C1000_img_0","category1/C1000_img_8"]
 },
 {
@@ -284,8 +253,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/0906170001s",
 	link: "productCnt.php?cate=1&item=30",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/0906170001",""]
 },
 {
@@ -293,8 +261,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/0903180001s",
 	link: "productCnt.php?cate=1&item=31",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/0903180001",""]
 },
 {
@@ -302,8 +269,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/GC1500s",
 	link: "productCnt.php?cate=1&item=32",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/GC1500",""]
 },
 {
@@ -311,8 +277,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/CB-1702s",
 	link: "productCnt.php?cate=1&item=33",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/CB-1702",""]
 },
 {
@@ -320,8 +285,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/CB-3001s",
 	link: "productCnt.php?cate=1&item=34",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/CB-3001",""]
 },
 {
@@ -329,8 +293,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/CB-1701s",
 	link: "productCnt.php?cate=1&item=35",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/CB-1701",""]
 },
 {
@@ -338,8 +301,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/CB-1502s",
 	link: "productCnt.php?cate=1&item=36",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/CB-1502",""]
 },
 {
@@ -347,8 +309,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/CB-1501s",
 	link: "productCnt.php?cate=1&item=37",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category1/CB-1501",""]
 },
 {
@@ -356,8 +317,7 @@ function prodCateCtrl($scope) {
 	category: "新產品",
 	img: "category1/0811110001s",
 	link: "upload/product/category1/0811110001.pdf",
-	target: "_blank",
-	isFancybox: "",
+	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
 
@@ -422,7 +382,7 @@ function prodCateCtrl($scope) {
 "Surface Capture",
 "PCR Reagents",
 "寄生蟲檢驗試劑組",
-"Plasmid DNA Purification",
+"Plasmid DNA Purification"
 
 	];
 
@@ -448,7 +408,30 @@ function prodCateCtrl($scope) {
 "冷凍管架",
 "培養盤",
 "丟棄吸管",
-"比色管",
+"比色管"
+
+	];
+
+/*----------------------------------------------------------------------------*\
+/*----------------------------------------------------------------------------*\
+/*----------------------------------------------------------------------------*\
+	引子合成 分類
+\*----------------------------------------------------------------------------*/
+	$scope.prodCategory5 = [
+"引子合成 Primer Order",
+"General Information",
+"DNA Synthesis and Purification",
+"RNA and 2-O-Methyl RNA Synthesis",
+"Antisense Oligonucleotides",
+"Readit Oligos",
+"DNA & RNA Probes for Fluorescence-Based",
+"Applications",
+"Modifications",
+"Stock Primers and Products",
+"Molecular Biology Products",
+"Special Services",
+"Alpha Diagnostic International",
+"ELISA Kits"
 
 	];
 
@@ -463,8 +446,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/1405140001s",
 	link: "productCnt.php?cate=2_0&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/1405140001c",""]
 },
 {
@@ -472,8 +454,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/1112090001s",
 	link: "productCnt.php?cate=2_0&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/1112090001c",""]
 },
 {
@@ -481,8 +462,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/1108250001s",
 	link: "productCnt.php?cate=2_0&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/1108250001c",""]
 },
 {
@@ -490,8 +470,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0506230004s",
 	link: "productCnt.php?cate=2_0&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0506230004c",""]
 },
 {
@@ -499,8 +478,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0504170002s",
 	link: "productCnt.php?cate=2_0&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0504170002c1","category2_0/0504170002c2"]
 },
 {
@@ -508,8 +486,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0405230012s",
 	link: "productCnt.php?cate=2_0&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0405230012c",""]
 },
 // {
@@ -517,8 +494,7 @@ function prodCateCtrl($scope) {
 // 	category: "儀器 > 分注器",
 // 	img: "category2_0/",
 // 	link: "productCnt.php?cate=2_0&item=6",
-// 	target: "",
-// 	isFancybox: "",
+// 	target: "", isFancybox: "",
 // 	cnt1: ["category2_0/",""]
 // },
 // {
@@ -526,8 +502,7 @@ function prodCateCtrl($scope) {
 // 	category: "儀器 > 分注器",
 // 	img: "category2_0/",
 // 	link: "productCnt.php?cate=2_0&item=7",
-// 	target: "",
-// 	isFancybox: "",
+// 	target: "", isFancybox: "",
 // 	cnt1: ["category2_0/",""]
 // },
 // {
@@ -535,8 +510,7 @@ function prodCateCtrl($scope) {
 // 	category: "儀器 > 分注器",
 // 	img: "category2_0/",
 // 	link: "productCnt.php?cate=2_0&item=8",
-// 	target: "",
-// 	isFancybox: "",
+// 	target: "", isFancybox: "",
 // 	cnt1: ["category2_0/",""]
 // },
 {
@@ -544,8 +518,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0405250010s",
 	link: "productCnt.php?cate=2_0&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0405250010c",""]
 },
 {
@@ -553,8 +526,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0405250008s",
 	link: "productCnt.php?cate=2_0&item=7",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0405250008c",""]
 },
 {
@@ -562,8 +534,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0405250007s",
 	link: "productCnt.php?cate=2_0&item=8",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0405250007c",""]
 },
 {
@@ -571,8 +542,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0405250006s",
 	link: "productCnt.php?cate=2_0&item=9",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0405250006c",""]
 },
 {
@@ -580,8 +550,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 分注器",
 	img: "category2_0/0405250003s",
 	link: "productCnt.php?cate=2_0&item=10",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_0/0405250003c",""]
 }
 
@@ -599,8 +568,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 蠕動幫浦",
 	img: "category2_1/1105300001s",
 	link: "productCnt.php?cate=2_1&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_1/1105300001c",""]
 },
 {
@@ -608,8 +576,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 蠕動幫浦",
 	img: "category2_1/0408220007s",
 	link: "productCnt.php?cate=2_1&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_1/0408220007c",""]
 
 },
@@ -618,8 +585,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 蠕動幫浦",
 	img: "category2_1/0408220004s",
 	link: "productCnt.php?cate=2_1&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_1/0408220004c",""]
 
 },
@@ -628,8 +594,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 蠕動幫浦",
 	img: "category2_1/0408220003s",
 	link: "productCnt.php?cate=2_1&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_1/0408220003c",""]
 
 },
@@ -638,8 +603,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 蠕動幫浦",
 	img: "category2_1/0408220002s",
 	link: "productCnt.php?cate=2_1&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_1/0408220002c",""]
 
 },
@@ -648,8 +612,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 蠕動幫浦",
 	img: "category2_1/0408220001s",
 	link: "productCnt.php?cate=2_1&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_1/0408220001c",""]
 
 }
@@ -667,8 +630,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/1404020001s",
 	link: "productCnt.php?cate=2_2&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/1404020001c",""]
 },
 {
@@ -676,8 +638,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/1112090003s",
 	link: "productCnt.php?cate=2_2&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/1112090003c",""]
 },
 {
@@ -685,8 +646,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220078s",
 	link: "productCnt.php?cate=2_2&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220078c",""]
 },
 {
@@ -694,8 +654,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220075s",
 	link: "productCnt.php?cate=2_2&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220075c",""]
 },
 {
@@ -703,8 +662,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220074s",
 	link: "productCnt.php?cate=2_2&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["",""]
 },
 {
@@ -712,8 +670,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220073s",
 	link: "productCnt.php?cate=2_2&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["",""]
 },
 {
@@ -721,8 +678,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220071s",
 	link: "productCnt.php?cate=2_2&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220071","category2_2/0408220072"]
 },
 {
@@ -730,8 +686,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220069s",
 	link: "productCnt.php?cate=2_2&item=7",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220069c",""]
 },
 {
@@ -739,8 +694,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220068s",
 	link: "productCnt.php?cate=2_2&item=8",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220068c",""]
 },
 {
@@ -748,8 +702,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220066s",
 	link: "productCnt.php?cate=2_2&item=9",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220066c",""]
 },
 {
@@ -757,8 +710,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220065s",
 	link: "productCnt.php?cate=2_2&item=10",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220065c",""]
 },
 {
@@ -766,8 +718,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220063s",
 	link: "productCnt.php?cate=2_2&item=11",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220063c",""]
 },
 {
@@ -775,8 +726,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220061s",
 	link: "productCnt.php?cate=2_2&item=12",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220061c",""]
 },
 {
@@ -784,8 +734,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220057s",
 	link: "productCnt.php?cate=2_2&item=13",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220057c",""]
 },
 {
@@ -793,8 +742,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220056s",
 	link: "productCnt.php?cate=2_2&item=14",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220056c",""]
 },
 {
@@ -802,8 +750,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/",
 	link: "productCnt.php?cate=2_2&item=15",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/",""]
 },
 {
@@ -811,8 +758,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220055s",
 	link: "productCnt.php?cate=2_2&item=16",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220055c",""]
 },
 {
@@ -820,8 +766,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220051s",
 	link: "productCnt.php?cate=2_2&item=17",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220051c",""]
 },
 {
@@ -829,8 +774,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220050s",
 	link: "productCnt.php?cate=2_2&item=18",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220050c",""]
 },
 {
@@ -838,8 +782,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220048s",
 	link: "productCnt.php?cate=2_2&item=19",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220048c",""]
 },
 {
@@ -847,8 +790,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220047s",
 	link: "productCnt.php?cate=2_2&item=20",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220047c",""]
 },
 {
@@ -856,8 +798,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220044s",
 	link: "productCnt.php?cate=2_2&item=21",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220044c",""]
 },
 {
@@ -865,8 +806,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220043s",
 	link: "productCnt.php?cate=2_2&item=22",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220043c",""]
 },
 {
@@ -874,8 +814,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220042s",
 	link: "productCnt.php?cate=2_2&item=23",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220042c",""]
 },
 {
@@ -883,8 +822,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220041s",
 	link: "productCnt.php?cate=2_2&item=24",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220041c",""]
 },
 {
@@ -892,8 +830,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220040s",
 	link: "productCnt.php?cate=2_2&item=25",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220040c",""]
 },
 {
@@ -901,8 +838,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220038s",
 	link: "productCnt.php?cate=2_2&item=26",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220038c",""]
 },
 {
@@ -910,8 +846,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220034s",
 	link: "productCnt.php?cate=2_2&item=27",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220034c",""]
 },
 {
@@ -919,8 +854,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220033s",
 	link: "productCnt.php?cate=2_2&item=28",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220033c",""]
 },
 {
@@ -928,8 +862,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220032s",
 	link: "productCnt.php?cate=2_2&item=29",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220032c",""]
 },
 {
@@ -937,8 +870,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220027s",
 	link: "productCnt.php?cate=2_2&item=30",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220027c",""]
 },
 {
@@ -946,8 +878,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220026s",
 	link: "productCnt.php?cate=2_2&item=31",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220026c",""]
 },
 {
@@ -955,8 +886,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220021s",
 	link: "productCnt.php?cate=2_2&item=32",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220021c",""]
 },
 {
@@ -964,8 +894,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220016s",
 	link: "productCnt.php?cate=2_2&item=33",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220016c",""]
 },
 {
@@ -973,8 +902,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220015s",
 	link: "productCnt.php?cate=2_2&item=34",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220015c",""]
 },
 {
@@ -982,8 +910,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220012s",
 	link: "productCnt.php?cate=2_2&item=35",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220012c",""]
 },
 {
@@ -991,8 +918,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220011s",
 	link: "productCnt.php?cate=2_2&item=36",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220011c",""]
 },
 {
@@ -1000,8 +926,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電泳設備",
 	img: "category2_2/0408220010s",
 	link: "productCnt.php?cate=2_2&item=37",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_2/0408220010c",""]
 }
 
@@ -1019,8 +944,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 影像系統",
 	img: "category2_3/1112090004s",
 	link: "productCnt.php?cate=2_3&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_3/1112090004c",""]
 },
 {
@@ -1028,8 +952,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 影像系統",
 	img: "category2_3/1112090002s",
 	link: "productCnt.php?cate=2_3&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_3/1112090002c",""]
 },
 {
@@ -1037,8 +960,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 影像系統",
 	img: "category2_3/0902180001s",
 	link: "productCnt.php?cate=2_3&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_3/0902180001c",""]
 }
 
@@ -1055,8 +977,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 紫外光設備",
 	img: "category2_4/1201300002s",
 	link: "productCnt.php?cate=2_4&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_4/1201300002c",""]
 },
 {
@@ -1064,8 +985,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 紫外光設備",
 	img: "category2_4/1201300001s",
 	link: "productCnt.php?cate=2_4&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_4/1201300001c",""]
 },
 {
@@ -1073,8 +993,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 紫外光設備",
 	img: "category2_4/0408220091s",
 	link: "productCnt.php?cate=2_4&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_4/0408220091c",""]
 },
 {
@@ -1082,8 +1001,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 紫外光設備",
 	img: "category2_4/0408220090s",
 	link: "productCnt.php?cate=2_4&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_4/0408220090c",""]
 },
 {
@@ -1091,8 +1009,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 紫外光設備",
 	img: "category2_4/0408220089s",
 	link: "productCnt.php?cate=2_4&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_4/0408220089c",""]
 }
 
@@ -1109,8 +1026,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/1404300005s",
 	link: "productCnt.php?cate=2_5&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/1404300005c",""]
 },
 {
@@ -1118,8 +1034,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/1404300004s",
 	link: "productCnt.php?cate=2_5&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/1404300004c",""]
 },
 {
@@ -1127,8 +1042,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/1404300002s",
 	link: "productCnt.php?cate=2_5&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/1404300002c",""]
 },
 {
@@ -1136,8 +1050,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/1109150001s",
 	link: "productCnt.php?cate=2_5&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/1109150001c",""]
 },
 {
@@ -1145,8 +1058,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/1101180002s",
 	link: "productCnt.php?cate=2_5&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/1101180002c",""]
 },
 {
@@ -1154,8 +1066,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0901140002s",
 	link: "productCnt.php?cate=2_5&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0901140002c",""]
 },
 // {
@@ -1163,8 +1074,7 @@ function prodCateCtrl($scope) {
 // 	category: "儀器 > 離心機",
 // 	img: "category2_5/",
 // 	link: "productCnt.php?cate=2_5&item=6",
-// 	target: "",
-// 	isFancybox: "",
+// 	target: "", isFancybox: "",
 // 	cnt1: ["category2_5/",""]
 // },
 {
@@ -1172,8 +1082,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220103s",
 	link: "productCnt.php?cate=2_5&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220103c",""]
 },
 {
@@ -1181,8 +1090,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220101s",
 	link: "productCnt.php?cate=2_5&item=7",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220101c",""]
 },
 {
@@ -1190,8 +1098,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/",
 	link: "productCnt.php?cate=2_5&item=8",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/z323z383",""]
 },
 {
@@ -1199,8 +1106,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220099s",
 	link: "productCnt.php?cate=2_5&item=9",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220099c",""]
 },
 {
@@ -1208,8 +1114,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220097s",
 	link: "productCnt.php?cate=2_5&item=10",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220097c",""]
 },
 {
@@ -1217,8 +1122,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220096s",
 	link: "productCnt.php?cate=2_5&item=11",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220096c",""]
 },
 {
@@ -1226,8 +1130,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220095s",
 	link: "productCnt.php?cate=2_5&item=12",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220095c",""]
 },
 {
@@ -1235,8 +1138,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/1112090002s",
 	link: "productCnt.php?cate=2_5&item=13",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/1112090002c",""]
 },
 {
@@ -1244,8 +1146,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220093s",
 	link: "productCnt.php?cate=2_5&item=14",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220093c",""]
 },
 {
@@ -1253,8 +1154,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 離心機",
 	img: "category2_5/0408220092s",
 	link: "productCnt.php?cate=2_5&item=15",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_5/0408220092c",""]
 },
 
@@ -1271,8 +1171,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "category2_6/1212200001s",
 	link: "productCnt.php?cate=2_6&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/1212200001c",""]
 },
 {
@@ -1280,8 +1179,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "category2_6/0408220105s",
 	link: "productCnt.php?cate=2_6&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/0408220105c",""]
 },
 {
@@ -1289,8 +1187,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/MicrosonS3000",""]
 },
 {
@@ -1298,8 +1195,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/MicrosonXL2000",""]
 },
 {
@@ -1307,8 +1203,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/PelletPestle",""]
 },
 {
@@ -1316,8 +1211,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/WheatonUSA",""]
 },
 {
@@ -1325,8 +1219,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/PRO260",""]
 },
 {
@@ -1334,8 +1227,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=7",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/PRO250",""]
 },
 {
@@ -1343,8 +1235,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 均質機",
 	img: "",
 	link: "productCnt.php?cate=2_6&item=8",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_6/PRO200",""]
 }
 
@@ -1361,8 +1252,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > P-Sensor 2000",
 	img: "category2_7/0507010001s",
 	link: "productCnt.php?cate=2_7&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_7/0507010001c",""]
 },
 {
@@ -1370,8 +1260,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > P-Sensor 2000",
 	img: "category2_7/0408220108s",
 	link: "productCnt.php?cate=2_7&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_7/0408220108c",""]
 },
 {
@@ -1379,8 +1268,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > P-Sensor 2000",
 	img: "category2_7/0408220107s",
 	link: "productCnt.php?cate=2_7&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_7/0408220107c",""]
 }
 
@@ -1397,8 +1285,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/1404300001s",
 	link: "productCnt.php?cate=2_8&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/1404300001c",""]
 },
 {
@@ -1406,8 +1293,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/1304240002s",
 	link: "productCnt.php?cate=2_8&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/1304240002c",""]
 },
 {
@@ -1415,8 +1301,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/1304240001s",
 	link: "productCnt.php?cate=2_8&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/1304240001c",""]
 },
 {
@@ -1424,8 +1309,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0908260001s",
 	link: "productCnt.php?cate=2_8&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0908260001c",""]
 },
 {
@@ -1433,8 +1317,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0810270001s",
 	link: "productCnt.php?cate=2_8&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0810270001c",""]
 },
 {
@@ -1442,8 +1325,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0408220114s",
 	link: "productCnt.php?cate=2_8&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0408220114c",""]
 },
 {
@@ -1451,8 +1333,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0408220113s",
 	link: "productCnt.php?cate=2_8&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0408220113c",""]
 },
 {
@@ -1460,8 +1341,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0408220112s",
 	link: "productCnt.php?cate=2_8&item=7",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0408220112c",""]
 },
 {
@@ -1469,8 +1349,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0408220111s",
 	link: "productCnt.php?cate=2_8&item=8",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0408220111c",""]
 },
 {
@@ -1478,8 +1357,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0408220110s",
 	link: "productCnt.php?cate=2_8&item=9",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0408220110c",""]
 },
 {
@@ -1487,8 +1365,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > PCR反應儀",
 	img: "category2_8/0408220109s",
 	link: "productCnt.php?cate=2_8&item=10",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_8/0408220109c",""]
 }
 
@@ -1505,8 +1382,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 冷凍櫃",
 	img: "category2_9/1210080002s",
 	link: "productCnt.php?cate=2_9&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_9/1210080002c",""]
 },
 {
@@ -1514,8 +1390,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 冷凍櫃",
 	img: "category2_9/1108250002s",
 	link: "productCnt.php?cate=2_9&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_9/1108250002c",""]
 },
 {
@@ -1523,8 +1398,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 冷凍櫃",
 	img: "category2_9/0408220118s",
 	link: "productCnt.php?cate=2_9&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_9/0408220118c",""]
 }
 	];
@@ -1541,8 +1415,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 乾浴器",
 	img: "category2_10/1112090007s",
 	link: "productCnt.php?cate=2_10&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_10/1112090007c",""]
 },
 {
@@ -1550,8 +1423,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 乾浴器",
 	img: "category2_10/0811200001s",
 	link: "productCnt.php?cate=2_10&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_10/0811200001c",""]
 },
 {
@@ -1559,8 +1431,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 乾浴器",
 	img: "category2_10/0811110001s",
 	link: "productCnt.php?cate=2_10&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_10/0811110001c",""]
 }
 
@@ -1578,8 +1449,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220132s",
 	link: "productCnt.php?cate=2_11&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220132c",""]
 },
 {
@@ -1587,8 +1457,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220131s",
 	link: "productCnt.php?cate=2_11&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220131c",""]
 },
 {
@@ -1596,8 +1465,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220130s",
 	link: "productCnt.php?cate=2_11&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220130c",""]
 },
 {
@@ -1605,8 +1473,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220127s",
 	link: "productCnt.php?cate=2_11&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220127c",""]
 },
 {
@@ -1614,8 +1481,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220126s",
 	link: "productCnt.php?cate=2_11&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220126c",""]
 },
 {
@@ -1623,8 +1489,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220125s",
 	link: "productCnt.php?cate=2_11&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220125c",""]
 },
 {
@@ -1632,8 +1497,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 循環水槽",
 	img: "category2_11/0408220122s",
 	link: "productCnt.php?cate=2_11&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_11/0408220122c",""]
 }
 
@@ -1650,8 +1514,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 烘箱",
 	img: "category2_12/0408220140s",
 	link: "productCnt.php?cate=2_12&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_12/0408220140c",""]
 },
 {
@@ -1659,8 +1522,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 烘箱",
 	img: "category2_12/0408220139s",
 	link: "productCnt.php?cate=2_12&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_12/0408220139c",""]
 },
 {
@@ -1668,8 +1530,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 烘箱",
 	img: "category2_12/0408220138s",
 	link: "productCnt.php?cate=2_12&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_12/0408220138c",""]
 },
 {
@@ -1677,8 +1538,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 烘箱",
 	img: "category2_12/0408220136s",
 	link: "productCnt.php?cate=2_12&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_12/0408220136c",""]
 },
 {
@@ -1686,8 +1546,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 烘箱",
 	img: "category2_12/0408220134s",
 	link: "productCnt.php?cate=2_12&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_12/0408220134c",""]
 },
 {
@@ -1695,8 +1554,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 烘箱",
 	img: "category2_12/0408220133s",
 	link: "productCnt.php?cate=2_12&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_12/0408220133c",""]
 }
 
@@ -1713,8 +1571,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0506150001s",
 	link: "productCnt.php?cate=2_13&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0506150001c",""]
 },
 {
@@ -1722,8 +1579,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220149s",
 	link: "productCnt.php?cate=2_13&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220149c",""]
 },
 {
@@ -1731,8 +1587,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220148s",
 	link: "productCnt.php?cate=2_13&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220148c",""]
 },
 {
@@ -1740,8 +1595,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220147s",
 	link: "productCnt.php?cate=2_13&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220147c",""]
 },
 {
@@ -1749,8 +1603,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220146s",
 	link: "productCnt.php?cate=2_13&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220146c",""]
 },
 {
@@ -1758,8 +1611,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220145s",
 	link: "productCnt.php?cate=2_13&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220145c",""]
 },
 {
@@ -1767,8 +1619,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220144s",
 	link: "productCnt.php?cate=2_13&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220144c",""]
 },
 {
@@ -1776,8 +1627,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220143s",
 	link: "productCnt.php?cate=2_13&item=7",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220143c",""]
 },
 {
@@ -1785,8 +1635,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220142s",
 	link: "productCnt.php?cate=2_13&item=8",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220142c",""]
 },
 {
@@ -1794,8 +1643,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 培養箱",
 	img: "category2_13/0408220141s",
 	link: "productCnt.php?cate=2_13&item=9",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_13/0408220141c",""]
 }
 
@@ -1811,20 +1659,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "酸鹼測定儀 MP225K",
 	category: "儀器 > 酸鹼測定儀",
-	img: "category2_14/",
+	img: "category2_14/0408220152s",
 	link: "productCnt.php?cate=2_14&item=0",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_14/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_14/0408220152c",""]
 },
 {
 	nameTw: "酸鹼測定儀 J6171",
 	category: "儀器 > 酸鹼測定儀",
-	img: "category2_14/",
+	img: "category2_14/0408220151s",
 	link: "productCnt.php?cate=2_14&item=1",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_14/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_14/0408220151c",""]
 }
 
 	];
@@ -1838,218 +1684,194 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "數位溫控漩渦式震盪器 CB-1703",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1404300009s",
 	link: "productCnt.php?cate=2_15&item=0",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1404300009c",""]
 },
 {
 	nameTw: "數位盤式恆溫震盪器 CB-100-4A",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1404300008s",
 	link: "productCnt.php?cate=2_15&item=1",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1404300008c",""]
 },
 {
 	nameTw: "微量盤震盪器　CB100-4AX",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1404300007s",
 	link: "productCnt.php?cate=2_15&item=2",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1404300007c",""]
 },
 {
 	nameTw: "數位盤式恆溫震盪器 CB-100-2A",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1404300006s",
 	link: "productCnt.php?cate=2_15&item=3",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1404300006c",""]
 },
 {
 	nameTw: "迴轉式震盪器 CBOS-200",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1404300003s",
 	link: "productCnt.php?cate=2_15&item=4",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1404300003c",""]
 },
 {
 	nameTw: "大容量試管渦旋混合震盪器CBMIX2500",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1109230001s",
 	link: "productCnt.php?cate=2_15&item=5",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1109230001c",""]
 },
 {
 	nameTw: "CLUBIO 振盪混合小精靈—CB-MIX100",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/1101180001s",
 	link: "productCnt.php?cate=2_15&item=6",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/1101180001c",""]
 },
 {
 	nameTw: "CB-1702 高低溫冷熱混合震盪培養儀",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0811200003s",
 	link: "productCnt.php?cate=2_15&item=7",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0811200003c",""]
 },
 {
 	nameTw: "CB-1701 數位恆溫震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0811200002s",
 	link: "productCnt.php?cate=2_15&item=8",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0811200002c",""]
 },
 {
 	nameTw: "Orbis 微量盤及微量管兩用震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0506260001s",
 	link: "productCnt.php?cate=2_15&item=9",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0506260001c",""]
 },
 {
 	nameTw: "Ventura 2000微量盤振盪培養儀",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0506230006s",
 	link: "productCnt.php?cate=2_15&item=10",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0506230006c",""]
 },
 {
 	nameTw: "3D混合器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220180s",
 	link: "productCnt.php?cate=2_15&item=11",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220180c",""]
 },
 {
 	nameTw: "桌上型翹翹板震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220177s",
 	link: "productCnt.php?cate=2_15&item=12",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220177c","category2_15/0408220179c1"]
 },
 {
 	nameTw: "桌上型翹翹板震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220176s",
 	link: "productCnt.php?cate=2_15&item=13",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220176c",""]
 },
 {
 	nameTw: "桌上型迴旋震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220174s",
 	link: "productCnt.php?cate=2_15&item=14",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220174c",""]
 },
 {
 	nameTw: "桌上型水平震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220173s",
 	link: "productCnt.php?cate=2_15&item=15",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220173c",""]
 },
 {
 	nameTw: "多用途試管旋轉混合器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220171s",
 	link: "productCnt.php?cate=2_15&item=16",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220171c",""]
 },
 {
 	nameTw: "桌上型迴旋震盪器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220167s",
 	link: "productCnt.php?cate=2_15&item=17",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220167c",""]
 },
 {
 	nameTw: "旋轉式試管混合器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220166s",
 	link: "productCnt.php?cate=2_15&item=18",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220166c",""]
 },
 {
 	nameTw: "振盪式微量管混合器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220163s",
 	link: "productCnt.php?cate=2_15&item=19",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220163c",""]
 },
 {
 	nameTw: "振盪式微量管加熱器Thermo Mixer",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220162s",
 	link: "productCnt.php?cate=2_15&item=20",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220162c",""]
 },
 {
 	nameTw: "試管型混合機",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220161s",
 	link: "productCnt.php?cate=2_15&item=21",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220161c",""]
 },
 {
 	nameTw: "試管振盪器 FINEVORTEX 4S",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220160s",
 	link: "productCnt.php?cate=2_15&item=22",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220160c",""]
 },
 {
 	nameTw: "多用途大容量試管旋轉混合器",
 	category: "儀器 > 振盪混合設備",
-	img: "category2_15/",
+	img: "category2_15/0408220153s",
 	link: "productCnt.php?cate=2_15&item=23",
-	target: "",
-	isFancybox: "",
-	cnt1: ["category2_15/",""]
+	target: "", isFancybox: "",
+	cnt1: ["category2_15/0408220153c",""]
 }
 
 	];
@@ -2065,8 +1887,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 細胞培養轉動器",
 	img: "category2_16/",
 	link: "productCnt.php?cate=2_16&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_16/",""]
 },
 {
@@ -2074,8 +1895,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 細胞培養轉動器",
 	img: "category2_16/",
 	link: "productCnt.php?cate=2_16&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_16/",""]
 },
 {
@@ -2083,8 +1903,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 細胞培養轉動器",
 	img: "category2_16/",
 	link: "productCnt.php?cate=2_16&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_16/",""]
 }
 
@@ -2102,8 +1921,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電磁加熱攪拌器",
 	img: "category2_17/",
 	link: "productCnt.php?cate=2_17&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_17/",""]
 },
 {
@@ -2111,8 +1929,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電磁加熱攪拌器",
 	img: "category2_17/",
 	link: "productCnt.php?cate=2_17&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_17/",""]
 },
 {
@@ -2120,8 +1937,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 電磁加熱攪拌器",
 	img: "category2_17/",
 	link: "productCnt.php?cate=2_17&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_17/",""]
 }
 
@@ -2138,8 +1954,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 發酵槽",
 	img: "category2_18/",
 	link: "productCnt.php?cate=2_18&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_18/",""]
 },
 {
@@ -2147,8 +1962,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 發酵槽",
 	img: "category2_18/",
 	link: "productCnt.php?cate=2_18&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_18/",""]
 }
 
@@ -2165,8 +1979,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 },
 {
@@ -2174,8 +1987,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 },
 {
@@ -2183,8 +1995,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 },
 {
@@ -2192,8 +2003,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 },
 {
@@ -2201,8 +2011,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 },
 {
@@ -2210,8 +2019,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 },
 {
@@ -2219,8 +2027,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 滅菌釜",
 	img: "category2_19/",
 	link: "productCnt.php?cate=2_19&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_19/",""]
 }
 
@@ -2237,8 +2044,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 封盤設備",
 	img: "category2_20/",
 	link: "productCnt.php?cate=2_20&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_20/",""]
 },
 {
@@ -2246,8 +2052,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 封盤設備",
 	img: "category2_20/",
 	link: "productCnt.php?cate=2_20&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_20/",""]
 },
 {
@@ -2255,8 +2060,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 封盤設備",
 	img: "category2_20/",
 	link: "productCnt.php?cate=2_20&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_20/",""]
 },
 {
@@ -2264,8 +2068,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 封盤設備",
 	img: "category2_20/",
 	link: "productCnt.php?cate=2_20&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_20/",""]
 },
 {
@@ -2273,8 +2076,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 封盤設備",
 	img: "category2_20/",
 	link: "productCnt.php?cate=2_20&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_20/",""]
 }
 
@@ -2291,8 +2093,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 超音波洗淨機",
 	img: "category2_21/",
 	link: "productCnt.php?cate=2_21&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_21/",""]
 },
 {
@@ -2300,8 +2101,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 超音波洗淨機",
 	img: "category2_21/",
 	link: "productCnt.php?cate=2_21&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_21/",""]
 }
 
@@ -2318,8 +2118,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 },
 {
@@ -2327,8 +2126,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 },
 {
@@ -2336,8 +2134,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 },
 {
@@ -2345,8 +2142,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 },
 {
@@ -2354,8 +2150,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 },
 {
@@ -2363,8 +2158,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 },
 {
@@ -2372,8 +2166,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 純水系統",
 	img: "category2_22/",
 	link: "productCnt.php?cate=2_22&item=6",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_22/",""]
 }
 
@@ -2390,8 +2183,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 天平",
 	img: "category2_23/",
 	link: "productCnt.php?cate=2_23&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_23/",""]
 },
 {
@@ -2399,8 +2191,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 天平",
 	img: "category2_23/",
 	link: "productCnt.php?cate=2_23&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_23/",""]
 },
 {
@@ -2408,8 +2199,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 天平",
 	img: "category2_23/",
 	link: "productCnt.php?cate=2_23&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_23/",""]
 }
 
@@ -2426,8 +2216,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 微量盤分光光度計",
 	img: "category2_24/",
 	link: "productCnt.php?cate=2_24&item=0",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_24/",""]
 },
 {
@@ -2435,8 +2224,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 微量盤分光光度計",
 	img: "category2_24/",
 	link: "productCnt.php?cate=2_24&item=1",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_24/",""]
 },
 {
@@ -2444,8 +2232,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 微量盤分光光度計",
 	img: "category2_24/",
 	link: "productCnt.php?cate=2_24&item=2",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_24/",""]
 },
 {
@@ -2453,8 +2240,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 微量盤分光光度計",
 	img: "category2_24/",
 	link: "productCnt.php?cate=2_24&item=3",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_24/",""]
 },
 {
@@ -2462,8 +2248,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 微量盤分光光度計",
 	img: "category2_24/",
 	link: "productCnt.php?cate=2_24&item=4",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_24/",""]
 },
 {
@@ -2471,8 +2256,7 @@ function prodCateCtrl($scope) {
 	category: "儀器 > 微量盤分光光度計",
 	img: "category2_24/",
 	link: "productCnt.php?cate=2_24&item=5",
-	target: "",
-	isFancybox: "",
+	target: "", isFancybox: "",
 	cnt1: ["category2_24/",""]
 }
 
@@ -2486,16 +2270,28 @@ function prodCateCtrl($scope) {
 	$scope.prodCategory2_25 = [
 {
 	nameTw: "1575型清洗器 (Bio-Rad)",
-
+	category: "儀器 > ELISA盤清洗機",
+	img: "category2_25/",
+	link: "productCnt.php?cate=2_25&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category2_25/",""]
 },
 {
 	nameTw: "Autura 1000 自動微量盤清洗機",
-
+	category: "儀器 > ELISA盤清洗機",
+	img: "category2_25/",
+	link: "productCnt.php?cate=2_25&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category2_25/",""]
 },
 {
 	nameTw: "200系列手動微量盤",
-
-},
+	category: "儀器 > ELISA盤清洗機",
+	img: "category2_25/",
+	link: "productCnt.php?cate=2_25&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category2_25/",""]
+}
 
 	];
 
@@ -2504,14 +2300,74 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Agarose
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_0 = [];
+	$scope.prodCategory3_0 = [
+{
+	nameTw: "MULTIAGAROSE CB-G0100",
+	category: "試劑 > Agarose",
+	img: "category3_0/",
+	link: "productCnt.php?cate=3_0&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_0/",""]
+},
+{
+	nameTw: "MACRO ABGAROSE",
+	category: "試劑 > Agarose",
+	img: "category3_0/",
+	link: "productCnt.php?cate=3_0&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_0/",""]
+},
+{
+	nameTw: "MIDI ABGAROSE",
+	category: "試劑 > Agarose",
+	img: "category3_0/",
+	link: "productCnt.php?cate=3_0&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category3_0/",""]
+},
+{
+	nameTw: "MICRO ABGAROSE",
+	category: "試劑 > Agarose",
+	img: "category3_0/",
+	link: "productCnt.php?cate=3_0&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category3_0/",""]
+},
+{
+	nameTw: "AGAROSE 電泳瓊膠",
+	category: "試劑 > Agarose",
+	img: "category3_0/",
+	link: "productCnt.php?cate=3_0&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category3_0/",""]
+},
+{
+	nameTw: "MULTI ABGAROSE",
+	category: "試劑 > Agarose",
+	img: "category3_0/",
+	link: "productCnt.php?cate=3_0&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category3_0/",""]
+},
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	試劑 > EtBr 去污劑
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_1 = [];
+	$scope.prodCategory3_1 = [
+{
+	nameTw: "TPC溴化乙菲錠（EtBr）去污劑（廢溶液專用）",
+	category: "試劑 > Agarose",
+	img: "category3_1/",
+	link: "productCnt.php?cate=3_1&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_1/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2519,7 +2375,233 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Marker
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_2 = [];
+	$scope.prodCategory3_2 = [
+{
+	nameTw: "ΦX174 RF DNA Hae Ⅲ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "pBR322 MspⅠ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "pUC19 Sau3AⅠ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "pHC624 Taq Ⅰ/ pMJ3 NciⅠ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "ΦX174 RF DNA HinF I",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "ΦX174 RF DNA Hinc Ⅱ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "低分子量marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Lambda BstE Ⅱ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Lambda EcoR Ⅰ / Hind Ⅲ",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "高分子量marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=9",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Mid 2 Kit",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=10",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Mid 1 Kit",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=11",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Mid 1 kb Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=12",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Mid 500bp Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=13",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Mid 200bp Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=14",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Mid 100bp Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=15",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Low Kit",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=16",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Low 100bp Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=17",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Superladder - Low 20bp Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=18",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "Electro-Fast ?Marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=19",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "GEL LOADING BUFFER",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=20",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "DNA QUANTITATION STANDARDS",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=21",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "1kb DNA Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=22",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "1kb DNA Ladder",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=23",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "1 Kb DNA Plus marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=24",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "1 Kb ET marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=25",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "100 bp ET marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=26",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+},
+{
+	nameTw: "50 bp marker",
+	category: "試劑 > Marker",
+	img: "category3_2/",
+	link: "productCnt.php?cate=3_2&item=27",
+	target: "", isFancybox: "",
+	cnt1: ["category3_2/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2527,7 +2609,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Transcriptase
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_3 = [];
+	$scope.prodCategory3_3 = [
+{
+	nameTw: "MMuLV REVERSE TRANSCRIPTASE",
+	category: "試劑 > Transcriptase",
+	img: "category3_3/",
+	link: "productCnt.php?cate=3_3&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_3/",""]
+},
+{
+	nameTw: "AMV REVERSE TRANSCRIPTASE",
+	category: "試劑 > Transcriptase",
+	img: "category3_3/",
+	link: "productCnt.php?cate=3_3&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_3/",""]
+},
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2535,7 +2635,41 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > RT-PCR
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_4 = [];
+	$scope.prodCategory3_4 = [
+{
+	nameTw: "Reverse-iTTM HOT-START KIT",
+	category: "試劑 > RT-PCR",
+	img: "category3_4/",
+	link: "productCnt.php?cate=3_4&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_4/",""]
+},
+{
+	nameTw: "Reverse-iT TM ONE-STEP KIT",
+	category: "試劑 > RT-PCR",
+	img: "category3_4/",
+	link: "productCnt.php?cate=3_4&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_4/",""]
+},
+{
+	nameTw: "Reverse-iT TM 1ST STRAND SYNTHESIS KIT",
+	category: "試劑 > RT-PCR",
+	img: "category3_4/",
+	link: "productCnt.php?cate=3_4&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category3_4/",""]
+},
+{
+	nameTw: "Reverse-iT TM RTASE BLEND",
+	category: "試劑 > RT-PCR",
+	img: "category3_4/",
+	link: "productCnt.php?cate=3_4&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category3_4/",""]
+},
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2543,7 +2677,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Ligase
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_5 = [];
+	$scope.prodCategory3_5 = [
+{
+	nameTw: "THERMAL LIGASE (Tth DNA LIGASE)",
+	category: "試劑 > Ligase",
+	img: "category3_5/",
+	link: "productCnt.php?cate=3_5&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_5/",""]
+},
+{
+	nameTw: "T4 DNA LIGASE",
+	category: "試劑 > Ligase",
+	img: "category3_5/",
+	link: "productCnt.php?cate=3_5&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_5/",""]
+},
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2551,7 +2703,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Polymerase
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_6 = [];
+	$scope.prodCategory3_6 = [
+{
+	nameTw: "KLENOW FRAGMENT OF DNA POLYMERASE",
+	category: "試劑 > Polymerase",
+	img: "category3_6/",
+	link: "productCnt.php?cate=3_6&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_6/",""]
+},
+{
+	nameTw: "T4 DNA POLYMERASE",
+	category: "試劑 > Polymerase",
+	img: "category3_6/",
+	link: "productCnt.php?cate=3_6&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_6/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2559,7 +2729,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Kinases / Hydrolases
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_7 = [];
+	$scope.prodCategory3_7 = [
+{
+	nameTw: "RNASE A (RIBONUCLEASE A)",
+	category: "試劑 > Kinases / Hydrolases",
+	img: "category3_7/",
+	link: "productCnt.php?cate=3_7&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_7/",""]
+},
+{
+	nameTw: "RECOMBINANT DNASE Ⅰ (RNASE-FREE)",
+	category: "試劑 > Kinases / Hydrolases",
+	img: "category3_7/",
+	link: "productCnt.php?cate=3_7&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_7/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2567,7 +2755,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Hydrolases
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_8 = [];
+	$scope.prodCategory3_8 = [
+{
+	nameTw: "RNASE A (RIBONUCLEASE A)",
+	category: "試劑 > Hydrolases",
+	img: "category3_8/",
+	link: "productCnt.php?cate=3_8&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_8/",""]
+},
+{
+	nameTw: "RECOMBINANT DNASE Ⅰ (RNASE-FREE)",
+	category: "試劑 > Hydrolases",
+	img: "category3_8/",
+	link: "productCnt.php?cate=3_8&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_8/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2575,7 +2781,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Blue-White Selection
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_9 = [];
+	$scope.prodCategory3_9 = [
+{
+	nameTw: "X-Gal (5-bromo-4-chloro-3-indoyl-β-D-galactopyranoside)",
+	category: "試劑 > Blue-White Selection",
+	img: "category3_9/",
+	link: "productCnt.php?cate=3_9&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_9/",""]
+},
+{
+	nameTw: "IPTG (Isopropyl-β-D-thiogalactopyranoside)",
+	category: "試劑 > Blue-White Selection",
+	img: "category3_9/",
+	link: "productCnt.php?cate=3_9&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_9/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2583,7 +2807,25 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > PCR Clean-up
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_10 = [];
+	$scope.prodCategory3_10 = [
+{
+	nameTw: "GENISOL TM MAXI-PREP KIT",
+	category: "試劑 > PCR Clean-up",
+	img: "category3_10/",
+	link: "productCnt.php?cate=3_10&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_10/",""]
+},
+{
+	nameTw: "ULTRA PCR CLEAN-UP KIT",
+	category: "試劑 > PCR Clean-up",
+	img: "category3_10/",
+	link: "productCnt.php?cate=3_10&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_10/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2591,7 +2833,17 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Genomic DNA Purification
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_11 = [];
+	$scope.prodCategory3_11 = [
+{
+	nameTw: "TOTAL RNA ISOLATION REAGENT",
+	category: "試劑 > Genomic DNA Purification",
+	img: "category3_11/",
+	link: "productCnt.php?cate=3_11&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_11/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2599,7 +2851,41 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Surface Capture
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_12 = [];
+	$scope.prodCategory3_12 = [
+{
+	nameTw: "SEPARATION PLATE",
+	category: "試劑 > Surface Capture",
+	img: "category3_12/",
+	link: "productCnt.php?cate=3_12&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_12/",""]
+},
+{
+	nameTw: "PROTEIN PURIFICATION PLATE",
+	category: "試劑 > Surface Capture",
+	img: "category3_12/",
+	link: "productCnt.php?cate=3_12&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_12/",""]
+},
+{
+	nameTw: "STREPMAX STREPTAVIDIN-COATED PLATES",
+	category: "試劑 > Surface Capture",
+	img: "category3_12/",
+	link: "productCnt.php?cate=3_12&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category3_12/",""]
+},
+{
+	nameTw: "STREP THERMO-FAST?96",
+	category: "試劑 > Surface Capture",
+	img: "category3_12/",
+	link: "productCnt.php?cate=3_12&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category3_12/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2607,7 +2893,121 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > PCR Reagents
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_13 = [];
+	$scope.prodCategory3_13 = [
+{
+	nameTw: "微陣列PCR反應混合液",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "高傳真／長PCR反應混合液",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "熱啟動PCR反應混合液",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "PCR反應混合液THERMOPRIME PLUS MASTER",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "PCR MASTER MIXES",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "MINERAL OIL",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "dNTP SET",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "dNTP MIX",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "PCR BUFFER IV SEPARATE MgCl 2",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "PCR BUFFER IV CONTAINING MgCl 2",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=9",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "高傳真長PCR耐熱核酸聚合酵素",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=10",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "熱啟動耐熱核酸聚合酵素",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=11",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "熱啟動耐熱核酸聚合酵素",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=12",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+},
+{
+	nameTw: "耐熱核酸聚合醏素",
+	category: "試劑 > PCR Reagents",
+	img: "category3_13/",
+	link: "productCnt.php?cate=3_13&item=13",
+	target: "", isFancybox: "",
+	cnt1: ["category3_13/",""]
+}
+
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2615,7 +3015,16 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > 寄生蟲檢驗試劑組
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_14 = [];
+	$scope.prodCategory3_14 = [
+{
+	nameTw: "寄生蟲檢驗試劑組",
+	category: "試劑 > 寄生蟲檢驗試劑組",
+	img: "category3_14/",
+	link: "productCnt.php?cate=3_14&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_14/",""]
+}
+	];
 
 
 /*----------------------------------------------------------------------------*\
@@ -2623,7 +3032,41 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	試劑 > Plasmid DNA Purification
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory3_15 = [];
+	$scope.prodCategory3_15 = [
+{
+	nameTw: "NucleoSpan Robot Plasmid kits",
+	category: "試劑 > Plasmid DNA Purification",
+	img: "category3_15/",
+	link: "productCnt.php?cate=3_15&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category3_15/",""]
+},
+{
+	nameTw: "NucleoSpin Multi-96 Plus Plasmid",
+	category: "試劑 > Plasmid DNA Purification",
+	img: "category3_15/",
+	link: "productCnt.php?cate=3_15&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category3_15/",""]
+},
+{
+	nameTw: "NucleoSpain Plasmid",
+	category: "試劑 > Plasmid DNA Purification",
+	img: "category3_15/",
+	link: "productCnt.php?cate=3_15&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category3_15/",""]
+},
+{
+	nameTw: "NucleoSpin Plasmid kits．Overview",
+	category: "試劑 > Plasmid DNA Purification",
+	img: "category3_15/",
+	link: "productCnt.php?cate=3_15&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category3_15/",""]
+}
+
+	];
 
 
 
@@ -2633,112 +3076,1080 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > PCR反應管 PCR Tube
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_0 = [];
+	$scope.prodCategory4_0 = [
+{
+	nameTw: "4titude 8連排光學平蓋",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "4titude 8連排PCR反應管",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "ABgene 0.2ml 8 / 12連排短管型PCR反應管",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "ABgene 8/12連排PCR管蓋8/12 CAP STRIPS",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "ABgene 8連排光學平蓋",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "ABgene 0.2ml 8 / 12連排PCR反應管 THERMO-STRIP",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "ABgene 0.5ml平蓋及圓蓋PCR反應管",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+},
+{
+	nameTw: "ABgene 0.2ml平蓋及圓蓋PCR反應管",
+	category: "塑膠耗材 > PCR反應管 PCR Tube",
+	img: "category4_0/",
+	link: "productCnt.php?cate=4_0&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category4_0/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > PCR反應盤 PCR Plate
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_1 = [];
+	$scope.prodCategory4_1 = [
+{
+	nameTw: "FrameStar 可撕型PCR盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 全襯邊96孔低型管PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 無襯邊標準96孔PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 無襯邊低型管96孔盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 384孔反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 全襯邊96孔盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 上襯96孔盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar FastPlate 96孔盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 480/384半襯邊96孔 480專用盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "FrameStar 480/96半襯邊96孔 480專用盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=9",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 機械手臂用384孔PCR盤定位置放載台",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=10",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene AB-0800, AB-1000, AB-1300上",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=11",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene AB-0990, AB-0900上ABI-3700用載盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=12",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene AB-0800, AB-1000, AB-1300上",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=13",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene ABI 3100, 3700自動序列儀用載盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=14",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 384孔硬質透明PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=15",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene50ul 384孔PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=16",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 384孔PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=17",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 反應管組合盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=18",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 襯邊96孔DETECTION PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=19",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 硬質半襯邊96孔PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=20",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 半襯邊96孔PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=21",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 襯邊96孔機械手臂PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=22",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 襯邊96孔低型管PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=23",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 無襯邊96孔低型管PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=24",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+},
+{
+	nameTw: "ABgene 無襯邊96孔PCR反應盤",
+	category: "塑膠耗材 > PCR反應盤 PCR Plate",
+	img: "category4_1/",
+	link: "productCnt.php?cate=4_1&item=25",
+	target: "", isFancybox: "",
+	cnt1: ["category4_1/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 雜交反應框
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_2 = [];
+	$scope.prodCategory4_2 = [
+{
+	nameTw: "微陣列雜交反應槽 MICROARRAY CHAMBER",
+	category: "塑膠耗材 > 雜交反應框",
+	img: "category4_2/",
+	link: "productCnt.php?cate=4_2&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_2/",""]
+},
+{
+	nameTw: "微陣列雜交反應框 MICROARRAY Gene Frame",
+	category: "塑膠耗材 > 雜交反應框",
+	img: "category4_2/",
+	link: "productCnt.php?cate=4_2&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_2/",""]
+},
+{
+	nameTw: "微陣列雜交反應框 MICROARRAY Gene Frame",
+	category: "塑膠耗材 > 雜交反應框",
+	img: "category4_2/",
+	link: "productCnt.php?cate=4_2&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_2/",""]
+},
+{
+	nameTw: "IN SITU PCR雜交反應框 Gene Frame",
+	category: "塑膠耗材 > 雜交反應框",
+	img: "category4_2/",
+	link: "productCnt.php?cate=4_2&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_2/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 封蓋貼膜
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_3 = [];
+	$scope.prodCategory4_3 = [
+{
+	nameTw: "4titude Gas Permeable Adhesive Seal",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "4titude Adhesive PCR Foil Seal",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "Q-Stick™ 96孔盤用QPCR貼膜/96,384孔盤用QPCR貼膜",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "96孔盤蓋 Plate Covers",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "96孔蓋墊 96 Cap Sealing Mats",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "加熱用墊Thermo-Mat",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "384孔中隔縫矽膠墊 MULTISIPTM Septum Cap Mat",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "透氣貼膜 Gas Permeable Adhesive Seals",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "保存貼膜 Adhesive Plate Seals",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "PCR鋁箔貼膜 Adhesive PCR Foil Film",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=9",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "透明PCR貼膜 Adhesive PCR Film",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=10",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "光學透明QPCR貼膜 Absoute QPCR Seal",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=11",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "8連排儲存管蓋 Storage Plate Cap Strips",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=12",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "儲存管蓋 INDIVIDUAL STORAGE PLATE CAPS",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=13",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "1.2ml微量管矽膠塞",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=14",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+},
+{
+	nameTw: "1.2ml微量管中隔縫微量管塞",
+	category: "塑膠耗材 > 封蓋貼膜",
+	img: "category4_3/",
+	link: "productCnt.php?cate=4_3&item=15",
+	target: "", isFancybox: "",
+	cnt1: ["category4_3/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 儲存盤
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_4 = [];
+	$scope.prodCategory4_4 = [
+{
+	nameTw: "48孔6.0ml儲存盤 6.0ml Storage Plate",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "384孔微陣列盤",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "300ul 384深孔儲存盤",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "250ul 384深孔儲存盤",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "384孔儲存盤 384-Well Storage Plate",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "96孔2.2ml儲存盤 2.2ml Storage Plate, MarkII",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "96孔2.2ml儲存盤 2.2ml Storage Plate",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "96方形孔1.2ml 低管身儲存盤",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "96孔1.2ml透明儲存盤1.2ml Storage Plate",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "96孔1.2ml儲存盤　1.2ml Storage Plate",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=9",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+},
+{
+	nameTw: "96孔0.8ml儲存盤　0.8ml Storage Plate",
+	category: "塑膠耗材 > 儲存盤",
+	img: "category4_4/",
+	link: "productCnt.php?cate=4_4&item=10",
+	target: "", isFancybox: "",
+	cnt1: ["category4_4/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 微量管／盒架
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_5 = [];
+	$scope.prodCategory4_5 = [
+{
+	nameTw: "1.2ml 2維條碼標示微量管／盒架",
+	category: "塑膠耗材 > 微量管／盒架",
+	img: "category4_5/",
+	link: "productCnt.php?cate=4_5&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_5/",""]
+},
+{
+	nameTw: "0.65ml 2維條碼標示微量管／盒架",
+	category: "塑膠耗材 > 微量管／盒架",
+	img: "category4_5/",
+	link: "productCnt.php?cate=4_5&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_5/",""]
+},
+{
+	nameTw: "1.2ml 格網式參考標示微量管／盒架",
+	category: "塑膠耗材 > 微量管／盒架",
+	img: "category4_5/",
+	link: "productCnt.php?cate=4_5&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_5/",""]
+},
+{
+	nameTw: "1.2ml微量管／盒架",
+	category: "塑膠耗材 > 微量管／盒架",
+	img: "category4_5/",
+	link: "productCnt.php?cate=4_5&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_5/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 壓克力擋板
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_6 = [];
+	$scope.prodCategory4_6 = [
+{
+	nameTw: "壓克力輻射廢棄物放置箱",
+	category: "塑膠耗材 > 壓克力擋板",
+	img: "category4_6/",
+	link: "productCnt.php?cate=4_6&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_6/",""]
+},
+{
+	nameTw: "壓克力輻射防護放置盒",
+	category: "塑膠耗材 > 壓克力擋板",
+	img: "category4_6/",
+	link: "productCnt.php?cate=4_6&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_6/",""]
+},
+{
+	nameTw: "壓克力防護擋板",
+	category: "塑膠耗材 > 壓克力擋板",
+	img: "category4_6/",
+	link: "productCnt.php?cate=4_6&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_6/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 滴管尖
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_7 = [];
+	$scope.prodCategory4_7 = [
+{
+	nameTw: "快速充填滴管尖",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "電泳長毛細注膠滴管尖Loading Tip",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "Automated Pipetting Workstations 專用Tip",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "5ml 刻度滴管尖 Tip",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "10ul 微量滴管尖 Tip",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "200ul 微量滴管尖 Tip",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "1000ul 微量滴管尖 Tip",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "三合一內濾式滴管尖頭",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+},
+{
+	nameTw: "內濾式滴管尖頭",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_7/",
+	link: "productCnt.php?cate=4_7&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category4_7/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 離心管／瓶
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_8 = [];
+	$scope.prodCategory4_8 = [
+{
+	nameTw: "GEMU 1.5ml FlipTube® 後壓開蓋式離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "Almeco CM LAB 2ml / 5ml 無菌外旋式冷凍小管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "PP圓（平）底離心瓶",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "PP圓底螺旋蓋離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "高速用1.5 ml微量離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "15 ml 尖底離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "50 ml 尖底離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=6",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "0.25 / 0.40 ml 微量離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=7",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "超低殘留矽處理微量離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=8",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+},
+{
+	nameTw: "2.0 / 1.7 / 0.65 ml微量離心管",
+	category: "塑膠耗材 > 滴管尖",
+	img: "category4_8/",
+	link: "productCnt.php?cate=4_8&item=9",
+	target: "", isFancybox: "",
+	cnt1: ["category4_8/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 螢光玻片
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_9 = [];
+	$scope.prodCategory4_9 = [
+{
+	nameTw: "螢光玻片",
+	category: "塑膠耗材 > 螢光玻片",
+	img: "category4_9/",
+	link: "productCnt.php?cate=4_9&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_9/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 操作盤
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_10 = [];
+	$scope.prodCategory4_10 = [
+{
+	nameTw: "cellhome 細胞程序漸涷盒",
+	category: "塑膠耗材 > 操作盤",
+	img: "category4_10/",
+	link: "productCnt.php?cate=4_10&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_10/",""]
+},
+{
+	nameTw: "96孔雙面微量管操作盤",
+	category: "塑膠耗材 > 操作盤",
+	img: "category4_10/",
+	link: "productCnt.php?cate=4_10&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_10/",""]
+},
+{
+	nameTw: "80孔微量管操作架／收集盤",
+	category: "塑膠耗材 > 操作盤",
+	img: "category4_10/",
+	link: "productCnt.php?cate=4_10&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_10/",""]
+},
+{
+	nameTw: "-20℃微量管冷凍低溫保溫操作盒架",
+	category: "塑膠耗材 > 操作盤",
+	img: "category4_10/",
+	link: "productCnt.php?cate=4_10&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_10/",""]
+},
+{
+	nameTw: "0.2㏄ PCR微量管操作保存盒",
+	category: "塑膠耗材 > 操作盤",
+	img: "category4_10/",
+	link: "productCnt.php?cate=4_10&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_10/",""]
+},
+{
+	nameTw: "三合一混合型微量管操作盤",
+	category: "塑膠耗材 > 操作盤",
+	img: "category4_10/",
+	link: "productCnt.php?cate=4_10&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category4_10/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 培養試管
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_11 = [];
+	$scope.prodCategory4_11 = [
+{
+	nameTw: "液態氮專用保存管",
+	category: "塑膠耗材 > 培養試管",
+	img: "category4_11/",
+	link: "productCnt.php?cate=4_11&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_11/",""]
+},
+{
+	nameTw: "可Autoclavable微量儲存管",
+	category: "塑膠耗材 > 培養試管",
+	img: "category4_11/",
+	link: "productCnt.php?cate=4_11&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_11/",""]
+},
+{
+	nameTw: "低溫微量儲存管",
+	category: "塑膠耗材 > 培養試管",
+	img: "category4_11/",
+	link: "productCnt.php?cate=4_11&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_11/",""]
+},
+{
+	nameTw: "平口玻璃培養試管",
+	category: "塑膠耗材 > 培養試管",
+	img: "category4_11/",
+	link: "productCnt.php?cate=4_11&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_11/",""]
+},
+{
+	nameTw: "PP無菌培養試管",
+	category: "塑膠耗材 > 培養試管",
+	img: "category4_11/",
+	link: "productCnt.php?cate=4_11&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_11/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 冷凍管架
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_12 = [];
+	$scope.prodCategory4_12 = [
+{
+	nameTw: "深孔培養盤專用冷凍架",
+	category: "塑膠耗材 > 冷凍管架",
+	img: "category4_12/",
+	link: "productCnt.php?cate=4_12&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_12/",""]
+},
+{
+	nameTw: "96孔盤專用冷凍架",
+	category: "塑膠耗材 > 冷凍管架",
+	img: "category4_12/",
+	link: "productCnt.php?cate=4_12&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_12/",""]
+},
+{
+	nameTw: "不鏽鋼冷凍櫃專用架",
+	category: "塑膠耗材 > 冷凍管架",
+	img: "category4_12/",
+	link: "productCnt.php?cate=4_12&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_12/",""]
+},
+{
+	nameTw: "安瓶鋁夾",
+	category: "塑膠耗材 > 冷凍管架",
+	img: "category4_12/",
+	link: "productCnt.php?cate=4_12&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_12/",""]
+},
+{
+	nameTw: "液態氮專用保存盒",
+	category: "塑膠耗材 > 冷凍管架",
+	img: "category4_12/",
+	link: "productCnt.php?cate=4_12&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category4_12/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 培養盤
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_13 = [];
+	$scope.prodCategory4_13 = [
+{
+	nameTw: "圓形培養盤",
+	category: "塑膠耗材 > 培養盤",
+	img: "category4_13/",
+	link: "productCnt.php?cate=4_13&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_13/",""]
+},
+{
+	nameTw: "方形培養盤",
+	category: "塑膠耗材 > 培養盤",
+	img: "category4_13/",
+	link: "productCnt.php?cate=4_13&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_13/",""]
+},
+{
+	nameTw: "透氣蓋培養瓶",
+	category: "塑膠耗材 > 培養盤",
+	img: "category4_13/",
+	link: "productCnt.php?cate=4_13&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_13/",""]
+},
+{
+	nameTw: "TC培養瓶",
+	category: "塑膠耗材 > 培養盤",
+	img: "category4_13/",
+	link: "productCnt.php?cate=4_13&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category4_13/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 丟棄吸管
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_14 = [];
+	$scope.prodCategory4_14 = [
+{
+	nameTw: "3ml丟棄式乳頭吸管",
+	category: "塑膠耗材 > 丟棄吸管",
+	img: "category4_14/",
+	link: "productCnt.php?cate=4_14&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_14/",""]
+},
+{
+	nameTw: "丟棄式塑膠吸管",
+	category: "塑膠耗材 > 丟棄吸管",
+	img: "category4_14/",
+	link: "productCnt.php?cate=4_14&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_14/",""]
+}
+
+	];
 
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	塑膠耗材 > 比色管
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory4_15 = [];
+	$scope.prodCategory4_15 = [
+{
+	nameTw: "丟棄式塑膠比色管",
+	category: "塑膠耗材 > 比色管",
+	img: "category4_15/",
+	link: "productCnt.php?cate=4_15&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category4_15/",""]
+},
+{
+	nameTw: "石英比色管",
+	category: "塑膠耗材 > 比色管",
+	img: "category4_15/",
+	link: "productCnt.php?cate=4_15&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category4_15/",""]
+},
+{
+	nameTw: "細胞融合／電穿孔專用管",
+	category: "塑膠耗材 > 比色管",
+	img: "category4_15/",
+	link: "productCnt.php?cate=4_15&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category4_15/",""]
+}
+
+	];
 
 
 
@@ -2748,85 +4159,418 @@ function prodCateCtrl($scope) {
 /*----------------------------------------------------------------------------*\
 	合成服務 > 引子合成 Primer Order
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_0 = [];
+	$scope.prodCategory5_0 = [
+{
+	nameTw: "gBlocks gene fragment",
+	category: "合成服務 > 引子合成 Primer Order",
+	img: "category5_0/",
+	link: "productCnt.php?cate=5_0&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_0/",""]
+},
+{
+	nameTw: "Ultramer DNA Oligo",
+	category: "合成服務 > 引子合成 Primer Order",
+	img: "category5_0/",
+	link: "productCnt.php?cate=5_0&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_0/",""]
+},
+{
+	nameTw: "FBCO 50nmole 濕式引子",
+	category: "合成服務 > 引子合成 Primer Order",
+	img: "category5_0/",
+	link: "productCnt.php?cate=5_0&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category5_0/",""]
+},
+{
+	nameTw: "25 mnole primer特價專案",
+	category: "合成服務 > 引子合成 Primer Order",
+	img: "category5_0/",
+	link: "productCnt.php?cate=5_0&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category5_0/",""]
+},
+{
+	nameTw: "About Integrated DNA Technologies",
+	category: "合成服務 > 引子合成 Primer Order",
+	img: "category5_0/",
+	link: "productCnt.php?cate=5_0&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category5_0/",""]
+},
+{
+	nameTw: "Primer Order",
+	category: "合成服務 > 引子合成 Primer Order",
+	img: "category5_0/",
+	link: "productCnt.php?cate=5_0&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category5_0/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > General Information
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_1 = [];
+	$scope.prodCategory5_1 = [
+{
+	nameTw: "The IDT Advantange",
+	category: "合成服務 > General Information",
+	img: "category5_1/",
+	link: "productCnt.php?cate=5_1&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_1/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > DNA Synthesis and Purification
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_2 = [];
+	$scope.prodCategory5_2 = [
+{
+	nameTw: "96-Well/384-Well Plates",
+	category: "合成服務 > DNA Synthesis and Purification",
+	img: "category5_2/",
+	link: "productCnt.php?cate=5_2&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_2/",""]
+},
+{
+	nameTw: "Purification",
+	category: "合成服務 > DNA Synthesis and Purification",
+	img: "category5_2/",
+	link: "productCnt.php?cate=5_2&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_2/",""]
+},
+{
+	nameTw: "Custom Oligonucleotide Synthesis",
+	category: "合成服務 > DNA Synthesis and Purification",
+	img: "category5_2/",
+	link: "productCnt.php?cate=5_2&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category5_2/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > RNA and 2-O-Methyl RNA Synthesis
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_3 = [];
+	$scope.prodCategory5_3 = [
+{
+	nameTw: "Extra Purification Makes the Difference",
+	category: "合成服務 > RNA and 2-O-Methyl RNA Synthesis",
+	img: "category5_3/",
+	link: "productCnt.php?cate=5_3&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_3/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Antisense Oligonucleotides
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_4 = [];
+	$scope.prodCategory5_4 = [
+{
+	nameTw: "Examples of RNase H Active Antisense Oligos",
+	category: "合成服務 > Antisense Oligonucleotides",
+	img: "category5_4/",
+	link: "productCnt.php?cate=5_4&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_4/",""]
+},
+{
+	nameTw: "Antisense Oligonucleotides",
+	category: "合成服務 > Antisense Oligonucleotides",
+	img: "category5_4/",
+	link: "productCnt.php?cate=5_4&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_4/",""]
+},
+{
+	nameTw: "Gene Knockout",
+	category: "合成服務 > Antisense Oligonucleotides",
+	img: "category5_4/",
+	link: "productCnt.php?cate=5_4&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category5_4/",""]
+},
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Readit Oligos
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_5 = [];
+	$scope.prodCategory5_5 = [
+{
+	nameTw: "READIT Oligos",
+	category: "合成服務 > Readit Oligos",
+	img: "category5_5/",
+	link: "productCnt.php?cate=5_5&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_5/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > DNA & RNA Probes for Fluorescence-Based
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_6 = [];
+	$scope.prodCategory5_6 = [
+{
+	nameTw: "DNA and RNA Probes for Fluorescence-Based Application",
+	category: "合成服務 > DNA & RNA Probes for Fluorescence-Based",
+	img: "category5_6/",
+	link: "productCnt.php?cate=5_6&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_6/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Applications
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_7 = [];
+	$scope.prodCategory5_7 = [
+{
+	nameTw: "Molecular Beacons",
+	category: "合成服務 > Applications",
+	img: "category5_7/",
+	link: "productCnt.php?cate=5_7&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_7/",""]
+},
+{
+	nameTw: "Dual-Labeled RNA Probes-Only at IDT!",
+	category: "合成服務 > Applications",
+	img: "category5_7/",
+	link: "productCnt.php?cate=5_7&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_7/",""]
+},
+{
+	nameTw: "Dual-Labeled DNA and RNA Probes",
+	category: "合成服務 > Applications",
+	img: "category5_7/",
+	link: "productCnt.php?cate=5_7&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category5_7/",""]
+},
+{
+	nameTw: "Dark Quenchers-Continued",
+	category: "合成服務 > Applications",
+	img: "category5_7/",
+	link: "productCnt.php?cate=5_7&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category5_7/",""]
+},
+{
+	nameTw: "DNA and RNA Probes for Fluorescence-Based Applications",
+	category: "合成服務 > Applications",
+	img: "category5_7/",
+	link: "productCnt.php?cate=5_7&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category5_7/",""]
+},
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Modifications
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_8 = [];
+	$scope.prodCategory5_8 = [
+{
+	nameTw: "Modified Bases",
+	category: "合成服務 > Modifications",
+	img: "category5_8/",
+	link: "productCnt.php?cate=5_8&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_8/",""]
+},
+{
+	nameTw: "Spacers",
+	category: "合成服務 > Modifications",
+	img: "category5_8/",
+	link: "productCnt.php?cate=5_8&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_8/",""]
+},
+{
+	nameTw: "Quenchers",
+	category: "合成服務 > Modifications",
+	img: "category5_8/",
+	link: "productCnt.php?cate=5_8&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category5_8/",""]
+},
+{
+	nameTw: "Fluorophores",
+	category: "合成服務 > Modifications",
+	img: "category5_8/",
+	link: "productCnt.php?cate=5_8&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category5_8/",""]
+},
+{
+	nameTw: "Attachment Chemistry / Linkers",
+	category: "合成服務 > Modifications",
+	img: "category5_8/",
+	link: "productCnt.php?cate=5_8&item=4",
+	target: "", isFancybox: "",
+	cnt1: ["category5_8/",""]
+},
+{
+	nameTw: "Phosphorylation",
+	category: "合成服務 > Modifications",
+	img: "category5_8/",
+	link: "productCnt.php?cate=5_8&item=5",
+	target: "", isFancybox: "",
+	cnt1: ["category5_8/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Stock Primers and Products
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_9 = [];
+	$scope.prodCategory5_9 = [
+{
+	nameTw: "ReadyMade Primers",
+	category: "合成服務 > Stock Primers and Products",
+	img: "category5_9/",
+	link: "productCnt.php?cate=5_9&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_9/",""]
+},
+{
+	nameTw: "RNaseAlert Substrate and DNaseAlert Substrate Nuclease Detection System",
+	category: "合成服務 > Stock Primers and Products",
+	img: "category5_9/",
+	link: "productCnt.php?cate=5_9&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_9/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Molecular Biology Products
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_10 = [];
+	$scope.prodCategory5_10 = [
+{
+	nameTw: "Packaging and Formulation",
+	category: "合成服務 > Molecular Biology Products",
+	img: "category5_10/",
+	link: "productCnt.php?cate=5_10&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_10/",""]
+},
+{
+	nameTw: "Custom Gene Synthesis",
+	category: "合成服務 > Molecular Biology Products",
+	img: "category5_10/",
+	link: "productCnt.php?cate=5_10&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_10/",""]
+}
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Special Services
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_11 = [];
+	$scope.prodCategory5_11 = [
+{
+	nameTw: "Usage, Warranty and Licenses",
+	category: "合成服務 > Special Services",
+	img: "category5_11/",
+	link: "productCnt.php?cate=5_11&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_11/",""]
+},
+{
+	nameTw: "Custom Preparative Services",
+	category: "合成服務 > Special Services",
+	img: "category5_11/",
+	link: "productCnt.php?cate=5_11&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_11/",""]
+},
+{
+	nameTw: "MALDI-TOF and CE--available FREE on the web",
+	category: "合成服務 > Special Services",
+	img: "category5_11/",
+	link: "productCnt.php?cate=5_11&item=2",
+	target: "", isFancybox: "",
+	cnt1: ["category5_11/",""]
+},
+{
+	nameTw: "IDT BioTools",
+	category: "合成服務 > Special Services",
+	img: "category5_11/",
+	link: "productCnt.php?cate=5_11&item=3",
+	target: "", isFancybox: "",
+	cnt1: ["category5_11/",""]
+},
+
+	];
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > Alpha Diagnostic International
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_12 = [];
+	$scope.prodCategory5_12 = [
+{
+	nameTw: "Alpha Diagnostic International, Inc.(ADI)",
+	category: "合成服務 > Alpha Diagnostic International",
+	img: "category5_11/",
+	link: "productCnt.php?cate=5_11&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_11/",""]
+}
+
+	];
+
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 /*----------------------------------------------------------------------------*\
 	合成服務 > ELISA Kits
 \*----------------------------------------------------------------------------*/
-	$scope.prodCategory5_13 = [];
+	$scope.prodCategory5_13 = [
+{
+	nameTw: "Human ELISA Components:Hormones, Proteins, and Tumor Markers",
+	category: "合成服務 > ELISA Kits",
+	img: "category5_12/",
+	link: "productCnt.php?cate=5_12&item=0",
+	target: "", isFancybox: "",
+	cnt1: ["category5_12/",""]
+},
+{
+	nameTw: "ELISA Kits For Mouse Autoimmune Diseases",
+	category: "合成服務 > ELISA Kits",
+	img: "category5_12/",
+	link: "productCnt.php?cate=5_12&item=1",
+	target: "", isFancybox: "",
+	cnt1: ["category5_12/",""]
+}
+
+	];
 
 
 
