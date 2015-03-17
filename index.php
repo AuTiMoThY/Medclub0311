@@ -105,102 +105,102 @@
 			<div class="popular_prod-wrap">
 				<figure id="popularProd1" class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="upload/product/category1/CB-1501s.jpg" alt=""></div>
+						<div class="pic"><img src="upload/product/category1/20150317001.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
-							CB-1501 高溫乾浴器  Exquisite Heating Dry Bath
+							96孔溫度梯度聚合酶連鎖反應儀
 						</h2>
 						<div class="popular_prod-cnt">
 						<?php  //此處示意顯示 最新消息內容 65 個字，超過以...取代
-							$cnt0 = "The CB-1501 Exquisite Heating Dry Bath provides digital accuracy due to a microprocessor controller and a block cover. The CB1501 exhibits unsurpassed temperature uniformity. It is easy for users to keep the block clean preventing from cross-contamination and can be used widely for the preservation and reaction of samples, the amplification of DNA, the pre-denaturation of electrophoresis and blood serum coagulation.";
+							$cnt0 = "96孔溫度梯度聚合酶連鎖反應儀。全系列採用8枚美製Marlow半導體製冷片，最大升降溫速率大於5度每秒，循環次數大於60萬次。";
 							$content0 = strip_tags($cnt0);
 							$content = mb_substr($content0,0,65,'UTF-8');
 							if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 							echo $content;
 						?>
 						</div>
-						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=37">LEARN MORE &gt;&gt;</a></span>
+						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=39">LEARN MORE &gt;&gt;</a></span>
 					</figcaption>
 				</figure>
 				<figure id="popularProd2" class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="upload/product/category1/C1000_img_0s.jpg" alt=""></div>
+						<div class="pic"><img src="upload/product/category1/20150317002.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
-							BIO-RAD  聚合酵素連鎖反應儀   C1000
+							Homogenizer 生物樣品均質機 
 						</h2>
 						<div class="popular_prod-cnt">
 						<?php  //此處示意顯示 最新消息內容 65 個字，超過以...取代
-							$cnt0 = "The C1000 cycler is the flagship of the 1000-series thermal cycling platform, offering unmatched performance for fast,";
+							$cnt0 = "Prep-CB24 Homogenizer 生物樣品均質機。最快30秒就能處理24支生物樣品! 歡迎預約試用!";
 							$content0 = strip_tags($cnt0);
 							$content = mb_substr($content0,0,65,'UTF-8');
 							if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 							echo $content;
 						?>
 						</div>
-						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=29">LEARN MORE &gt;&gt;</a></span>
+						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=40">LEARN MORE &gt;&gt;</a></span>
 					</figcaption>
 				</figure>
 				<figure id="popularProd3" class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="upload/product/category1/1008110001s.jpg" alt=""></div>
+						<div class="pic"><img src="upload/product/category1/20150317003.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
-							核酸專用微量分光光度計CB-2800
+							Nano100 / Nano200 分光光度計
 						</h2>
 						<div class="popular_prod-cnt">
 						<?php  //此處示意顯示 最新消息內容 65 個字，超過以...取代
-							$cnt0 = "核酸專用微量分光光度計CB-2800是一款專門用來檢測核酸濃度和純度的儀器。";
+							$cnt0 = "分光光度計系列產品：Nano-200 分光光度計、Nano-100 分光光度計、全波長微量 / 比色管分光光度計 DS-11+";
 							$content0 = strip_tags($cnt0);
 							$content = mb_substr($content0,0,65,'UTF-8');
 							if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 							echo $content;
 						?>
 						</div>
-						<span class="btn btn-more"><a href="upload/product/category1/1008110001.jpg" target="_blank">LEARN MORE &gt;&gt;</a></span>
+						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=41">LEARN MORE &gt;&gt;</a></span>
 					</figcaption>
 				</figure>
 				<figure id="popularProd4" class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="upload/product/category1/1004230002s.jpg" alt=""></div>
+						<div class="pic"><img src="upload/product/category1/20150317004.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
-							4S2 Thermal Sealer 電動半自動封盤機
+							Rephile Direct-Pure UP UV 二合一超純水系統
 						</h2>
 						<div class="popular_prod-cnt">
 						<?php  //此處示意顯示 最新消息內容 65 個字，超過以...取代
-							$cnt0 = "4S2 Thermal Sealer 電動半自動封盤機。特點：100%完整密封。電動封盤過程促使封膜的條件一致性高。封膜溫度與時間可自行設定，可使用的封膜材質種類範圍廣。";
+							$cnt0 = "Direct-Pure UP UV 二合一超純水系統。  以自來水為進水，製備超純水和逆滲透純水的二合一系統。採用最先進逆滲透技術和獨創配方填料的超純化濾柱，Direct-Pure UP UV超純水及逆滲透RO純水組合型一體機，";
 							$content0 = strip_tags($cnt0);
 							$content = mb_substr($content0,0,65,'UTF-8');
 							if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 							echo $content;
 						?>
 						</div>
-						<span class="btn btn-more"><a href="upload/product/category1/1004230002.pdf" target="_blank">LEARN MORE &gt;&gt;</a></span>
+						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=42">LEARN MORE &gt;&gt;</a></span>
 					</figcaption>
 				</figure>
 				<figure id="popularProd5" class="col">
 					<div class="popular_prod-pic">
-						<div class="pic"><img src="upload/product/category1/1004230001s.jpg" alt=""></div>
+						<div class="pic"><img src="upload/product/category1/20150317005.jpg" alt=""></div>
 					</div>
 					<figcaption>
 						<h2 class="popular_prod-title">
-							Affinity Detection System (ADS)液相超微量分析儀
+							Rephile Direct-Pure adept UV 超純水系統
 						</h2>
 						<div class="popular_prod-cnt">
 						<?php  //此處示意顯示 最新消息內容 65 個字，超過以...取代
-							$cnt0 = "Affinity Detection System (ADS)液相超微量分析儀系列產品，應用Quartz Crystal Microbalance (QCM) 技術結合成為即時偵測分子間交互作用的利器。";
+							$cnt0 = "Direct-Pure adept UV 超純水系統。  無水箱超純水一體機，以自來水為進水，直接製備18.2MΩ.cm 超純水。小體積專業集成設計的無水箱型Direct-Pure adept超純水系統，無需其他配備和特殊安裝，即可以從自來水製備超純水，";
 							$content0 = strip_tags($cnt0);
 							$content = mb_substr($content0,0,65,'UTF-8');
 							if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
 							echo $content;
 						?>
 						</div>
-						<span class="btn btn-more"><a href="upload/product/category1/1004230001.pdf" target="_blank">LEARN MORE &gt;&gt;</a></span>
+						<span class="btn btn-more"><a href="productCnt.php?cate=1&item=43">LEARN MORE &gt;&gt;</a></span>
 					</figcaption>
 				</figure>
 <div class="popular_prod-mq col cf">
@@ -215,31 +215,31 @@
           		<!-- 顯示此產品內容時，加入 class： active -->
                <li id="popularProdItem1" class="popular_prod-item active">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="upload/product/category1/CB-1501s.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/20150317001.jpg" alt=""></div>
                     </div>
                </li>
 
                <li id="popularProdItem2" class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="upload/product/category1/C1000_img_0s.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/20150317002.jpg" alt=""></div>
                     </div>
                </li>
 
                <li id="popularProdItem3" class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="upload/product/category1/1008110001s.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/20150317003.jpg" alt=""></div>
                     </div>
                </li>
 
                <li id="popularProdItem4" class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="upload/product/category1/1004230002s.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/20150317004.jpg" alt=""></div>
                     </div>
                </li>
 
                <li id="popularProdItem5" class="popular_prod-item">
                     <div class="popular_prod-item-pic">
-                    	<div class="pic"><img src="upload/product/category1/1004230001s.jpg" alt=""></div>
+                    	<div class="pic"><img src="upload/product/category1/20150317005.jpg" alt=""></div>
                     </div>
                </li>
 

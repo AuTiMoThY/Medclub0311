@@ -320,6 +320,46 @@ function prodCateCtrl($scope) {
 	target: "_blank", isFancybox: "",
 	cnt1: ""
 },
+{
+	nameTw: "96孔溫度梯度聚合酶連鎖反應儀",
+	category: "新產品",
+	img: "category1/20150317001",
+	link: "productCnt.php?cate=1&item=39",
+	target: "", isFancybox: "",
+	cnt1: ["category1/20150317001c-1",""]
+},
+{
+	nameTw: "Homogenizer 生物樣品均質機",
+	category: "新產品",
+	img: "category1/20150317002",
+	link: "productCnt.php?cate=1&item=40",
+	target: "", isFancybox: "",
+	cnt1: ["category1/20150317002c-1","category1/20150317002c-2"]
+},
+{
+	nameTw: "Nano100 / Nano200 分光光度計",
+	category: "新產品",
+	img: "category1/20150317003",
+	link: "productCnt.php?cate=1&item=41",
+	target: "", isFancybox: "",
+	cnt1: ["category1/20150317003c-1",""]
+},
+{
+	nameTw: "Rephile Direct-Pure UP UV 二合一超純水系統",
+	category: "新產品",
+	img: "category1/20150317004",
+	link: "productCnt.php?cate=1&item=42",
+	target: "", isFancybox: "",
+	cnt1: ["category1/20150317004c-1","category1/20150317004c-2"]
+},
+{
+	nameTw: "Rephile Direct-Pure adept UV 超純水系統",
+	category: "新產品",
+	img: "category1/20150317005",
+	link: "productCnt.php?cate=1&item=43",
+	target: "", isFancybox: "",
+	cnt1: ["category1/20150317005c-1","category1/20150317005c-2"]
+},
 
 	];
 
