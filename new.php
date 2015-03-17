@@ -60,25 +60,43 @@
 						</div>
 					</div>
 				</li>
-
-<!-- 				<li class="">
-					<a href="javascript:void 0;" class="slidelink" style="background-image: url('images/banner2.jpg');"></a>
+				<li class="">
+					<a href="javascript:void 0;" class="slidelink" style="background-image: url('upload/news/dm11.jpg');"></a>
 					<div class="well">
 						<div class="flex-caption">
-							<h1>第30 屆生物醫學聯合學術年會</h1>
+							<h1>全長率才是實驗成功的主要關鍵</h1>
 						</div>
 					</div>
 				</li>
 
 				<li class="">
-					<a href="javascript:void 0;" class="slidelink" style="background-image: url('images/banner2.jpg');"></a>
+					<a href="javascript:void 0;" class="slidelink" style="background-image: url('upload/news/dm10.jpg');"></a>
 					<div class="well">
 						<div class="flex-caption">
-							<h1>第30 屆生物醫學聯合學術年會</h1>
+							<h1>LNA Probes</h1>
 						</div>
 					</div>
 				</li>
- -->
+
+				<li class="">
+					<a href="javascript:void 0;" class="slidelink" style="background-image: url('upload/news/dm9.jpg');"></a>
+					<div class="well">
+						<div class="flex-caption">
+							<h1>ZEN  Double-Quenched Probes</h1>
+						</div>
+					</div>
+				</li>
+
+				<li class="">
+					<a href="javascript:void 0;" class="slidelink" style="background-image: url('upload/news/dm8.jpg');"></a>
+					<div class="well">
+						<div class="flex-caption">
+							<h1>Rephile Direct-Pure adept UV 超純水系統</h1>
+						</div>
+					</div>
+				</li>
+
+
 			</ul>
 			<div id="hcarouselcontrols" class="h_carousel_controls">
 				<div class="well">
@@ -99,7 +117,7 @@
 <article id="main" class="new_page-main">
 <div class="wrapper cf">
 	<section class="container">
-		<ul class="new-list cf">
+		<ul id="newsList" class="new-list cf">
 			<li class="new-item col">
 				<figure><a href="newCnt.php">
 					<div class="pic"><img src="images/banner2.jpg" alt=""></div>
@@ -200,6 +218,39 @@ $(window).load(function(){
 		// }
 	});
 });
+
+$(function(){
+	var json,
+		pagerCount = 10,
+		currentIndex = 1;
+
+	function show(data) {
+		var html = "";
+		// var hash = location.hash.substr(1);
+		// var hashA = hash - 1;
+		// var prodImg = data[hashA].prodCntImg;
+		// console.log (data.length);
+		// console.log ("hash:" + hash + ",hashA:" + hashA);
+        // if (hash != "") {
+			// console.log (prodImg.length);
+			for (var i = 0; i < data.length; i++) {
+html += "<li class=\"new-item col\">";
+html += "	<figure><a href=\""+ data[i].cntUrl +"\">";
+html += "		<div class=\"pic\"><img src=\"" + data[i].imgUrl + "\" alt=\"\"></div>";
+html += "		<figcaption>" + data[i].newsTitle + "</figcaption>";
+html += "	</a></figure>";
+html += "</li>";
+			};
+			$("#newsList").html(html);
+        // }
+	}
+	$.getJSON('ajax/newsDM.json', function(data) {
+		json = data;
+		show(json);
+	});
+
+})
+
 </script>
 <?php
 // -------------------------------

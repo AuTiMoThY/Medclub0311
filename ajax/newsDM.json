@@ -1,0 +1,74 @@
+[
+	{
+		"newsTitle": "第30 屆生物醫學聯合學術年會",
+		"imgUrl": "images/banner2.jpg",
+		"cntUrl": "newCnt.php",
+		"cntImg": [1]
+	},
+	{
+		"newsTitle": "全長率才是實驗成功的主要關鍵",
+		"imgUrl": "upload/news/dm11.jpg",
+		"cntUrl": "newCnt1.php?dm=11",
+		"cntImg": ["dm11c-1"]
+	},
+	{
+		"newsTitle": "LNA Probes",
+		"imgUrl": "upload/news/dm10.jpg",
+		"cntUrl": "newCnt1.php?dm=10",
+		"cntImg": ["dm10c-1"]
+	},
+	{
+		"newsTitle": "ZEN  Double-Quenched Probes",
+		"imgUrl": "upload/news/dm9.jpg",
+		"cntUrl": "newCnt1.php?dm=9",
+		"cntImg": ["dm9c-1", "dm9c-2"]
+	},
+	{
+		"newsTitle": "Rephile Direct-Pure adept UV 超純水系統",
+		"imgUrl": "upload/news/dm8.jpg",
+		"cntUrl": "newCnt1.php?dm=8",
+		"cntImg": ["dm8c-1", "dm8c-2"]
+	},
+	{
+		"newsTitle": "Rephile Direct-Pure UP UV 二合一超純水系統",
+		"imgUrl": "upload/news/dm7.jpg",
+		"cntUrl": "newCnt1.php?dm=7",
+		"cntImg": ["dm7c-1", "dm7c-2"]
+	},
+	{
+		"newsTitle": "NSSC 低液體殘留滴管尖頭",
+		"imgUrl": "upload/news/dm6.jpg",
+		"cntUrl": "newCnt1.php?dm=6",
+		"cntImg": ["dm6c-1"]
+	},
+	{
+		"newsTitle": "CBHB-10000 原位雜交反應器",
+		"imgUrl": "upload/news/dm5.jpg",
+		"cntUrl": "newCnt1.php?dm=5",
+		"cntImg": ["dm5c-1"]
+	},
+	{
+		"newsTitle": "Nano100 / Nano200 分光光度計",
+		"imgUrl": "upload/news/dm4.jpg",
+		"cntUrl": "newCnt1.php?dm=4",
+		"cntImg": ["dm4c-1"]
+	},
+	{
+		"newsTitle": "SURVEROR Mutation Detection Kit",
+		"imgUrl": "upload/news/dm3.jpg",
+		"cntUrl": "newCnt1.php?dm=3",
+		"cntImg": ["dm3c-1", "dm3c-1"]
+	},
+	{
+		"newsTitle": "Homogenizer 生物樣品均質機",
+		"imgUrl": "upload/news/dm2.jpg",
+		"cntUrl": "newCnt1.php?dm=2",
+		"cntImg": ["dm2c-1", "dm2c-1"]
+	},
+	{
+		"newsTitle": "96孔溫度梯度聚合酶連鎖反應儀",
+		"imgUrl": "upload/news/dm1.jpg",
+		"cntUrl": "newCnt1.php?dm=1",
+		"cntImg": ["dm1c-1"]
+	}
+]

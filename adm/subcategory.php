@@ -1,76 +1,124 @@
-<?php
+<?php //////// Header ////////
+
+  // Start the session
+  require_once('../global/startsession.php');
+
+  // Insert the page header
+  $page_title = '產品管理';
+  require_once('header.php');
+
+  // Declare the constants and global variables
   require_once('../global/appvars.php');
-  $category_list = "";
-  foreach ($g_category as $i => $category) {
-    $category_list .= $category;
+
+?>
+
+<?php //////// Navigation Menu ////////
+
+  require_once('navmenu.php');
+
+?>
+
+<?php //////// Open Database ////////
+
+  // Connect to the database
+  require_once('../global/connectvars.php');
+  $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) 
+  or die('Could not connect: ' . mysqli_error($conn) . '<br>');
+
+?>
+
+<?php //////// Libraries ////////
+
+  include_once('subcategory_db.php');
+
+?>
+
+<?php //////// Input Parameters ////////
+  // The entries:
+  //   Query subcategory 
+  //     1. category.php         -> get: category_id
+  //   Insert/update subcategory re-direct
+  //     2. subcategory_edit.php -> get: category_id
+  $category_id = $_GET['category_id'];
+?>
+
+<?php //////// Prepare Count of Acting/Nonacting Subcategory Items with category_id ////////
+  $act_nonact_array = count_t_subcategory_in_category_id_with_act_nonact($conn,$category_id);
+  // $act_count: number of acting subcategory items
+  // $nonact_count: number of non-acting subcategory items
+  $act_count = isset($act_nonact_array[SBC_STATUS_ACT]) ? $act_nonact_array[SBC_STATUS_ACT] : 0;
+  $nonact_count = isset($act_nonact_array[SBC_STATUS_NONACT]) ? $act_nonact_array[SBC_STATUS_NONACT] : 0;
+?>
+
+<?php //////// Add New Subcategory //////// ?>
+<section class="link1">
+<h5><a href="subcategory_edit.php?category_id=<?php echo $category_id; ?>">新增次分類</a></h5>
+</section>
+
+<?php //////// Information //////// ?>
+<section class="caption">
+<h5>
+  主分類： <?php echo $g_category[$category_id]; ?> <br>
+  次分類： <?php echo $act_count ?> 個&nbsp;顯示&nbsp;
+  <?php echo $nonact_count ?> 個&nbsp;隱藏&nbsp;
+</h5>
+</section>
+
+<?php //////// Subcategory Table //////// ?>
+<section>
+<?php
+  // Query subcategory data
+  select_t_subcategory($conn);
+  $sql = "SELECT subcategory_id, name_zh_tw, display_order, status FROM " . DBT_SUBCATEGORY . 
+         " WHERE category_id = " . $category_id . 
+         " ORDER BY display_order";
+  $result = mysqli_query($conn, $sql);
+  if (mysqli_num_rows($result) > 0) {
+    echo '<table id="table">';
+    echo '<tr class="header-row row">';
+    echo '<th class="cell">名稱</th>';
+    echo '<th class="cell">商品數</th>';
+    echo '<th class="cell">顯示次序</th>';
+    echo '<th class="cell">狀態</th>';
+    echo '<th class="cell">修改</th>';
+    echo '</tr>';
+    while($row = mysqli_fetch_array($result)) {
+      echo '<tr class="row">';
+      echo '<td class="cell">';
+        echo '<a href="product.php?subcategory_id=' . $row['subcategory_id'] . '">';
+        echo $row['name_zh_tw'];
+        echo '</a>';
+      echo '</td>';
+      echo '<td class="cell">' . 0 . '</td>';
+      echo '<td class="cell">' . $row['display_order'] . '</td>';
+      echo '<td class="cell">' . ($row['status']==1?'顯示':'隱藏') . '</td>';
+      echo '<td class="cell">';
+      echo '<a href="subcategory_edit.php?';
+        echo 'subcategory_id=' . $row['subcategory_id'];
+        echo '&category_id=' . $category_id;
+        echo '&name_zh_tw=' . $row['name_zh_tw'];
+        echo '&display_order=' . $row['display_order'];
+        echo '&status=' . $row['status'];
+      echo '">修改</a>';
+      echo '</td>';
+      echo '</tr>';
+    }
+    echo '</table>';
+  }
+  else {
+    echo '<section class="msg1"><h5><p>尚無項目</p></h5></section>';
   }
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" href="js/jquery/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="js/jquery/jquery-1.10.2.js"></script>
-  <script src="js/jquery/ui/1.11.4/jquery-ui.js"></script>
+</section>
 
+<?php //////// Close Database ////////
 
-  <style>
-  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
-  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
-  #sortable li span { position: absolute; margin-left: -1.3em; }
-  </style>
+  mysqli_close($conn);
 
-  <script type="text/javascript"> 
-  // When the document is ready set up our sortable with it's inherant function(s) 
-  $(function() { 
-    $("#sortable").sortable({ 
-      handle : '.handle',
-      opacity: 0.6,
-      cursor: 'move',
-      axis:'y',
-      update : function () { 
-        var order = $('#sortable').sortable('serialize'); 
-        $("#info").load("process-sortable.php?"+order); 
-      }
-    }); 
-  }); 
-  </script>
-</head>
-<body>
-<?php
-  echo($category_list);
 ?>
-<pre> 
-    <div id="info">Waiting for update</div> 
-</pre> 
-<div id="header">
-  <p id="add-list-item">Add list item here.</p>
-  <ul id="sortable"> 
-    <li id="listItem_1" class="ui-state-default">Item 1</li> 
-    <li id="listItem_2" class="ui-state-default">  
-      <strong>Item 2</strong> 
-    </li> 
-    <li id="listItem_3" class="ui-state-default">  
-      <strong>Item 3</strong> 
-    </li> 
-    <li id="listItem_4" class="ui-state-default">  
-      <strong>Item 4</strong> 
-    </li> 
-  </ul> 
-  <form action="process-sortable.php" method="post" name="sortables"> 
-    <input type="hidden" name="test-log" id="test-log"> 
-  </form>
-  </div>
 
-  <script>
-    $( "#add-list-item" )
-      .mouseup(function() {
-        $("#header ul").append('<li id="listItem_' + ($("#sortable li").size()+1) + '" class="ui-state-default"><strong>Item ' + ($("#sortable li").size()+1) + ' </strong></li> ');
-      })
-      .mousedown(function() {
-      });
-  </script>
+<?php //////// Footer ////////
 
-</body>
-</html>
+  require_once('footer.php');
+
+?>

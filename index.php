@@ -85,7 +85,7 @@
 				echo $content;
 			?>
 				</h2>
-				<div class="news-time">3 月 12日</div>
+				<!-- <div class="news-time">3 月 12日</div> -->
 			</hgroup>
 			<div class="news-cnt">
 			<?php  //此處示意顯示 最新消息內容 75 個字，超過以...取代

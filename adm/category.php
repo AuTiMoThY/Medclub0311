@@ -1,76 +1,76 @@
-<?php
+<?php //////// Header ////////
+
+  // Start the session
+  require_once('../global/startsession.php');
+
+  // Insert the page header
+  $page_title = '產品管理';
+  require_once('header.php');
+
+  // Declare the constants and global variables
   require_once('../global/appvars.php');
-  $category_list = "";
+
+?>
+
+<?php //////// Navigation Menu ////////
+
+  require_once('navmenu.php');
+
+?>
+
+<?php //////// Open Database ////////
+
+  // Connect to the database
+  require_once('../global/connectvars.php');
+  $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) 
+  or die('Could not connect: ' . mysqli_error($conn) . '<br>');
+
+?>
+
+<?php //////// Libraries ////////
+
+  include_once('subcategory_db.php');
+
+?>
+
+<?php //////// Information //////// ?>
+<section class="caption">
+<h5>共有 <?php echo count($g_category); ?> 個主分類</h5>
+</section>
+
+<?php //////// Category Table //////// ?>
+<section>
+<table id="table">
+<tr class="header-row row">
+<th class="cell">名稱</th>
+<th class="cell">次分類數</th>
+<th class="cell">商品數</th>
+</tr>
+<?php
+  $subcategory_count_array = count_t_subcategory_acting_by_category_id($conn);
   foreach ($g_category as $i => $category) {
-    $category_list .= $category;
+    // It is not necessary all items in $g_category can be found in $subcategory_count_array
+    $count = isset($subcategory_count_array[$i]) ? $subcategory_count_array[$i] : 0;
+    echo '<tr class="row">';
+    echo '<td class="cell">';
+    echo '<a href="subcategory.php?category_id=' . $i . '">' . $category . '</a>';
+    echo '</td>';
+    echo '<td class="cell">' . $count . '</td>';
+    echo '<td class="cell">' . 0 . '</td>';
+    echo '</tr>';
   }
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" href="js/jquery/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="js/jquery/jquery-1.10.2.js"></script>
-  <script src="js/jquery/ui/1.11.4/jquery-ui.js"></script>
+</table>
+</section>
 
+<?php //////// Close Database ////////
 
-  <style>
-  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
-  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
-  #sortable li span { position: absolute; margin-left: -1.3em; }
-  </style>
+  mysqli_close($conn);
 
-  <script type="text/javascript"> 
-  // When the document is ready set up our sortable with it's inherant function(s) 
-  $(function() { 
-    $("#sortable").sortable({ 
-      handle : '.handle',
-      opacity: 0.6,
-      cursor: 'move',
-      axis:'y',
-      update : function () { 
-        var order = $('#sortable').sortable('serialize'); 
-        $("#info").load("process-sortable.php?"+order); 
-      }
-    }); 
-  }); 
-  </script>
-</head>
-<body>
-<?php
-  echo($category_list);
 ?>
-<pre> 
-    <div id="info">Waiting for update</div> 
-</pre> 
-<div id="header">
-  <p id="add-list-item">Add list item here.</p>
-  <ul id="sortable"> 
-    <li id="listItem_1" class="ui-state-default">Item 1</li> 
-    <li id="listItem_2" class="ui-state-default">  
-      <strong>Item 2</strong> 
-    </li> 
-    <li id="listItem_3" class="ui-state-default">  
-      <strong>Item 3</strong> 
-    </li> 
-    <li id="listItem_4" class="ui-state-default">  
-      <strong>Item 4</strong> 
-    </li> 
-  </ul> 
-  <form action="process-sortable.php" method="post" name="sortables"> 
-    <input type="hidden" name="test-log" id="test-log"> 
-  </form>
-  </div>
 
-  <script>
-    $( "#add-list-item" )
-      .mouseup(function() {
-        $("#header ul").append('<li id="listItem_' + ($("#sortable li").size()+1) + '" class="ui-state-default"><strong>Item ' + ($("#sortable li").size()+1) + ' </strong></li> ');
-      })
-      .mousedown(function() {
-      });
-  </script>
+<?php //////// Footer ////////
 
-</body>
-</html>
+  require_once('footer.php');
+
+?>

@@ -1,15 +1,17 @@
 <?php
   // Generate the navigation menu
-  echo '<hr />';
+  echo '<nav><ul class="menu1">';
   if (isset($_SESSION['username'])) {
-    echo '<a href="index.php">Home</a> &#10084; ';
-    echo '<a href="viewprofile.php">View Profile</a> &#10084; ';
-    echo '<a href="editprofile.php">Edit Profile</a> &#10084; ';
-    echo '<a href="../global/logout.php">Log Out (' . $_SESSION['username'] . ')</a>';
+    echo '<li><a href="index.php">&#10084;&nbsp;主選單</a></li>';
+    echo '<li><a href="category.php">&#10084;&nbsp;產品管理</a></li>';
+    echo '<li><a href="../global/logout.php">&#10084;&nbsp;登出 (' . $_SESSION['username'] . ')</a></li>';
   }
   else {
-    echo '<a href="../global/login.php">Log In</a> &#10084; ';
-    echo '<a href="../global/signup.php">Sign Up</a>';
+    echo '<li><a href="index.php">&#10084;&nbsp;主選單</a></li>';
+    echo '<li><a href="category.php">&#10084;&nbsp;產品管理</a></li>';
+    echo '<li><a href="../global/login.php">&#10084;&nbsp;登入</a></li>';
+    echo '<li><a href="../global/signup.php">&#10084;&nbsp;注冊</a></li>';
   }
-  echo '<hr />';
+  echo '</nav>';
 ?>
+
