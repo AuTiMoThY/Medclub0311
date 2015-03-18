@@ -2574,7 +2574,7 @@ function prodCateCtrl($scope) {
 	img: "category3_2/",
 	link: "productCnt.php?cate=3_2&item=19",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/20150319001c",""]
 },
 {
 	nameTw: "GEL LOADING BUFFER",
@@ -2582,63 +2582,63 @@ function prodCateCtrl($scope) {
 	img: "category3_2/",
 	link: "productCnt.php?cate=3_2&item=20",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/20150319002c",""]
 },
 {
 	nameTw: "DNA QUANTITATION STANDARDS",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220236",
 	link: "productCnt.php?cate=3_2&item=21",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220236c",""]
 },
 {
 	nameTw: "1kb DNA Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220234s",
 	link: "productCnt.php?cate=3_2&item=22",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220234c",""]
 },
 {
 	nameTw: "1kb DNA Ladder",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220235s",
 	link: "productCnt.php?cate=3_2&item=23",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220235c",""]
 },
 {
 	nameTw: "1 Kb DNA Plus marker",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220232",
 	link: "productCnt.php?cate=3_2&item=24",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220232c",""]
 },
 {
 	nameTw: "1 Kb ET marker",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220231",
 	link: "productCnt.php?cate=3_2&item=25",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220231c",""]
 },
 {
 	nameTw: "100 bp ET marker",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220230",
 	link: "productCnt.php?cate=3_2&item=26",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220230c",""]
 },
 {
 	nameTw: "50 bp marker",
 	category: "試劑 > Marker",
-	img: "category3_2/",
+	img: "category3_2/0408220229",
 	link: "productCnt.php?cate=3_2&item=27",
 	target: "", isFancybox: "",
-	cnt1: ["category3_2/",""]
+	cnt1: ["category3_2/0408220229c",""]
 }
 
 	];
@@ -2656,7 +2656,7 @@ function prodCateCtrl($scope) {
 	img: "category3_3/",
 	link: "productCnt.php?cate=3_3&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_3/",""]
+	cnt1: ["category3_3/20150319030301",""]
 },
 {
 	nameTw: "AMV REVERSE TRANSCRIPTASE",
@@ -2664,7 +2664,7 @@ function prodCateCtrl($scope) {
 	img: "category3_3/",
 	link: "productCnt.php?cate=3_3&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_3/",""]
+	cnt1: ["category3_3/20150319030302",""]
 },
 
 	];
@@ -2679,34 +2679,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Reverse-iTTM HOT-START KIT",
 	category: "試劑 > RT-PCR",
-	img: "category3_4/",
+	img: "category3_4/20150319030401",
 	link: "productCnt.php?cate=3_4&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_4/",""]
+	cnt1: ["category3_4/20150319030401c",""]
 },
 {
 	nameTw: "Reverse-iT TM ONE-STEP KIT",
 	category: "試劑 > RT-PCR",
-	img: "category3_4/",
+	img: "category3_4/20150319030402",
 	link: "productCnt.php?cate=3_4&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_4/",""]
+	cnt1: ["category3_4/20150319030402c",""]
 },
 {
 	nameTw: "Reverse-iT TM 1ST STRAND SYNTHESIS KIT",
 	category: "試劑 > RT-PCR",
-	img: "category3_4/",
+	img: "category3_4/20150319030403",
 	link: "productCnt.php?cate=3_4&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category3_4/",""]
+	cnt1: ["category3_4/20150319030403c",""]
 },
 {
 	nameTw: "Reverse-iT TM RTASE BLEND",
 	category: "試劑 > RT-PCR",
-	img: "category3_4/",
+	img: "category3_4/20150319030404",
 	link: "productCnt.php?cate=3_4&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category3_4/",""]
+	cnt1: ["category3_4/20150319030404c",""]
 },
 
 	];
@@ -2724,7 +2724,7 @@ function prodCateCtrl($scope) {
 	img: "category3_5/",
 	link: "productCnt.php?cate=3_5&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_5/",""]
+	cnt1: ["category3_5/20150319030501",""]
 },
 {
 	nameTw: "T4 DNA LIGASE",
@@ -2732,7 +2732,7 @@ function prodCateCtrl($scope) {
 	img: "category3_5/",
 	link: "productCnt.php?cate=3_5&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_5/",""]
+	cnt1: ["category3_5/20150319030502",""]
 },
 
 	];
