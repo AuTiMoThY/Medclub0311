@@ -46,7 +46,7 @@
        // Comes from 1.1: add a new subcategory
        $action_insert = SBC_OACTION_INSERT;
        $subcategory_id = -1;
-       $category_id = -1;
+       
        $name_zh_tw = "";
        $display_order = -1;
        $status = -1;
@@ -55,11 +55,12 @@
        // Comes from 2.1: edit an existing subcategory
        $action_insert = SBC_OACTION_UPDATE;
        $subcategory_id = $_GET['subcategory_id'];
-       $category_id = $_GET['category_id'];
+       
        $name_zh_tw = $_GET['name_zh_tw'];
        $display_order = $_GET['display_order'];
        $status = $_GET['status'];
     }
+    $category_id = $_GET['category_id'];
   }
 ?>
 
@@ -89,19 +90,40 @@
       'insert subcategory: ') . 
       mysqli_error($conn) . '<br>');
     header("Location: subcategory.php?category_id=" . $_POST['category_id']);
-    die(); // Exit programm if this is a submit
+    die(); // Exit program if this is a submit
   }
 ?>
+
+<?php //////// Direction //////// ?>
+<section> 
+<h5>
+<?php 
+  echo '<a href="category.php?">' . '產品管理' . '</a>' . '&gt';
+  echo '<a href="subcategory.php?category_id=' . $category_id . '">' . $g_category[$category_id] . '</a>';
+?>
+</h5>
+</section>
 
 <?php //////// Information //////// ?>
 <section class="caption">
 <h5>請輸入您要<?php echo $action_insert==SBC_OACTION_INSERT ? '新增' : '修改'; ?>的次分類資料</h5>
 </section>
 
+
+<script type="text/javascript">
+function check_input() {
+  if(document.subcategory_edit.category_id.value.length===0) return false;
+  if(document.subcategory_edit.status.value.length===0) return false;
+  if(document.subcategory_edit.display_order.value.length===0) return false;
+  if(document.subcategory_edit.name_zh_tw.value.length===0) return false;
+  return true;
+}
+</script>
+
 <?php //////// Subcategory Table //////// ?>
 <section>
 <table id="table">
-<form name='subcategory_edit' action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post'>
+<form name='subcategory_edit' action="<?php echo $_SERVER['PHP_SELF']; ?>" method='post' onsubmit="return check_input();">
 <input type='hidden' name='action' value="<?php echo $action_insert; ?>" >
 <input type='hidden' name='subcategory_id' value="<?php echo $subcategory_id; ?>" >
 <tr class="row">

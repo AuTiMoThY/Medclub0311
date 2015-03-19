@@ -30,6 +30,7 @@
 <?php //////// Libraries ////////
 
   include_once('subcategory_db.php');
+  include_once('product_db.php');
 
 ?>
 
@@ -43,16 +44,21 @@
 ?>
 
 <?php //////// Prepare Count of Acting/Nonacting Subcategory Items with category_id ////////
-  $act_nonact_array = count_t_subcategory_in_category_id_with_act_nonact($conn,$category_id);
+  $act_nonact_array = t_subcategory_act_nonact_items_of_category_id_in_status_count($conn,$category_id);
   // $act_count: number of acting subcategory items
   // $nonact_count: number of non-acting subcategory items
   $act_count = isset($act_nonact_array[SBC_STATUS_ACT]) ? $act_nonact_array[SBC_STATUS_ACT] : 0;
   $nonact_count = isset($act_nonact_array[SBC_STATUS_NONACT]) ? $act_nonact_array[SBC_STATUS_NONACT] : 0;
 ?>
 
-<?php //////// Add New Subcategory //////// ?>
-<section class="link1">
-<h5><a href="subcategory_edit.php?category_id=<?php echo $category_id; ?>">新增次分類</a></h5>
+<?php //////// Direction //////// ?>
+<section> 
+<h5>
+<?php 
+  echo '<a href="category.php?">' . '產品管理' . '</a>' . '&gt';
+  echo $g_category[$category_id];
+?>
+</h5>
 </section>
 
 <?php //////// Information //////// ?>
@@ -69,6 +75,7 @@
 <?php
   // Query subcategory data
   select_t_subcategory($conn);
+  $prodcut_num_array = t_product_acting_items_in_subcategory_id_count($conn);
   $sql = "SELECT subcategory_id, name_zh_tw, display_order, status FROM " . DBT_SUBCATEGORY . 
          " WHERE category_id = " . $category_id . 
          " ORDER BY display_order";
@@ -89,9 +96,9 @@
         echo $row['name_zh_tw'];
         echo '</a>';
       echo '</td>';
-      echo '<td class="cell">' . 0 . '</td>';
+      echo '<td class="cell">' . (array_key_exists($row['subcategory_id'], $prodcut_num_array) ? $prodcut_num_array[$row['subcategory_id']] : 0) . '</td>';
       echo '<td class="cell">' . $row['display_order'] . '</td>';
-      echo '<td class="cell">' . ($row['status']==1?'顯示':'隱藏') . '</td>';
+      echo '<td class="cell">' . ($row['status']==SBC_STATUS_ACT?'顯示':'隱藏') . '</td>';
       echo '<td class="cell">';
       echo '<a href="subcategory_edit.php?';
         echo 'subcategory_id=' . $row['subcategory_id'];
@@ -109,6 +116,11 @@
     echo '<section class="msg1"><h5><p>尚無項目</p></h5></section>';
   }
 ?>
+</section>
+
+<?php //////// Add New Subcategory //////// ?>
+<section class="link1">
+<h5><a href="subcategory_edit.php?category_id=<?php echo $category_id; ?>">新增次分類</a></h5>
 </section>
 
 <?php //////// Close Database ////////

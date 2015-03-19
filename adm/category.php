@@ -30,8 +30,16 @@
 <?php //////// Libraries ////////
 
   include_once('subcategory_db.php');
+  include_once('product_db.php');
 
 ?>
+
+<?php //////// Direction //////// ?>
+<section> 
+<h5>
+產品管理
+</h5>
+</section>
 
 <?php //////// Information //////// ?>
 <section class="caption">
@@ -47,7 +55,8 @@
 <th class="cell">商品數</th>
 </tr>
 <?php
-  $subcategory_count_array = count_t_subcategory_acting_by_category_id($conn);
+  $subcategory_count_array = t_subcategory_acting_items_in_category_id_count($conn);
+  $product_count_array = t_product_product_num_array($conn);
   foreach ($g_category as $i => $category) {
     // It is not necessary all items in $g_category can be found in $subcategory_count_array
     $count = isset($subcategory_count_array[$i]) ? $subcategory_count_array[$i] : 0;
@@ -56,7 +65,7 @@
     echo '<a href="subcategory.php?category_id=' . $i . '">' . $category . '</a>';
     echo '</td>';
     echo '<td class="cell">' . $count . '</td>';
-    echo '<td class="cell">' . 0 . '</td>';
+    echo '<td class="cell">' . (array_key_exists($i, $product_count_array) ? $product_count_array[$i] : 0) . '</td>';
     echo '</tr>';
   }
 ?>
