@@ -2750,7 +2750,7 @@ function prodCateCtrl($scope) {
 	img: "category3_6/",
 	link: "productCnt.php?cate=3_6&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_6/",""]
+	cnt1: ["category3_6/20150319030601",""]
 },
 {
 	nameTw: "T4 DNA POLYMERASE",
@@ -2758,7 +2758,7 @@ function prodCateCtrl($scope) {
 	img: "category3_6/",
 	link: "productCnt.php?cate=3_6&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_6/",""]
+	cnt1: ["category3_6/20150319030602",""]
 }
 
 	];
@@ -2771,20 +2771,20 @@ function prodCateCtrl($scope) {
 \*----------------------------------------------------------------------------*/
 	$scope.prodCategory3_7 = [
 {
-	nameTw: "RNASE A (RIBONUCLEASE A)",
+	nameTw: "PROTEINASE K",
 	category: "試劑 > Kinases / Hydrolases",
-	img: "category3_7/",
+	img: "category3_7/20150319030701s",
 	link: "productCnt.php?cate=3_7&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_7/",""]
+	cnt1: ["category3_7/20150319030701",""]
 },
 {
-	nameTw: "RECOMBINANT DNASE Ⅰ (RNASE-FREE)",
+	nameTw: "T4 POLYNUCLEOTIDE KINASE",
 	category: "試劑 > Kinases / Hydrolases",
-	img: "category3_7/",
+	img: "category3_7/20150319030702s",
 	link: "productCnt.php?cate=3_7&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_7/",""]
+	cnt1: ["category3_7/20150319030702",""]
 }
 
 	];
@@ -2799,18 +2799,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "RNASE A (RIBONUCLEASE A)",
 	category: "試劑 > Hydrolases",
-	img: "category3_8/",
+	img: "category3_8/20150319030801s",
 	link: "productCnt.php?cate=3_8&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_8/",""]
+	cnt1: ["category3_8/20150319030801",""]
 },
 {
 	nameTw: "RECOMBINANT DNASE Ⅰ (RNASE-FREE)",
 	category: "試劑 > Hydrolases",
-	img: "category3_8/",
+	img: "category3_8/20150319030802s",
 	link: "productCnt.php?cate=3_8&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_8/",""]
+	cnt1: ["category3_8/20150319030802",""]
 }
 
 	];
@@ -2828,7 +2828,7 @@ function prodCateCtrl($scope) {
 	img: "category3_9/",
 	link: "productCnt.php?cate=3_9&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_9/",""]
+	cnt1: ["category3_9/20150319030901",""]
 },
 {
 	nameTw: "IPTG (Isopropyl-β-D-thiogalactopyranoside)",
@@ -2836,7 +2836,7 @@ function prodCateCtrl($scope) {
 	img: "category3_9/",
 	link: "productCnt.php?cate=3_9&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_9/",""]
+	cnt1: ["category3_9/20150319030902",""]
 }
 
 	];
@@ -2851,10 +2851,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "GENISOL TM MAXI-PREP KIT",
 	category: "試劑 > PCR Clean-up",
-	img: "category3_10/",
+	img: "category3_10/20150319031001s",
 	link: "productCnt.php?cate=3_10&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_10/",""]
+	cnt1: ["category3_10/20150319031001",""]
 },
 {
 	nameTw: "ULTRA PCR CLEAN-UP KIT",
@@ -2862,7 +2862,7 @@ function prodCateCtrl($scope) {
 	img: "category3_10/",
 	link: "productCnt.php?cate=3_10&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_10/",""]
+	cnt1: ["category3_10/20150319031002",""]
 }
 
 	];
@@ -2880,7 +2880,7 @@ function prodCateCtrl($scope) {
 	img: "category3_11/",
 	link: "productCnt.php?cate=3_11&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_11/",""]
+	cnt1: ["category3_11/03112015031901",""]
 }
 
 	];
@@ -2895,34 +2895,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "SEPARATION PLATE",
 	category: "試劑 > Surface Capture",
-	img: "category3_12/",
+	img: "category3_12/03122015031901s",
 	link: "productCnt.php?cate=3_12&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_12/",""]
+	cnt1: ["category3_12/03122015031901",""]
 },
 {
 	nameTw: "PROTEIN PURIFICATION PLATE",
 	category: "試劑 > Surface Capture",
-	img: "category3_12/",
+	img: "category3_12/03122015031902s",
 	link: "productCnt.php?cate=3_12&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_12/",""]
+	cnt1: ["category3_12/03122015031902",""]
 },
 {
 	nameTw: "STREPMAX STREPTAVIDIN-COATED PLATES",
 	category: "試劑 > Surface Capture",
-	img: "category3_12/",
+	img: "category3_12/03122015031903s",
 	link: "productCnt.php?cate=3_12&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category3_12/",""]
+	cnt1: ["category3_12/03122015031903",""]
 },
 {
 	nameTw: "STREP THERMO-FAST?96",
 	category: "試劑 > Surface Capture",
-	img: "category3_12/",
+	img: "category3_12/03122015031904s",
 	link: "productCnt.php?cate=3_12&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category3_12/",""]
+	cnt1: ["category3_12/03122015031904",""]
 }
 
 	];
@@ -2937,42 +2937,42 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "微陣列PCR反應混合液",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031901s",
 	link: "productCnt.php?cate=3_13&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031901",""]
 },
 {
 	nameTw: "高傳真／長PCR反應混合液",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031902s",
 	link: "productCnt.php?cate=3_13&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031902",""]
 },
 {
 	nameTw: "熱啟動PCR反應混合液",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031903s",
 	link: "productCnt.php?cate=3_13&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031903",""]
 },
 {
 	nameTw: "PCR反應混合液THERMOPRIME PLUS MASTER",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031904s",
 	link: "productCnt.php?cate=3_13&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031904",""]
 },
 {
 	nameTw: "PCR MASTER MIXES",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031905s",
 	link: "productCnt.php?cate=3_13&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031905",""]
 },
 {
 	nameTw: "MINERAL OIL",
@@ -2980,23 +2980,23 @@ function prodCateCtrl($scope) {
 	img: "category3_13/",
 	link: "productCnt.php?cate=3_13&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031906",""]
 },
 {
 	nameTw: "dNTP SET",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031907s",
 	link: "productCnt.php?cate=3_13&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031907",""]
 },
 {
 	nameTw: "dNTP MIX",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031908s",
 	link: "productCnt.php?cate=3_13&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031908",""]
 },
 {
 	nameTw: "PCR BUFFER IV SEPARATE MgCl 2",
@@ -3004,7 +3004,7 @@ function prodCateCtrl($scope) {
 	img: "category3_13/",
 	link: "productCnt.php?cate=3_13&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031909",""]
 },
 {
 	nameTw: "PCR BUFFER IV CONTAINING MgCl 2",
@@ -3012,7 +3012,7 @@ function prodCateCtrl($scope) {
 	img: "category3_13/",
 	link: "productCnt.php?cate=3_13&item=9",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031910",""]
 },
 {
 	nameTw: "高傳真長PCR耐熱核酸聚合酵素",
@@ -3020,31 +3020,31 @@ function prodCateCtrl($scope) {
 	img: "category3_13/",
 	link: "productCnt.php?cate=3_13&item=10",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031911",""]
 },
 {
 	nameTw: "熱啟動耐熱核酸聚合酵素",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031912s",
 	link: "productCnt.php?cate=3_13&item=11",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031912",""]
 },
 {
 	nameTw: "熱啟動耐熱核酸聚合酵素",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031913s",
 	link: "productCnt.php?cate=3_13&item=12",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031913",""]
 },
 {
 	nameTw: "耐熱核酸聚合醏素",
 	category: "試劑 > PCR Reagents",
-	img: "category3_13/",
+	img: "category3_13/03132015031914s",
 	link: "productCnt.php?cate=3_13&item=13",
 	target: "", isFancybox: "",
-	cnt1: ["category3_13/",""]
+	cnt1: ["category3_13/03132015031914",""]
 }
 
 	];
@@ -3062,7 +3062,7 @@ function prodCateCtrl($scope) {
 	img: "category3_14/",
 	link: "productCnt.php?cate=3_14&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_14/",""]
+	cnt1: ["category3_14/03142015031901",""]
 }
 	];
 
@@ -3076,34 +3076,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "NucleoSpan Robot Plasmid kits",
 	category: "試劑 > Plasmid DNA Purification",
-	img: "category3_15/",
+	img: "category3_15/03152015031901s",
 	link: "productCnt.php?cate=3_15&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category3_15/",""]
+	cnt1: ["category3_15/03152015031901",""]
 },
 {
 	nameTw: "NucleoSpin Multi-96 Plus Plasmid",
 	category: "試劑 > Plasmid DNA Purification",
-	img: "category3_15/",
+	img: "category3_15/03152015031902s",
 	link: "productCnt.php?cate=3_15&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category3_15/",""]
+	cnt1: ["category3_15/03152015031902",""]
 },
 {
 	nameTw: "NucleoSpain Plasmid",
 	category: "試劑 > Plasmid DNA Purification",
-	img: "category3_15/",
+	img: "category3_15/03152015031903s",
 	link: "productCnt.php?cate=3_15&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category3_15/",""]
+	cnt1: ["category3_15/03152015031903",""]
 },
 {
 	nameTw: "NucleoSpin Plasmid kits．Overview",
 	category: "試劑 > Plasmid DNA Purification",
-	img: "category3_15/",
+	img: "category3_15/03152015031904s",
 	link: "productCnt.php?cate=3_15&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category3_15/",""]
+	cnt1: ["category3_15/03152015031904",""]
 }
 
 	];
@@ -3120,50 +3120,50 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "4titude 8連排光學平蓋",
 	category: "塑膠耗材 > PCR反應管 PCR Tube",
-	img: "category4_0/",
+	img: "category4_0/04002015032001s",
 	link: "productCnt.php?cate=4_0&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032001",""]
 },
 {
 	nameTw: "4titude 8連排PCR反應管",
 	category: "塑膠耗材 > PCR反應管 PCR Tube",
-	img: "category4_0/",
+	img: "category4_0/04002015032002s",
 	link: "productCnt.php?cate=4_0&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032002",""]
 },
 {
 	nameTw: "ABgene 0.2ml 8 / 12連排短管型PCR反應管",
 	category: "塑膠耗材 > PCR反應管 PCR Tube",
-	img: "category4_0/",
+	img: "category4_0/04002015032003s",
 	link: "productCnt.php?cate=4_0&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032003",""]
 },
 {
 	nameTw: "ABgene 8/12連排PCR管蓋8/12 CAP STRIPS",
 	category: "塑膠耗材 > PCR反應管 PCR Tube",
-	img: "category4_0/",
+	img: "category4_0/04002015032004s",
 	link: "productCnt.php?cate=4_0&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032004",""]
 },
 {
 	nameTw: "ABgene 8連排光學平蓋",
 	category: "塑膠耗材 > PCR反應管 PCR Tube",
-	img: "category4_0/",
+	img: "category4_0/04002015032005s",
 	link: "productCnt.php?cate=4_0&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032005",""]
 },
 {
 	nameTw: "ABgene 0.2ml 8 / 12連排PCR反應管 THERMO-STRIP",
 	category: "塑膠耗材 > PCR反應管 PCR Tube",
-	img: "category4_0/",
+	img: "category4_0/04002015032006s",
 	link: "productCnt.php?cate=4_0&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032006",""]
 },
 {
 	nameTw: "ABgene 0.5ml平蓋及圓蓋PCR反應管",
@@ -3171,7 +3171,7 @@ function prodCateCtrl($scope) {
 	img: "category4_0/",
 	link: "productCnt.php?cate=4_0&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032007",""]
 },
 {
 	nameTw: "ABgene 0.2ml平蓋及圓蓋PCR反應管",
@@ -3179,7 +3179,7 @@ function prodCateCtrl($scope) {
 	img: "category4_0/",
 	link: "productCnt.php?cate=4_0&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category4_0/",""]
+	cnt1: ["category4_0/04002015032008",""]
 }
 
 	];
