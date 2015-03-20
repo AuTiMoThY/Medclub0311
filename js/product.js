@@ -3193,210 +3193,210 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "FrameStar 可撕型PCR盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032001s",
 	link: "productCnt.php?cate=4_1&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032001",""]
 },
 {
 	nameTw: "FrameStar 全襯邊96孔低型管PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032002s",
 	link: "productCnt.php?cate=4_1&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032002",""]
 },
 {
 	nameTw: "FrameStar 無襯邊標準96孔PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032003s",
 	link: "productCnt.php?cate=4_1&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032003",""]
 },
 {
 	nameTw: "FrameStar 無襯邊低型管96孔盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032004s",
 	link: "productCnt.php?cate=4_1&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032004",""]
 },
 {
 	nameTw: "FrameStar 384孔反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032005s",
 	link: "productCnt.php?cate=4_1&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032005",""]
 },
 {
 	nameTw: "FrameStar 全襯邊96孔盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032006s",
 	link: "productCnt.php?cate=4_1&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032006",""]
 },
 {
 	nameTw: "FrameStar 上襯96孔盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032007s",
 	link: "productCnt.php?cate=4_1&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032007",""]
 },
 {
 	nameTw: "FrameStar FastPlate 96孔盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032008s",
 	link: "productCnt.php?cate=4_1&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032008",""]
 },
 {
 	nameTw: "FrameStar 480/384半襯邊96孔 480專用盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032009s",
 	link: "productCnt.php?cate=4_1&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032009",""]
 },
 {
 	nameTw: "FrameStar 480/96半襯邊96孔 480專用盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032010s",
 	link: "productCnt.php?cate=4_1&item=9",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032010",""]
 },
 {
 	nameTw: "ABgene 機械手臂用384孔PCR盤定位置放載台",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032011s",
 	link: "productCnt.php?cate=4_1&item=10",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032011",""]
 },
 {
 	nameTw: "ABgene AB-0800, AB-1000, AB-1300上",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032012s",
 	link: "productCnt.php?cate=4_1&item=11",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032012",""]
 },
 {
 	nameTw: "ABgene AB-0990, AB-0900上ABI-3700用載盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032013s",
 	link: "productCnt.php?cate=4_1&item=12",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032013",""]
 },
 {
 	nameTw: "ABgene AB-0800, AB-1000, AB-1300上",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032014s",
 	link: "productCnt.php?cate=4_1&item=13",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032014",""]
 },
 {
 	nameTw: "ABgene ABI 3100, 3700自動序列儀用載盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032015s",
 	link: "productCnt.php?cate=4_1&item=14",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032015",""]
 },
 {
 	nameTw: "ABgene 384孔硬質透明PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032016s",
 	link: "productCnt.php?cate=4_1&item=15",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032016",""]
 },
 {
 	nameTw: "ABgene50ul 384孔PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032017s",
 	link: "productCnt.php?cate=4_1&item=16",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032017",""]
 },
 {
 	nameTw: "ABgene 384孔PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032018s",
 	link: "productCnt.php?cate=4_1&item=17",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032018",""]
 },
 {
 	nameTw: "ABgene 反應管組合盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032019s",
 	link: "productCnt.php?cate=4_1&item=18",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032019",""]
 },
 {
 	nameTw: "ABgene 襯邊96孔DETECTION PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032020s",
 	link: "productCnt.php?cate=4_1&item=19",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032020",""]
 },
 {
 	nameTw: "ABgene 硬質半襯邊96孔PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032021s",
 	link: "productCnt.php?cate=4_1&item=20",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032021",""]
 },
 {
 	nameTw: "ABgene 半襯邊96孔PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032022s",
 	link: "productCnt.php?cate=4_1&item=21",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032022",""]
 },
 {
 	nameTw: "ABgene 襯邊96孔機械手臂PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032023s",
 	link: "productCnt.php?cate=4_1&item=22",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032023",""]
 },
 {
 	nameTw: "ABgene 襯邊96孔低型管PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032024s",
 	link: "productCnt.php?cate=4_1&item=23",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032024",""]
 },
 {
 	nameTw: "ABgene 無襯邊96孔低型管PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032025s",
 	link: "productCnt.php?cate=4_1&item=24",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032025",""]
 },
 {
 	nameTw: "ABgene 無襯邊96孔PCR反應盤",
 	category: "塑膠耗材 > PCR反應盤 PCR Plate",
-	img: "category4_1/",
+	img: "category4_1/04012015032026s",
 	link: "productCnt.php?cate=4_1&item=25",
 	target: "", isFancybox: "",
-	cnt1: ["category4_1/",""]
+	cnt1: ["category4_1/04012015032026",""]
 }
 
 	];
@@ -3410,34 +3410,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "微陣列雜交反應槽 MICROARRAY CHAMBER",
 	category: "塑膠耗材 > 雜交反應框",
-	img: "category4_2/",
+	img: "category4_2/04022015032001s",
 	link: "productCnt.php?cate=4_2&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_2/",""]
+	cnt1: ["category4_2/04022015032001",""]
 },
 {
 	nameTw: "微陣列雜交反應框 MICROARRAY Gene Frame",
 	category: "塑膠耗材 > 雜交反應框",
-	img: "category4_2/",
+	img: "category4_2/04022015032002s",
 	link: "productCnt.php?cate=4_2&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_2/",""]
+	cnt1: ["category4_2/04022015032002",""]
 },
 {
 	nameTw: "微陣列雜交反應框 MICROARRAY Gene Frame",
 	category: "塑膠耗材 > 雜交反應框",
-	img: "category4_2/",
+	img: "category4_2/04022015032003s",
 	link: "productCnt.php?cate=4_2&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_2/",""]
+	cnt1: ["category4_2/04022015032003",""]
 },
 {
 	nameTw: "IN SITU PCR雜交反應框 Gene Frame",
 	category: "塑膠耗材 > 雜交反應框",
-	img: "category4_2/",
+	img: "category4_2/04022015032004s",
 	link: "productCnt.php?cate=4_2&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_2/",""]
+	cnt1: ["category4_2/04022015032004",""]
 }
 
 	];
@@ -3451,130 +3451,130 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "4titude Gas Permeable Adhesive Seal",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032001s",
 	link: "productCnt.php?cate=4_3&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032001",""]
 },
 {
 	nameTw: "4titude Adhesive PCR Foil Seal",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032002s",
 	link: "productCnt.php?cate=4_3&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032002",""]
 },
 {
 	nameTw: "Q-Stick™ 96孔盤用QPCR貼膜/96,384孔盤用QPCR貼膜",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032003s",
 	link: "productCnt.php?cate=4_3&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032003",""]
 },
 {
 	nameTw: "96孔盤蓋 Plate Covers",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032004s",
 	link: "productCnt.php?cate=4_3&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032004",""]
 },
 {
 	nameTw: "96孔蓋墊 96 Cap Sealing Mats",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032005s",
 	link: "productCnt.php?cate=4_3&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032005",""]
 },
 {
 	nameTw: "加熱用墊Thermo-Mat",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032006s",
 	link: "productCnt.php?cate=4_3&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032006",""]
 },
 {
 	nameTw: "384孔中隔縫矽膠墊 MULTISIPTM Septum Cap Mat",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032007s",
 	link: "productCnt.php?cate=4_3&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032007",""]
 },
 {
 	nameTw: "透氣貼膜 Gas Permeable Adhesive Seals",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032008s",
 	link: "productCnt.php?cate=4_3&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032008",""]
 },
 {
 	nameTw: "保存貼膜 Adhesive Plate Seals",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032009s",
 	link: "productCnt.php?cate=4_3&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032009",""]
 },
 {
 	nameTw: "PCR鋁箔貼膜 Adhesive PCR Foil Film",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032010s",
 	link: "productCnt.php?cate=4_3&item=9",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032010",""]
 },
 {
 	nameTw: "透明PCR貼膜 Adhesive PCR Film",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032011s",
 	link: "productCnt.php?cate=4_3&item=10",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032011",""]
 },
 {
 	nameTw: "光學透明QPCR貼膜 Absoute QPCR Seal",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032012s",
 	link: "productCnt.php?cate=4_3&item=11",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032012",""]
 },
 {
 	nameTw: "8連排儲存管蓋 Storage Plate Cap Strips",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032013s",
 	link: "productCnt.php?cate=4_3&item=12",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032013",""]
 },
 {
 	nameTw: "儲存管蓋 INDIVIDUAL STORAGE PLATE CAPS",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032014s",
 	link: "productCnt.php?cate=4_3&item=13",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032014",""]
 },
 {
 	nameTw: "1.2ml微量管矽膠塞",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032015s",
 	link: "productCnt.php?cate=4_3&item=14",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032015",""]
 },
 {
 	nameTw: "1.2ml微量管中隔縫微量管塞",
 	category: "塑膠耗材 > 封蓋貼膜",
-	img: "category4_3/",
+	img: "category4_3/04032015032016s",
 	link: "productCnt.php?cate=4_3&item=15",
 	target: "", isFancybox: "",
-	cnt1: ["category4_3/",""]
+	cnt1: ["category4_3/04032015032016",""]
 }
 
 	];
@@ -3588,90 +3588,90 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "48孔6.0ml儲存盤 6.0ml Storage Plate",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032001s",
 	link: "productCnt.php?cate=4_4&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032001",""]
 },
 {
 	nameTw: "384孔微陣列盤",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032002s",
 	link: "productCnt.php?cate=4_4&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032002",""]
 },
 {
 	nameTw: "300ul 384深孔儲存盤",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032003s",
 	link: "productCnt.php?cate=4_4&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032003",""]
 },
 {
 	nameTw: "250ul 384深孔儲存盤",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032004s",
 	link: "productCnt.php?cate=4_4&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032004",""]
 },
 {
 	nameTw: "384孔儲存盤 384-Well Storage Plate",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032005s",
 	link: "productCnt.php?cate=4_4&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032005",""]
 },
 {
 	nameTw: "96孔2.2ml儲存盤 2.2ml Storage Plate, MarkII",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032006s",
 	link: "productCnt.php?cate=4_4&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032006",""]
 },
 {
 	nameTw: "96孔2.2ml儲存盤 2.2ml Storage Plate",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032007s",
 	link: "productCnt.php?cate=4_4&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032007",""]
 },
 {
 	nameTw: "96方形孔1.2ml 低管身儲存盤",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032008s",
 	link: "productCnt.php?cate=4_4&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032008",""]
 },
 {
 	nameTw: "96孔1.2ml透明儲存盤1.2ml Storage Plate",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032009s",
 	link: "productCnt.php?cate=4_4&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032009",""]
 },
 {
 	nameTw: "96孔1.2ml儲存盤　1.2ml Storage Plate",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032010s",
 	link: "productCnt.php?cate=4_4&item=9",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032010",""]
 },
 {
 	nameTw: "96孔0.8ml儲存盤　0.8ml Storage Plate",
 	category: "塑膠耗材 > 儲存盤",
-	img: "category4_4/",
+	img: "category4_4/04042015032011s",
 	link: "productCnt.php?cate=4_4&item=10",
 	target: "", isFancybox: "",
-	cnt1: ["category4_4/",""]
+	cnt1: ["category4_4/04042015032011",""]
 }
 
 	];
@@ -3685,34 +3685,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "1.2ml 2維條碼標示微量管／盒架",
 	category: "塑膠耗材 > 微量管／盒架",
-	img: "category4_5/",
+	img: "category4_5/04052015032001s",
 	link: "productCnt.php?cate=4_5&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_5/",""]
+	cnt1: ["category4_5/04052015032001",""]
 },
 {
 	nameTw: "0.65ml 2維條碼標示微量管／盒架",
 	category: "塑膠耗材 > 微量管／盒架",
-	img: "category4_5/",
+	img: "category4_5/04052015032002s",
 	link: "productCnt.php?cate=4_5&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_5/",""]
+	cnt1: ["category4_5/04052015032002",""]
 },
 {
 	nameTw: "1.2ml 格網式參考標示微量管／盒架",
 	category: "塑膠耗材 > 微量管／盒架",
-	img: "category4_5/",
+	img: "category4_5/04052015032003s",
 	link: "productCnt.php?cate=4_5&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_5/",""]
+	cnt1: ["category4_5/04052015032003",""]
 },
 {
 	nameTw: "1.2ml微量管／盒架",
 	category: "塑膠耗材 > 微量管／盒架",
-	img: "category4_5/",
+	img: "category4_5/04052015032004s",
 	link: "productCnt.php?cate=4_5&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_5/",""]
+	cnt1: ["category4_5/04052015032004",""]
 }
 
 	];
@@ -3726,26 +3726,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "壓克力輻射廢棄物放置箱",
 	category: "塑膠耗材 > 壓克力擋板",
-	img: "category4_6/",
+	img: "category4_6/04062015032001s",
 	link: "productCnt.php?cate=4_6&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_6/",""]
+	cnt1: ["category4_6/04062015032001",""]
 },
 {
 	nameTw: "壓克力輻射防護放置盒",
 	category: "塑膠耗材 > 壓克力擋板",
-	img: "category4_6/",
+	img: "category4_6/04062015032002s",
 	link: "productCnt.php?cate=4_6&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_6/",""]
+	cnt1: ["category4_6/04062015032002",""]
 },
 {
 	nameTw: "壓克力防護擋板",
 	category: "塑膠耗材 > 壓克力擋板",
-	img: "category4_6/",
+	img: "category4_6/04062015032003s",
 	link: "productCnt.php?cate=4_6&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_6/",""]
+	cnt1: ["category4_6/04062015032003",""]
 }
 
 	];
@@ -3759,74 +3759,74 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "快速充填滴管尖",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032001s",
 	link: "productCnt.php?cate=4_7&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032001",""]
 },
 {
 	nameTw: "電泳長毛細注膠滴管尖Loading Tip",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032002s",
 	link: "productCnt.php?cate=4_7&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032002",""]
 },
 {
 	nameTw: "Automated Pipetting Workstations 專用Tip",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032003s",
 	link: "productCnt.php?cate=4_7&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032003",""]
 },
 {
 	nameTw: "5ml 刻度滴管尖 Tip",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032004s",
 	link: "productCnt.php?cate=4_7&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032004",""]
 },
 {
 	nameTw: "10ul 微量滴管尖 Tip",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032005s",
 	link: "productCnt.php?cate=4_7&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032005",""]
 },
 {
 	nameTw: "200ul 微量滴管尖 Tip",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032006s",
 	link: "productCnt.php?cate=4_7&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032006",""]
 },
 {
 	nameTw: "1000ul 微量滴管尖 Tip",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032007s",
 	link: "productCnt.php?cate=4_7&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032007",""]
 },
 {
 	nameTw: "三合一內濾式滴管尖頭",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032008s",
 	link: "productCnt.php?cate=4_7&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032008",""]
 },
 {
 	nameTw: "內濾式滴管尖頭",
 	category: "塑膠耗材 > 滴管尖",
-	img: "category4_7/",
+	img: "category4_7/04072015032009s",
 	link: "productCnt.php?cate=4_7&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category4_7/",""]
+	cnt1: ["category4_7/04072015032009",""]
 }
 
 	];
@@ -3839,83 +3839,83 @@ function prodCateCtrl($scope) {
 	$scope.prodCategory4_8 = [
 {
 	nameTw: "GEMU 1.5ml FlipTube® 後壓開蓋式離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032001s",
 	link: "productCnt.php?cate=4_8&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032001",""]
 },
 {
 	nameTw: "Almeco CM LAB 2ml / 5ml 無菌外旋式冷凍小管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032002s",
 	link: "productCnt.php?cate=4_8&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032002",""]
 },
 {
 	nameTw: "PP圓（平）底離心瓶",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032003s",
 	link: "productCnt.php?cate=4_8&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032003",""]
 },
 {
 	nameTw: "PP圓底螺旋蓋離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032004s",
 	link: "productCnt.php?cate=4_8&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032004",""]
 },
 {
 	nameTw: "高速用1.5 ml微量離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032005s",
 	link: "productCnt.php?cate=4_8&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032005",""]
 },
 {
 	nameTw: "15 ml 尖底離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032006s",
 	link: "productCnt.php?cate=4_8&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032006",""]
 },
 {
 	nameTw: "50 ml 尖底離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032007s",
 	link: "productCnt.php?cate=4_8&item=6",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032007",""]
 },
 {
 	nameTw: "0.25 / 0.40 ml 微量離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032008s",
 	link: "productCnt.php?cate=4_8&item=7",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032008",""]
 },
 {
 	nameTw: "超低殘留矽處理微量離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032009s",
 	link: "productCnt.php?cate=4_8&item=8",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032009",""]
 },
 {
 	nameTw: "2.0 / 1.7 / 0.65 ml微量離心管",
-	category: "塑膠耗材 > 滴管尖",
-	img: "category4_8/",
+	category: "塑膠耗材 > 離心管／瓶",
+	img: "category4_8/04082015032010s",
 	link: "productCnt.php?cate=4_8&item=9",
 	target: "", isFancybox: "",
-	cnt1: ["category4_8/",""]
+	cnt1: ["category4_8/04082015032010",""]
 }
 
 	];
@@ -3929,10 +3929,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "螢光玻片",
 	category: "塑膠耗材 > 螢光玻片",
-	img: "category4_9/",
+	img: "category4_9/04092015032001s",
 	link: "productCnt.php?cate=4_9&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_9/",""]
+	cnt1: ["category4_9/04092015032001",""]
 }
 
 	];
@@ -3946,50 +3946,50 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "cellhome 細胞程序漸涷盒",
 	category: "塑膠耗材 > 操作盤",
-	img: "category4_10/",
+	img: "category4_10/04102015032001s",
 	link: "productCnt.php?cate=4_10&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_10/",""]
+	cnt1: ["category4_10/04102015032001",""]
 },
 {
 	nameTw: "96孔雙面微量管操作盤",
 	category: "塑膠耗材 > 操作盤",
-	img: "category4_10/",
+	img: "category4_10/04102015032002s",
 	link: "productCnt.php?cate=4_10&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_10/",""]
+	cnt1: ["category4_10/04102015032002",""]
 },
 {
 	nameTw: "80孔微量管操作架／收集盤",
 	category: "塑膠耗材 > 操作盤",
-	img: "category4_10/",
+	img: "category4_10/04102015032003s",
 	link: "productCnt.php?cate=4_10&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_10/",""]
+	cnt1: ["category4_10/04102015032003",""]
 },
 {
 	nameTw: "-20℃微量管冷凍低溫保溫操作盒架",
 	category: "塑膠耗材 > 操作盤",
-	img: "category4_10/",
+	img: "category4_10/04102015032004s",
 	link: "productCnt.php?cate=4_10&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_10/",""]
+	cnt1: ["category4_10/04102015032004",""]
 },
 {
 	nameTw: "0.2㏄ PCR微量管操作保存盒",
 	category: "塑膠耗材 > 操作盤",
-	img: "category4_10/",
+	img: "category4_10/04102015032005s",
 	link: "productCnt.php?cate=4_10&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_10/",""]
+	cnt1: ["category4_10/04102015032005",""]
 },
 {
 	nameTw: "三合一混合型微量管操作盤",
 	category: "塑膠耗材 > 操作盤",
-	img: "category4_10/",
+	img: "category4_10/04102015032006s",
 	link: "productCnt.php?cate=4_10&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category4_10/",""]
+	cnt1: ["category4_10/04102015032006",""]
 }
 
 	];
@@ -4003,42 +4003,42 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "液態氮專用保存管",
 	category: "塑膠耗材 > 培養試管",
-	img: "category4_11/",
+	img: "category4_11/04112015032001s",
 	link: "productCnt.php?cate=4_11&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_11/",""]
+	cnt1: ["category4_11/04112015032001",""]
 },
 {
 	nameTw: "可Autoclavable微量儲存管",
 	category: "塑膠耗材 > 培養試管",
-	img: "category4_11/",
+	img: "category4_11/04112015032002s",
 	link: "productCnt.php?cate=4_11&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_11/",""]
+	cnt1: ["category4_11/04112015032002",""]
 },
 {
 	nameTw: "低溫微量儲存管",
 	category: "塑膠耗材 > 培養試管",
-	img: "category4_11/",
+	img: "category4_11/04112015032003s",
 	link: "productCnt.php?cate=4_11&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_11/",""]
+	cnt1: ["category4_11/04112015032003",""]
 },
 {
 	nameTw: "平口玻璃培養試管",
 	category: "塑膠耗材 > 培養試管",
-	img: "category4_11/",
+	img: "category4_11/04112015032004s",
 	link: "productCnt.php?cate=4_11&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_11/",""]
+	cnt1: ["category4_11/04112015032004",""]
 },
 {
 	nameTw: "PP無菌培養試管",
 	category: "塑膠耗材 > 培養試管",
-	img: "category4_11/",
+	img: "category4_11/04112015032005s",
 	link: "productCnt.php?cate=4_11&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_11/",""]
+	cnt1: ["category4_11/04112015032005",""]
 }
 
 	];
@@ -4052,42 +4052,42 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "深孔培養盤專用冷凍架",
 	category: "塑膠耗材 > 冷凍管架",
-	img: "category4_12/",
+	img: "category4_12/04122015032001s",
 	link: "productCnt.php?cate=4_12&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_12/",""]
+	cnt1: ["category4_12/04122015032001",""]
 },
 {
 	nameTw: "96孔盤專用冷凍架",
 	category: "塑膠耗材 > 冷凍管架",
-	img: "category4_12/",
+	img: "category4_12/04122015032002s",
 	link: "productCnt.php?cate=4_12&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_12/",""]
+	cnt1: ["category4_12/04122015032002",""]
 },
 {
 	nameTw: "不鏽鋼冷凍櫃專用架",
 	category: "塑膠耗材 > 冷凍管架",
-	img: "category4_12/",
+	img: "category4_12/04122015032003s",
 	link: "productCnt.php?cate=4_12&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_12/",""]
+	cnt1: ["category4_12/04122015032003",""]
 },
 {
 	nameTw: "安瓶鋁夾",
 	category: "塑膠耗材 > 冷凍管架",
-	img: "category4_12/",
+	img: "category4_12/04122015032004s",
 	link: "productCnt.php?cate=4_12&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_12/",""]
+	cnt1: ["category4_12/04122015032004",""]
 },
 {
 	nameTw: "液態氮專用保存盒",
 	category: "塑膠耗材 > 冷凍管架",
-	img: "category4_12/",
+	img: "category4_12/04122015032005s",
 	link: "productCnt.php?cate=4_12&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category4_12/",""]
+	cnt1: ["category4_12/04122015032005",""]
 }
 
 	];
@@ -4101,34 +4101,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "圓形培養盤",
 	category: "塑膠耗材 > 培養盤",
-	img: "category4_13/",
+	img: "category4_13/04132015032001s",
 	link: "productCnt.php?cate=4_13&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_13/",""]
+	cnt1: ["category4_13/04132015032001",""]
 },
 {
 	nameTw: "方形培養盤",
 	category: "塑膠耗材 > 培養盤",
-	img: "category4_13/",
+	img: "category4_13/04132015032002s",
 	link: "productCnt.php?cate=4_13&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_13/",""]
+	cnt1: ["category4_13/04132015032002",""]
 },
 {
 	nameTw: "透氣蓋培養瓶",
 	category: "塑膠耗材 > 培養盤",
-	img: "category4_13/",
+	img: "category4_13/04132015032003s",
 	link: "productCnt.php?cate=4_13&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_13/",""]
+	cnt1: ["category4_13/04132015032003",""]
 },
 {
 	nameTw: "TC培養瓶",
 	category: "塑膠耗材 > 培養盤",
-	img: "category4_13/",
+	img: "category4_13/04132015032004s",
 	link: "productCnt.php?cate=4_13&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category4_13/",""]
+	cnt1: ["category4_13/04132015032004",""]
 }
 
 	];
@@ -4142,18 +4142,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "3ml丟棄式乳頭吸管",
 	category: "塑膠耗材 > 丟棄吸管",
-	img: "category4_14/",
+	img: "category4_14/04142015032001s",
 	link: "productCnt.php?cate=4_14&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_14/",""]
+	cnt1: ["category4_14/04142015032001",""]
 },
 {
 	nameTw: "丟棄式塑膠吸管",
 	category: "塑膠耗材 > 丟棄吸管",
-	img: "category4_14/",
+	img: "category4_14/04142015032002s",
 	link: "productCnt.php?cate=4_14&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_14/",""]
+	cnt1: ["category4_14/04142015032002",""]
 }
 
 	];
@@ -4167,26 +4167,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "丟棄式塑膠比色管",
 	category: "塑膠耗材 > 比色管",
-	img: "category4_15/",
+	img: "category4_15/04152015032001s",
 	link: "productCnt.php?cate=4_15&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category4_15/",""]
+	cnt1: ["category4_15/04152015032001",""]
 },
 {
 	nameTw: "石英比色管",
 	category: "塑膠耗材 > 比色管",
-	img: "category4_15/",
+	img: "category4_15/04152015032002s",
 	link: "productCnt.php?cate=4_15&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category4_15/",""]
+	cnt1: ["category4_15/04152015032002",""]
 },
 {
 	nameTw: "細胞融合／電穿孔專用管",
 	category: "塑膠耗材 > 比色管",
-	img: "category4_15/",
+	img: "category4_15/04152015032003s",
 	link: "productCnt.php?cate=4_15&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category4_15/",""]
+	cnt1: ["category4_15/04152015032003",""]
 }
 
 	];
@@ -4206,7 +4206,7 @@ function prodCateCtrl($scope) {
 	img: "category5_0/",
 	link: "productCnt.php?cate=5_0&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_0/",""]
+	cnt1: ["category5_0/05002015032001",""]
 },
 {
 	nameTw: "Ultramer DNA Oligo",
@@ -4214,31 +4214,31 @@ function prodCateCtrl($scope) {
 	img: "category5_0/",
 	link: "productCnt.php?cate=5_0&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_0/",""]
+	cnt1: ["category5_0/05002015032002",""]
 },
-{
-	nameTw: "FBCO 50nmole 濕式引子",
-	category: "合成服務 > 引子合成 Primer Order",
-	img: "category5_0/",
-	link: "productCnt.php?cate=5_0&item=2",
-	target: "", isFancybox: "",
-	cnt1: ["category5_0/",""]
-},
-{
-	nameTw: "25 mnole primer特價專案",
-	category: "合成服務 > 引子合成 Primer Order",
-	img: "category5_0/",
-	link: "productCnt.php?cate=5_0&item=3",
-	target: "", isFancybox: "",
-	cnt1: ["category5_0/",""]
-},
+// {
+// 	nameTw: "FBCO 50nmole 濕式引子",
+// 	category: "合成服務 > 引子合成 Primer Order",
+// 	img: "category5_0/",
+// 	link: "productCnt.php?cate=5_0&item=2",
+// 	target: "", isFancybox: "",
+// 	cnt1: ["category5_0/",""]
+// },
+// {
+// 	nameTw: "25 mnole primer特價專案",
+// 	category: "合成服務 > 引子合成 Primer Order",
+// 	img: "category5_0/",
+// 	link: "productCnt.php?cate=5_0&item=3",
+// 	target: "", isFancybox: "",
+// 	cnt1: ["category5_0/",""]
+// },
 {
 	nameTw: "About Integrated DNA Technologies",
 	category: "合成服務 > 引子合成 Primer Order",
 	img: "category5_0/",
 	link: "productCnt.php?cate=5_0&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category5_0/",""]
+	cnt1: ["category5_0/05002015032003",""]
 },
 {
 	nameTw: "Primer Order",
@@ -4246,7 +4246,7 @@ function prodCateCtrl($scope) {
 	img: "category5_0/",
 	link: "productCnt.php?cate=5_0&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category5_0/",""]
+	cnt1: ["category5_0/05002015032004",""]
 }
 
 	];
@@ -4262,7 +4262,7 @@ function prodCateCtrl($scope) {
 	img: "category5_1/",
 	link: "productCnt.php?cate=5_1&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_1/",""]
+	cnt1: ["category5_1/05012015032001",""]
 }
 
 	];
@@ -4275,10 +4275,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "96-Well/384-Well Plates",
 	category: "合成服務 > DNA Synthesis and Purification",
-	img: "category5_2/",
+	img: "category5_2/05022015032001s",
 	link: "productCnt.php?cate=5_2&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_2/",""]
+	cnt1: ["category5_2/05022015032001",""]
 },
 {
 	nameTw: "Purification",
@@ -4286,7 +4286,7 @@ function prodCateCtrl($scope) {
 	img: "category5_2/",
 	link: "productCnt.php?cate=5_2&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_2/",""]
+	cnt1: ["category5_2/05022015032002",""]
 },
 {
 	nameTw: "Custom Oligonucleotide Synthesis",
@@ -4294,7 +4294,7 @@ function prodCateCtrl($scope) {
 	img: "category5_2/",
 	link: "productCnt.php?cate=5_2&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category5_2/",""]
+	cnt1: ["category5_2/05022015032003",""]
 }
 
 	];
@@ -4310,7 +4310,7 @@ function prodCateCtrl($scope) {
 	img: "category5_3/",
 	link: "productCnt.php?cate=5_3&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_3/",""]
+	cnt1: ["category5_3/05032015032001",""]
 }
 
 	];
@@ -4323,26 +4323,26 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Examples of RNase H Active Antisense Oligos",
 	category: "合成服務 > Antisense Oligonucleotides",
-	img: "category5_4/",
+	img: "category5_4/05042015032001",
 	link: "productCnt.php?cate=5_4&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_4/",""]
+	cnt1: ["category5_4/05042015032001",""]
 },
 {
 	nameTw: "Antisense Oligonucleotides",
 	category: "合成服務 > Antisense Oligonucleotides",
-	img: "category5_4/",
+	img: "category5_4/05042015032002",
 	link: "productCnt.php?cate=5_4&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_4/",""]
+	cnt1: ["category5_4/05042015032002",""]
 },
 {
 	nameTw: "Gene Knockout",
 	category: "合成服務 > Antisense Oligonucleotides",
-	img: "category5_4/",
+	img: "category5_4/05042015032003",
 	link: "productCnt.php?cate=5_4&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category5_4/",""]
+	cnt1: ["category5_4/05042015032003",""]
 },
 
 	];
@@ -4355,10 +4355,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "READIT Oligos",
 	category: "合成服務 > Readit Oligos",
-	img: "category5_5/",
+	img: "category5_5/05052015032001",
 	link: "productCnt.php?cate=5_5&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_5/",""]
+	cnt1: ["category5_5/05052015032001",""]
 }
 
 	];
@@ -4371,10 +4371,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "DNA and RNA Probes for Fluorescence-Based Application",
 	category: "合成服務 > DNA & RNA Probes for Fluorescence-Based",
-	img: "category5_6/",
+	img: "category5_6/05062015032001",
 	link: "productCnt.php?cate=5_6&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_6/",""]
+	cnt1: ["category5_6/05062015032001",""]
 }
 
 	];
@@ -4387,42 +4387,42 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Molecular Beacons",
 	category: "合成服務 > Applications",
-	img: "category5_7/",
+	img: "category5_7/05072015032001",
 	link: "productCnt.php?cate=5_7&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_7/",""]
+	cnt1: ["category5_7/05072015032001",""]
 },
 {
 	nameTw: "Dual-Labeled RNA Probes-Only at IDT!",
 	category: "合成服務 > Applications",
-	img: "category5_7/",
+	img: "category5_7/05072015032002",
 	link: "productCnt.php?cate=5_7&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_7/",""]
+	cnt1: ["category5_7/05072015032002",""]
 },
 {
 	nameTw: "Dual-Labeled DNA and RNA Probes",
 	category: "合成服務 > Applications",
-	img: "category5_7/",
+	img: "category5_7/05072015032003",
 	link: "productCnt.php?cate=5_7&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category5_7/",""]
+	cnt1: ["category5_7/05072015032003",""]
 },
 {
 	nameTw: "Dark Quenchers-Continued",
 	category: "合成服務 > Applications",
-	img: "category5_7/",
+	img: "category5_7/05072015032004",
 	link: "productCnt.php?cate=5_7&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category5_7/",""]
+	cnt1: ["category5_7/05072015032004",""]
 },
 {
 	nameTw: "DNA and RNA Probes for Fluorescence-Based Applications",
 	category: "合成服務 > Applications",
-	img: "category5_7/",
+	img: "category5_7/05072015032005",
 	link: "productCnt.php?cate=5_7&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category5_7/",""]
+	cnt1: ["category5_7/05072015032005",""]
 },
 
 	];
@@ -4435,50 +4435,50 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Modified Bases",
 	category: "合成服務 > Modifications",
-	img: "category5_8/",
+	img: "category5_8/05082015032001",
 	link: "productCnt.php?cate=5_8&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_8/",""]
+	cnt1: ["category5_8/05082015032001","category5_8/05082015032001-1"]
 },
 {
 	nameTw: "Spacers",
 	category: "合成服務 > Modifications",
-	img: "category5_8/",
+	img: "category5_8/05082015032002",
 	link: "productCnt.php?cate=5_8&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_8/",""]
+	cnt1: ["category5_8/05082015032002",""]
 },
 {
 	nameTw: "Quenchers",
 	category: "合成服務 > Modifications",
-	img: "category5_8/",
+	img: "category5_8/05082015032003",
 	link: "productCnt.php?cate=5_8&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category5_8/",""]
+	cnt1: ["category5_8/05082015032003",""]
 },
 {
 	nameTw: "Fluorophores",
 	category: "合成服務 > Modifications",
-	img: "category5_8/",
+	img: "category5_8/05082015032004",
 	link: "productCnt.php?cate=5_8&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category5_8/",""]
+	cnt1: ["category5_8/05082015032004",""]
 },
 {
 	nameTw: "Attachment Chemistry / Linkers",
 	category: "合成服務 > Modifications",
-	img: "category5_8/",
+	img: "category5_8/05082015032005",
 	link: "productCnt.php?cate=5_8&item=4",
 	target: "", isFancybox: "",
-	cnt1: ["category5_8/",""]
+	cnt1: ["category5_8/05082015032005",""]
 },
 {
 	nameTw: "Phosphorylation",
 	category: "合成服務 > Modifications",
-	img: "category5_8/",
+	img: "category5_8/05082015032006",
 	link: "productCnt.php?cate=5_8&item=5",
 	target: "", isFancybox: "",
-	cnt1: ["category5_8/",""]
+	cnt1: ["category5_8/05082015032006",""]
 }
 
 	];
@@ -4491,18 +4491,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "ReadyMade Primers",
 	category: "合成服務 > Stock Primers and Products",
-	img: "category5_9/",
+	img: "category5_9/05092015032001",
 	link: "productCnt.php?cate=5_9&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_9/",""]
+	cnt1: ["category5_9/05092015032001","category5_9/05092015032001-1"]
 },
 {
 	nameTw: "RNaseAlert Substrate and DNaseAlert Substrate Nuclease Detection System",
 	category: "合成服務 > Stock Primers and Products",
-	img: "category5_9/",
+	img: "category5_9/05092015032002",
 	link: "productCnt.php?cate=5_9&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_9/",""]
+	cnt1: ["category5_9/05092015032002",""]
 }
 
 	];
@@ -4515,18 +4515,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Packaging and Formulation",
 	category: "合成服務 > Molecular Biology Products",
-	img: "category5_10/",
+	img: "category5_10/05102015032001",
 	link: "productCnt.php?cate=5_10&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_10/",""]
+	cnt1: ["category5_10/05102015032001",""]
 },
 {
 	nameTw: "Custom Gene Synthesis",
 	category: "合成服務 > Molecular Biology Products",
-	img: "category5_10/",
+	img: "category5_10/05102015032002",
 	link: "productCnt.php?cate=5_10&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_10/",""]
+	cnt1: ["category5_10/05102015032002",""]
 }
 
 	];
@@ -4539,34 +4539,34 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Usage, Warranty and Licenses",
 	category: "合成服務 > Special Services",
-	img: "category5_11/",
+	img: "category5_11/05112015032001",
 	link: "productCnt.php?cate=5_11&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_11/",""]
+	cnt1: ["category5_11/05112015032001",""]
 },
 {
 	nameTw: "Custom Preparative Services",
 	category: "合成服務 > Special Services",
-	img: "category5_11/",
+	img: "category5_11/05112015032002",
 	link: "productCnt.php?cate=5_11&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_11/",""]
+	cnt1: ["category5_11/05112015032002",""]
 },
 {
 	nameTw: "MALDI-TOF and CE--available FREE on the web",
 	category: "合成服務 > Special Services",
-	img: "category5_11/",
+	img: "category5_11/05112015032003",
 	link: "productCnt.php?cate=5_11&item=2",
 	target: "", isFancybox: "",
-	cnt1: ["category5_11/",""]
+	cnt1: ["category5_11/05112015032003",""]
 },
 {
 	nameTw: "IDT BioTools",
 	category: "合成服務 > Special Services",
-	img: "category5_11/",
+	img: "category5_11/05112015032004",
 	link: "productCnt.php?cate=5_11&item=3",
 	target: "", isFancybox: "",
-	cnt1: ["category5_11/",""]
+	cnt1: ["category5_11/05112015032004",""]
 },
 
 	];
@@ -4579,10 +4579,10 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Alpha Diagnostic International, Inc.(ADI)",
 	category: "合成服務 > Alpha Diagnostic International",
-	img: "category5_11/",
-	link: "productCnt.php?cate=5_11&item=0",
+	img: "category5_12/05122015032001",
+	link: "productCnt.php?cate=5_12&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_11/",""]
+	cnt1: ["category5_12/05122015032001",""]
 }
 
 	];
@@ -4596,18 +4596,18 @@ function prodCateCtrl($scope) {
 {
 	nameTw: "Human ELISA Components:Hormones, Proteins, and Tumor Markers",
 	category: "合成服務 > ELISA Kits",
-	img: "category5_12/",
-	link: "productCnt.php?cate=5_12&item=0",
+	img: "category5_13/05132015032001",
+	link: "productCnt.php?cate=5_13&item=0",
 	target: "", isFancybox: "",
-	cnt1: ["category5_12/",""]
+	cnt1: ["category5_13/05132015032001",""]
 },
 {
 	nameTw: "ELISA Kits For Mouse Autoimmune Diseases",
 	category: "合成服務 > ELISA Kits",
-	img: "category5_12/",
-	link: "productCnt.php?cate=5_12&item=1",
+	img: "category5_13/05132015032002",
+	link: "productCnt.php?cate=5_13&item=1",
 	target: "", isFancybox: "",
-	cnt1: ["category5_12/",""]
+	cnt1: ["category5_13/05132015032002",""]
 }
 
 	];
