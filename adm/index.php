@@ -2,6 +2,7 @@
 
   // Start the session
   require_once('../global/startsession.php');
+  require_once('../global/admin_only.php');
 
   // Insert the page header
   $page_title = '主選單';

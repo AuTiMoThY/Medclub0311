@@ -12,6 +12,8 @@
     if (isset($_POST['submit'])) {
       // Connect to the database
       $dbc = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+      include_once('user_db.php');
+      select_t_user($dbc);
 
       // Grab the user-entered log-in data
       $user_username = mysqli_real_escape_string($dbc, trim($_POST['username']));
@@ -19,17 +21,14 @@
 
       if (!empty($user_username) && !empty($user_password)) {
         // Look up the username and password in the database
-        $query = "SELECT user_id, username FROM mismatch_user WHERE username = '$user_username' AND password = SHA('$user_password')";
-        $data = mysqli_query($dbc, $query);
-
-        if (mysqli_num_rows($data) == 1) {
+        $row = query_t_user($dbc, $user_username, $user_password);
+        if ($row) {
           // The log-in is OK so set the user ID and username session vars (and cookies), and redirect to the home page
-          $row = mysqli_fetch_array($data);
           $_SESSION['user_id'] = $row['user_id'];
           $_SESSION['username'] = $row['username'];
           setcookie('user_id', $row['user_id'], time() + (60 * 60 * 24 * 30));    // expires in 30 days
           setcookie('username', $row['username'], time() + (60 * 60 * 24 * 30));  // expires in 30 days
-          $home_url = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']) . '/index.php';
+          $home_url = 'http://' . $_SERVER['HTTP_HOST'] . DIR_INDEX . '/index.php';
           header('Location: ' . $home_url);
         }
         else {
@@ -45,7 +44,7 @@
   }
 
   // Insert the page header
-  $page_title = 'Log In';
+  $page_title = '登入';
   require_once('header.php');
 
   // If the session var is empty, show any error message and the log-in form; otherwise confirm the log-in
@@ -53,16 +52,23 @@
     echo '<p class="error">' . $error_msg . '</p>';
 ?>
 
+<link rel="stylesheet" href="css/style.css">
+<script src="js/prefixfree.min.js"></script>
+
+<div class="body"></div>
+<div class="grad"></div>
+<div class="header">
+  <div><?php echo TITLE_1ST_HALF; ?><span><?php echo TITLE_2ND_HALF; ?></span></div>
+</div>
+<br>
+<div class="login">
   <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-    <fieldset>
-      <legend>Log In</legend>
-      <label for="username">Username:</label>
-      <input type="text" name="username" value="<?php if (!empty($user_username)) echo $user_username; ?>" /><br />
-      <label for="password">Password:</label>
-      <input type="password" name="password" />
-    </fieldset>
+      <input type="text" placeholder="username" name="username" value="<?php if (!empty($user_username)) echo $user_username; ?>" /><br />
+      <input type="password" placeholder="password" name="password" />
     <input type="submit" value="Log In" name="submit" />
   </form>
+</div>
+<script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
 
 <?php
   }

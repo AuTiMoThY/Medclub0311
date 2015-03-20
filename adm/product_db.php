@@ -11,7 +11,7 @@ function select_t_product($conn) {
       "display_order INT," .
       "name_zh_tw VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_bin," .
       "name_en VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_bin," .
-      "description VARCHAR(65500) CHARACTER SET utf8 COLLATE utf8_bin," .
+      "description MEDIUMTEXT CHARACTER SET utf8 COLLATE utf8_bin," .
       "image VARCHAR(80) CHARACTER SET utf8 COLLATE utf8_bin," .
       "note VARCHAR(511) CHARACTER SET utf8 COLLATE utf8_bin," .
       "PRIMARY KEY (product_id))";
@@ -70,5 +70,21 @@ function t_product_product_num_array($conn) {
   }
   // var_dump($count_array);
   return $count_array;
+}
+// product_edit.php: query product data in product_id
+function t_product_data_of_product_id($conn, $product_id) {
+  select_t_product($conn);
+  $sql = "SELECT product_id, subcategory_id, status, display_order," . " name_zh_tw, name_en," . 
+         " description, image, note" .
+         " FROM " . DBT_PRODUCT . 
+         " WHERE product_id = " . $product_id . 
+         " ORDER BY display_order";
+  $result = mysqli_query($conn, $sql);
+  if ($result && mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_array($result)) {
+      return $row;
+    }
+  }
+  return array();
 }
 ?>

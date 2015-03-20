@@ -2,6 +2,7 @@
 
   // Start the session
   require_once('../global/startsession.php');
+  require_once('../global/admin_only.php');
 
   // Insert the page header
   $page_title = '產品管理';
@@ -77,8 +78,8 @@
 <?php
   // Query Product data
   select_t_product($conn);
-  $sql = "SELECT product_id, subcategory_id, status, display_order," . 
-         " name_zh_tw, name_en, description, image, note" .
+  $sql = "SELECT product_id, subcategory_id, status, display_order," . " name_zh_tw, name_en" . 
+         // ", description, image, note" .
          " FROM " . DBT_PRODUCT . 
          " WHERE subcategory_id = " . $subcategory_id . 
          " ORDER BY display_order";
@@ -101,9 +102,9 @@
         echo '&display_order=' . $row['display_order'];
         echo '&name_zh_tw=' . $row['name_zh_tw'];
         echo '&name_en=' . $row['name_en'];
-        echo '&description=' . htmlspecialchars($row['description'], ENT_QUOTES, 'UTF-8');
-        echo '&image=' . $row['image'];
-        echo '&note=' . $row['note'];
+        // echo '&description=' . htmlspecialchars($row['description'], ENT_QUOTES, 'UTF-8');
+        // echo '&image=' . $row['image'];
+        // echo '&note=' . $row['note'];
       echo '">' . $row['name_zh_tw'] . '</a>';
       echo '</td>';
       echo '<td class="cell">' . $row['name_en'] . '</td>';

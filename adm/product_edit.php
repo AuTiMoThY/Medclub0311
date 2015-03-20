@@ -2,6 +2,7 @@
 
   // Start the session
   require_once('../global/startsession.php');
+  require_once('../global/admin_only.php');
 
   // Insert the page header
   $page_title = '產品管理';
@@ -69,9 +70,13 @@
        $display_order = $_GET['display_order'];
        $name_zh_tw = $_GET['name_zh_tw'];
        $name_en = $_GET['name_en'];
-       $description = html_entity_decode($_GET['description'], ENT_QUOTES, 'UTF-8');
-       $image = $_GET['image'];
-       $note = $_GET['note'];
+       // $description = html_entity_decode($_GET['description'], ENT_QUOTES, 'UTF-8');
+       // $image = $_GET['image'];
+       // $note = $_GET['note'];
+       $row = t_product_data_of_product_id($conn, $product_id);
+       $description = html_entity_decode($row['description'], ENT_QUOTES, 'UTF-8');
+       $image = $row['image'];
+       $note = html_entity_decode($row['note'], ENT_QUOTES, 'UTF-8');
     }
     $subcategory_id = $_GET['subcategory_id'];
     $category_id = t_subcategory_item_of_subcategory_id_in_category_id($conn, $subcategory_id);
@@ -95,9 +100,9 @@
              ', ' . $_POST['display_order'] . 
              ', "' . $_POST['name_zh_tw'] . '"' . 
              ', "' . $_POST['name_en'] . '"' . 
-             ", '" . $_POST['description'] . "'" .
+             ', "' . htmlspecialchars($_POST['description'], ENT_QUOTES, 'UTF-8') . '"' .
              ', "' . ($b_new_image_available ? $image : '') . '"' . 
-             ', "' . $_POST['note'] . '"' .
+             ', "' . htmlspecialchars($_POST['note'], ENT_QUOTES, 'UTF-8') . '"' .
              ')';
     }
     else {
@@ -108,11 +113,11 @@
              ', display_order=' . $_POST['display_order'] .
              ', name_zh_tw="' . $_POST['name_zh_tw'] . '"' .
              ', name_en="' . $_POST['name_en'] . '"' .
-             ", description='" . $_POST['description'] . "'" .
+             ', description="' . htmlspecialchars($_POST['description'], ENT_QUOTES, 'UTF-8') . '"' .
              ($b_new_image_available ?
              ', image="' . $image . '"' :
              '') .
-             ', note="' . $_POST['note'] . '"' .
+             ', note="' . htmlspecialchars($_POST['note'], ENT_QUOTES, 'UTF-8') . '"' .
              ' WHERE product_id = ' . $_POST['product_id'];
     }
     mysqli_query($conn, $sql) 
