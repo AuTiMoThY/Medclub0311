@@ -1,0 +1,575 @@
+	body {
+		background: #cacaca;
+		margin: 0;
+		padding: 20px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	   	font-weight: 300;
+	}
+
+	#table {
+		display: table;
+	 	
+	 	width: 100%; 
+	 	background: #fff;
+	 	margin: 0;
+	 	box-sizing: border-box;
+
+	 }
+
+	 .caption {
+	 	display: block;
+	 	width: 100%;
+	 	background: #0099FF;
+	 	height: 55px;
+	 	padding-left: 10px;
+	 	color: #fff;
+	 	font-size: 20px;
+	 	line-height: 55px;
+	 	text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+	 	box-sizing: border-box;
+	 }
+
+
+	 .header-row {
+	 	background: #8b8b8b;
+	 	color: #fff;
+
+	 }
+
+	.row {
+		display: table-row;
+	}
+
+	.cell {
+		display: table-cell;
+		
+		padding: 6px; 
+		border-bottom: 1px solid #e5e5e5;
+		text-align: center;
+	}
+
+	.primary {
+		text-align: left;
+	}
+
+
+	input[type="radio"],
+	input[type="checkbox"]{
+		display: none;
+	}
+
+
+	@media only screen and (max-width: 760px)  {
+
+		body {
+			padding: 0;
+		}
+
+		#table {
+			display: block;
+			margin: 44px 0 0 0;
+		}
+
+		.caption {
+			position: fixed;
+			top: 0;
+			text-align: center;
+			height: 44px;
+			line-height: 44px;
+			z-index: 5;
+			border-bottom: 2px solid #999;
+		}
+
+		.row { 
+			position: relative;
+			display: block;
+			border-bottom: 1px soh5d #ccc; 
+
+		}
+
+		.header-row {
+			display: none;
+		}
+		
+		.cell { 
+			display: block;
+
+			border: none;
+			position: relative;
+			height: 45px;
+			h5ne-height: 45px;
+			text-ah5gn: left;
+		}
+
+		.primary:after {
+			content: "";
+			display: block;
+			position: absolute;
+			right:20px;
+			top:18px;
+			z-index: 2;
+			width: 0; 
+			height: 0; 
+			border-top: 10px soh5d transparent;
+			border-bottom: 10px soh5d transparent; 
+			border-right:10px soh5d #ccc;
+
+		}
+
+		.cell:nth-of-type(n+2) { 
+			display: none; 
+		}
+
+
+		input[type="radio"],
+		input[type="checkbox"] {
+			display: block;
+			position: absolute;
+			z-index: 1;
+			width: 99%;
+			height: 100%;
+			opacity: 0;
+		}
+
+		input[type="radio"]:checked ~ .cell,
+		input[type="checkbox"]:checked ~ .cell {
+			display: block;
+
+			border-bottom: 1px solid #eee; 
+		}
+
+		input[type="radio"]:checked ~ .cell:nth-of-type(n+2),
+		input[type="checkbox"]:checked ~ .cell:nth-of-type(n+2) {
+			
+			background: #e0e0e0;
+		}
+
+		input[type="radio"]:checked ~ .cell:nth-of-type(n+2):before,
+		input[type="checkbox"]:checked ~ .cell:nth-of-type(n+2):before {
+			content: attr(data-label);
+
+			display: inline-block;
+			width: 60px;
+			background: #999;
+			border-radius: 10px;
+			height: 20px;
+			margin-right: 10px;
+			font-size: 12px;
+			line-height: 20px;
+			text-align: center;
+			color: white;
+
+		}
+
+		input[type="radio"]:checked ~ .primary,
+		input[type="checkbox"]:checked ~ .primary  {
+			border-bottom: 2px solid #999;
+		}
+
+		input[type="radio"]:checked ~ .primary:after,
+		input[type="checkbox"]:checked ~ .primary:after {
+	 		position: absolute;
+			right:18px;
+			top:22px;
+			border-right: 10px solid transparent;
+			border-left: 10px solid transparent; 
+			border-top:10px solid #ccc;
+			z-index: 2;
+		}
+	}
+	
+	
+.menu1,
+.menu1 ul,
+.menu1 li,
+.menu1 a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #0099FF;
+}
+ 
+.menu1 { /*Find this class in the css file*/
+
+height: 40px;
+width: 100%; /*I changed this to a percentage of the page,*/
+margin-left:auto; /*Then added these two margin styles.*/
+margin-right:auto;
+
+background: #4c4e5a;
+background: -webkit-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: -moz-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: -o-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: -ms-linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+background: linear-gradient(top, #4c4e5a 0%,#2c2d33 100%);
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+ 
+.menu1 li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 40px;
+}
+.menu1 li a {
+    display: block;
+    padding: 0 14px;
+    margin: 6px 0;
+    line-height: 28px;
+    text-decoration: none;
+ 
+    border-left: 1px solid #393942;
+    border-right: 1px solid #4f5058;
+ 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+ 
+    color: #f3f3f3;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+ 
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+ 
+.menu1 li:first-child a { border-left: none; }
+.menu1 li:last-child a{ border-right: none; }
+ 
+.menu1 li:hover > a  { color: #0099FF; 
+}
+.menu1 ul {
+    
+    position: absolute;
+    top: 40px;
+    left: 0;
+ 
+    opacity: 50;
+    background: #1f2024;
+ 
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+ 
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+
+}
+ 
+.menu1 li:hover > ul { opacity: 50; }
+ 
+.menu1 ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+ 
+    -webkit-transition: height .25s ease .1s;
+    -moz-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+ 
+.menu1 li:hover > ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;
+}
+.menu1 ul li a {
+    width: 100px;
+    padding: 4px 0 4px 40px;
+    margin: 0;
+ 
+    border: none;
+    border-bottom: 1px solid #353539;
+}
+ 
+.menu1 ul li:last-child a { border: none; 
+}
+.menu1 a.documents { background: url(../img/docs.png) no-repeat 6px center; }
+.menu1 a.messages { background: url(../img/bubble.png) no-repeat 6px center; }
+.menu1 a.signout { background: url(../img/arrow.png) no-repeat 6px center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+.link1,
+.link1 ul,
+.link1 li,
+.link1 a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #0099FF;
+}
+ 
+.link1 { /*Find this class in the css file*/
+
+height: 25px;
+width: 100%; /*I changed this to a percentage of the page,*/
+margin-left:auto; /*Then added these two margin styles.*/
+margin-right:auto;
+
+background: #afafaf;
+background: -webkit-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: -moz-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: -o-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: -ms-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+ 
+.link1 li,
+.link1 h5 {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 25px;
+}
+.link1 li a,
+.link1 h5 a  {
+    display: block;
+    padding: 0 14px;
+    margin: 6px 0;
+    line-height: 13px;
+    text-decoration: none;
+ 
+    border-left: 1px solid #393942;
+    border-right: 1px solid #4f5058;
+ 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+ 
+    color: #f3f3f3;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+ 
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+ 
+.link1 li:first-child a,
+.link1 h5:first-child a { border-left: none; }
+.link1 li:last-child a,
+.link1 h5:last-child a { border-right: none; }
+ 
+.link1 li:hover > a,
+.link1 h5:hover > a  { color: #0099FF; 
+}
+.link1 ul {
+    
+    position: absolute;
+    top: 25px;
+    left: 0;
+ 
+    opacity: 50;
+    background: #1f2024;
+ 
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+ 
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+
+}
+ 
+.link1 li:hover > ul { opacity: 50; }
+ 
+.link1 ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+ 
+    -webkit-transition: height .25s ease .1s;
+    -moz-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+ 
+.link1 li:hover > ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;
+}
+.link1 ul li a {
+    width: 100px;
+    padding: 4px 0 4px 25px;
+    margin: 0;
+ 
+    border: none;
+    border-bottom: 1px solid #353539;
+}
+ 
+.link1 ul li:last-child a { border: none; 
+}
+.link1 a.documents { background: url(../img/docs.png) no-repeat 6px center; }
+.link1 a.messages { background: url(../img/bubble.png) no-repeat 6px center; }
+.link1 a.signout { background: url(../img/arrow.png) no-repeat 6px center;
+}
+
+
+
+
+
+	
+.msg1,
+.msg1 ul,
+.msg1 li,
+.msg1 p {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    color: #0099FF;
+}
+ 
+.msg1 { /*Find this class in the css file*/
+
+height: 25px;
+width: 100%; /*I changed this to a percentage of the page,*/
+margin-left:auto; /*Then added these two margin styles.*/
+margin-right:auto;
+
+background: #afafaf;
+background: -webkit-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: -moz-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: -o-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: -ms-linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+background: linear-gradient(top, #afafaf 0%,#8f8f8f 100%);
+
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+ 
+.msg1 li,
+.msg1 h5 {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 25px;
+}
+.msg1 li p,
+.msg1 h5 p  {
+    display: block;
+    padding: 0 14px;
+    margin: 6px 0;
+    line-height: 13px;
+    text-decoration: none;
+ 
+    border-left: 1px solid #393942;
+    border-right: 1px solid #4f5058;
+ 
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+ 
+    color: #f3f3f3;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+ 
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+ 
+.msg1 li:first-child p,
+.msg1 h5:first-child p { border-left: none; }
+.msg1 li:last-child p,
+.msg1 h5:last-child p { border-right: none; }
+ 
+.msg1 ul {
+    
+    position: absolute;
+    top: 25px;
+    left: 0;
+ 
+    opacity: 50;
+    background: #1f2024;
+ 
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+ 
+    -webkit-transition: opacity .25s ease .1s;
+    -moz-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+
+}
+ 
+.msg1 li:hover > ul { opacity: 50; }
+ 
+.msg1 ul li {
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+ 
+    -webkit-transition: height .25s ease .1s;
+    -moz-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+ 
+.msg1 li:hover > ul li {
+    height: 36px;
+    overflow: visible;
+    padding: 0;
+}
+.msg1 ul li p {
+    width: 100px;
+    padding: 4px 0 4px 25px;
+    margin: 0;
+ 
+    border: none;
+    border-bottom: 1px solid #353539;
+}
+ 
+.msg1 ul li:last-child p { border: none; 
+}
+
