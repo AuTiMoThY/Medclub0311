@@ -266,39 +266,39 @@ div#pageWrap:before {
   margin: auto;
 }
 .pageTitle-new .txt {
-  width: 481px;
+  width: 250px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') 0 -263px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -263px no-repeat;
 }
 .pageTitle-prod .txt {
   width: 394px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') 0 -314px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -314px no-repeat;
 }
 .pageTitle-reca .txt {
   width: 535px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') 0 -365px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -365px no-repeat;
 }
 .pageTitle-service .txt {
   width: 507px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') 0 -416px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -416px no-repeat;
 }
 .pageTitle-links .txt {
   width: 242px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') -574px -365px no-repeat;
+  background: url('../images/txts.png?1427108432') -574px -365px no-repeat;
 }
 .pageTitle-login .txt {
   width: 468px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') -527px -263px no-repeat;
+  background: url('../images/txts.png?1427108432') -527px -263px no-repeat;
 }
 .pageTitle-member .txt {
   width: 483px;
   height: 46px;
-  background: url('../images/txts.png?1426093302') -460px -314px no-repeat;
+  background: url('../images/txts.png?1427108432') -460px -314px no-repeat;
 }
 .pageTitle-prod .wrapper {
   padding-left: 247px;
@@ -546,13 +546,13 @@ button .btn {
 .btn-quick_login button {
   width: 53px;
   height: 14px;
-  background: url('../images/txts.png?1426093302') -877px 0 no-repeat;
+  background: url('../images/txts.png?1427108432') -877px 0 no-repeat;
 }
 .btn-quick_login:hover button {
   background-position: -877px -22px;
 }
 .btn-quick_login.signOut button {
-  background: url('../images/txts.png?1426093302') -930px 0 no-repeat;
+  background: url('../images/txts.png?1427108432') -930px 0 no-repeat;
 }
 .btn-quick_login.signOut:hover button {
   background-position: -930px -22px;
@@ -914,7 +914,7 @@ header#logo a {
 .main_nav-txt {
   width: 68px;
   height: 17px;
-  background: url('../images/txts.png?1426093302') 0 0 no-repeat;
+  background: url('../images/txts.png?1427108432') 0 0 no-repeat;
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
@@ -1045,7 +1045,7 @@ footer.global_ft:before {
 }
 footer.global_ft section.temp {
   height: 70px;
-  background: url('../images/txts.png?1426093302') 0 0 no-repeat;
+  background: url('../images/txts.png?1427108432') 0 0 no-repeat;
   float: left;
 }
 footer.global_ft section.temp-1 {
@@ -1080,13 +1080,13 @@ footer.contact_ft span {
 footer.contact_ft .tele {
   width: 241px;
   height: 20px;
-  background: url('../images/txts.png?1426093302') 0 -238px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -238px no-repeat;
   margin-right: 1rem;
 }
 footer.contact_ft .mail {
   width: 304px;
   height: 20px;
-  background: url('../images/txts.png?1426093302') -246px -238px no-repeat;
+  background: url('../images/txts.png?1427108432') -246px -238px no-repeat;
 }
 footer.copyright {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBjMTQxYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQyNGE1NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1401,7 +1401,7 @@ footer.copyright p {
 .index_page-main .news-wrap h1 {
   width: 100%;
   height: 53px;
-  background: url('../images/txts.png?1426093302') 0 -44px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -44px no-repeat;
   margin-bottom: 31px;
   margin-bottom: 1.95rem;
 }
@@ -1453,7 +1453,7 @@ footer.copyright p {
 .index_page-main .container h1 {
   width: 100%;
   height: 57px;
-  background: url('../images/txts.png?1426093302') 0 -102px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -102px no-repeat;
 }
 
 .online_ordering {
@@ -1821,7 +1821,7 @@ footer.copyright p {
 .prod-aside .searchBlock .txt {
   width: 154px;
   height: 14px;
-  background: url('../images/txts.png?1426093302') -574px -80px no-repeat;
+  background: url('../images/txts.png?1427108432') -574px -80px no-repeat;
   margin: 0 auto 0.5em;
 }
 .prod-aside .searchBlock .inp-search {
@@ -2034,7 +2034,7 @@ footer.copyright p {
 .service-aside h1 {
   width: 209px;
   height: 33px;
-  background: url('../images/txts.png?1426093302') -345px -44px no-repeat;
+  background: url('../images/txts.png?1427108432') -345px -44px no-repeat;
   margin: auto;
 }
 .service-aside h2 {
@@ -2051,7 +2051,7 @@ footer.copyright p {
 .service-aside h3 {
   width: 163px;
   height: 15px;
-  background: url('../images/txts.png?1426093302') -345px -80px no-repeat;
+  background: url('../images/txts.png?1427108432') -345px -80px no-repeat;
   margin-top: 12px;
   margin-top: 0.75rem;
   margin-bottom: 12px;
@@ -2078,7 +2078,7 @@ footer.copyright p {
 .service-block h1 {
   width: 286px;
   height: 24px;
-  background: url('../images/txts.png?1426093302') -574px -44px no-repeat;
+  background: url('../images/txts.png?1427108432') -574px -44px no-repeat;
   margin-bottom: 0.8em;
 }
 .service-block p {
@@ -2364,7 +2364,7 @@ footer.copyright p {
 .login_page-login h1 {
   width: 371px;
   height: 64px;
-  background: url('../images/txts.png?1426093302') 0 -464px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -464px no-repeat;
 }
 .login_page-login.forgot {
   margin: auto !important;
@@ -2376,7 +2376,7 @@ footer.copyright p {
 .login_page-register h1 {
   width: 371px;
   height: 64px;
-  background: url('../images/txts.png?1426093302') -376px -464px no-repeat;
+  background: url('../images/txts.png?1427108432') -376px -464px no-repeat;
 }
 
 /*------------------------------------------------------------------------*\
@@ -2392,7 +2392,7 @@ footer.copyright p {
 .member-block h2 {
   width: 848px;
   height: 59px;
-  background: url('../images/txts.png?1426093302') 0 -533px no-repeat;
+  background: url('../images/txts.png?1427108432') 0 -533px no-repeat;
   margin: auto;
 }
 .member-form {
