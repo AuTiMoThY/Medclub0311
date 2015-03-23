@@ -1,11 +1,5 @@
 [
 	{
-		"newsTitle": "第30 屆生物醫學聯合學術年會",
-		"imgUrl": "images/banner2.jpg",
-		"cntUrl": "newCnt.php",
-		"cntImg": [1]
-	},
-	{
 		"newsTitle": "全長率才是實驗成功的主要關鍵",
 		"imgUrl": "upload/news/dm11.jpg",
 		"cntUrl": "newCnt1.php?dm=11",

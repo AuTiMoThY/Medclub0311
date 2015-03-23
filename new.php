@@ -52,14 +52,14 @@
 	<div id="hcarousel" class="h_carousel clearfix">
 		<div class="flexslider carousel">
 			<ul class="slides">
-				<li class="">
+<!-- 				<li class="">
 					<a href="javascript:void 0;" class="slidelink" style="background-image: url('images/banner2.jpg');"></a>
 					<div class="well">
 						<div class="flex-caption">
 							<h1>第30 屆生物醫學聯合學術年會</h1>
 						</div>
 					</div>
-				</li>
+				</li> -->
 				<li class="">
 					<a href="javascript:void 0;" class="slidelink" style="background-image: url('upload/news/dm11.jpg');"></a>
 					<div class="well">
@@ -118,14 +118,15 @@
 <div class="wrapper cf">
 	<section class="container">
 		<ul id="newsList" class="new-list cf">
-			<li class="new-item col">
+<!-- 			<li class="new-item col">
 				<figure><a href="newCnt.php">
 					<div class="pic"><img src="images/banner2.jpg" alt=""></div>
 					<figcaption>
 						第30 屆生物醫學聯合學術年會
 					</figcaption>
 				</a></figure>
-			</li>
+			</li> -->
+			
 <!-- 			<li class="new-item col">
 				<figure><a href="newCnt.php">
 					<div class="pic"><img src="images/temp/tem5.jpg" alt=""></div>

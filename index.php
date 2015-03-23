@@ -78,25 +78,25 @@
 			<hgroup>
 				<h2 class="news-title">
 			<?php  //此處示意顯示 最新消息標題 16 個字，超過以...取代
-				$cnt0 = "第30 屆生物醫學聯合學術年會";
-				$content0 = strip_tags($cnt0);
-				$content = mb_substr($content0,0,16,'UTF-8');
-				if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
-				echo $content;
+				// $cnt0 = "第30 屆生物醫學聯合學術年會";
+				// $content0 = strip_tags($cnt0);
+				// $content = mb_substr($content0,0,16,'UTF-8');
+				// if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
+				// echo $content;
 			?>
 				</h2>
 				<!-- <div class="news-time">3 月 12日</div> -->
 			</hgroup>
 			<div class="news-cnt">
 			<?php  //此處示意顯示 最新消息內容 75 個字，超過以...取代
-				$cnt0 = "現場備有贈獎活動,觀迎蒞臨指教";
-				$content0 = strip_tags($cnt0);
-				$content = mb_substr($content0,0,75,'UTF-8');
-				if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
-				echo $content;
+				// $cnt0 = "現場備有贈獎活動,觀迎蒞臨指教";
+				// $content0 = strip_tags($cnt0);
+				// $content = mb_substr($content0,0,75,'UTF-8');
+				// if ( $content != $content0 ) { $content .= "&nbsp;...&nbsp;"; }
+				// echo $content;
 			?>
 			</div>
-			<span class="btn btn-more"><a href="newCnt.php">READ MORE &gt;&gt;</a></span>
+			<span class="btn btn-more"><a href="new.php">READ MORE &gt;&gt;</a></span>
 		</section>
 	</aside>
 	<section class="container col left">
